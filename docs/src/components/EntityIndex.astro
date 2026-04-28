@@ -1,0 +1,105 @@
+---
+import { getCollection } from "astro:content";
+import SiteLayout from "./SiteLayout.astro";
+import { url } from "../lib/url";
+import { buildEntityIndex, type EntityKind } from "../lib/entities";
+
+interface Props {
+  kind: EntityKind;
+  heading: string;
+  eyebrow: string;
+  lede: string;
+}
+const { kind, heading, eyebrow, lede } = Astro.props;
+
+const issues = await getCollection("issues");
+const idx = buildEntityIndex(issues);
+
+type Stats = { kind: EntityKind; total: number; unique: number };
+const stats: Stats[] = (["people", "places", "organizations"] as EntityKind[]).map((k) => ({
+  kind: k,
+  unique: idx[k].size,
+  total: Array.from(idx[k].values()).reduce((a, e) => a + e.mentions.length, 0),
+}));
+
+const records = Array.from(idx[kind].values()).sort((a, b) => {
+  const cmp = b.mentions.length - a.mentions.length;
+  if (cmp !== 0) return cmp;
+  return a.display.localeCompare(b.display);
+});
+
+const tabs: Record<EntityKind, { label: string; href: string }> = {
+  people: { label: "People", href: "/people" },
+  places: { label: "Places", href: "/places" },
+  organizations: { label: "Organizations", href: "/organizations" },
+};
+---
+
+<SiteLayout title={heading} description={lede}>
+  <div class="page">
+    <header class="page__header">
+      <p class="page__eyebrow">{eyebrow}</p>
+      <h1 class="page__title">{heading}</h1>
+      <p class="page__lede">{lede}</p>
+    </header>
+
+    <nav class="entity-tabs" aria-label="Entity kinds">
+      {
+        (Object.entries(tabs) as [EntityKind, { label: string; href: string }][]).map(([k, t]) => {
+          const stat = stats.find((s) => s.kind === k)!;
+          return (
+            <a class={`entity-tab ${k === kind ? "is-active" : ""}`} href={url(t.href)}>
+              {t.label}
+              <span class="entity-tab__count">{stat.unique}</span>
+            </a>
+          );
+        })
+      }
+    </nav>
+
+    <div class="entity-toolbar">
+      <input
+        id="entity-filter"
+        class="entity-filter"
+        type="search"
+        placeholder={`Filter ${kind} by name…`}
+        autocomplete="off"
+        aria-label={`Filter ${kind}`}
+      />
+      <p class="muted faint" style="margin: 0; font-size: 0.92rem">
+        {records.length} unique {kind} ·{" "}
+        {records.reduce((a, r) => a + r.mentions.length, 0)} mentions
+      </p>
+    </div>
+
+    <ul id="entity-directory" class="entity-directory">
+      {
+        records.map((r) => (
+          <li>
+            <a class="entity-directory__item" href={url(`/${kind}/${r.slug}`)} data-name={r.display.toLowerCase()}>
+              <span class="entity-directory__name">{r.display}</span>
+              <span class="entity-directory__count">{r.mentions.length}</span>
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+
+  <script is:inline>
+    (function () {
+      var input = document.getElementById("entity-filter");
+      var list = document.getElementById("entity-directory");
+      if (!input || !list) return;
+      var items = Array.prototype.slice.call(list.querySelectorAll("a[data-name]"));
+      input.addEventListener("input", function () {
+        var q = input.value.trim().toLowerCase();
+        items.forEach(function (a) {
+          var name = a.getAttribute("data-name") || "";
+          var li = a.parentElement;
+          if (li) li.style.display = !q || name.indexOf(q) !== -1 ? "" : "none";
+        });
+      });
+    })();
+  </script>
+</SiteLayout>

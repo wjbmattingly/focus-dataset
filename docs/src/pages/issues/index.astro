@@ -1,0 +1,75 @@
+---
+import { getCollection } from "astro:content";
+import SiteLayout from "../../components/SiteLayout.astro";
+import { url } from "../../lib/url";
+
+const all = await getCollection("issues");
+
+function parentLabel(p?: string | null) {
+  return p ?? "Issues";
+}
+
+const grouped = new Map<string, typeof all>();
+for (const i of all) {
+  const key = parentLabel(i.data.parent_folder);
+  if (!grouped.has(key)) grouped.set(key, []);
+  grouped.get(key)!.push(i);
+}
+
+for (const arr of grouped.values()) {
+  arr.sort((a, b) =>
+    a.data.issue_id.localeCompare(b.data.issue_id, undefined, { numeric: true })
+  );
+}
+
+const sortedGroups = Array.from(grouped.entries()).sort(([a], [b]) => {
+  if (a === "Issues") return -1;
+  if (b === "Issues") return 1;
+  return a.localeCompare(b);
+});
+---
+
+<SiteLayout title="Issues" description="Browse every digitised issue of FOCUS.">
+  <div class="page">
+    <header class="page__header">
+      <p class="page__eyebrow">Browse</p>
+      <h1 class="page__title">Issues</h1>
+      <p class="page__lede">
+        Each card opens an issue with its full editorial structure — articles, front and end matter
+        — plus a panel of every page image.
+      </p>
+    </header>
+
+    {
+      all.length === 0 ? (
+        <p class="muted">
+          No issues exported yet. From the repo root run
+          {" "}<code>python scripts/export_for_site.py</code>.
+        </p>
+      ) : (
+        sortedGroups.map(([group, items]) => (
+          <section class="section">
+            <header class="section__head">
+              <h2 class="section__title">{group}</h2>
+              <span class="section__meta">{items.length}</span>
+            </header>
+            <ul class="issue-grid">
+              {items.map((i) => (
+                <li>
+                  <a class="issue-card" href={url(`/issues/${i.id}`)}>
+                    <span class="issue-card__id">{i.data.issue_id}</span>
+                    <h3 class="issue-card__title">{i.data.issue_title ?? i.data.issue_name}</h3>
+                    <p class="issue-card__meta">
+                      {i.data.num_pages} pages ·{" "}
+                      {i.data.sections.filter((s) => s.section_type === "article").length} articles
+                    </p>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </section>
+        ))
+      )
+    }
+  </div>
+</SiteLayout>

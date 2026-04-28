@@ -179,3 +179,16 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# Project artifacts
+output/
+processed/
+.cache/
+*.parquet
+hf_cache/
+
+# Astro site
+docs/node_modules/
+docs/dist/
+docs/.astro/
+docs/.cache/

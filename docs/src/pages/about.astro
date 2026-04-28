@@ -1,0 +1,81 @@
+---
+import SiteLayout from "../components/SiteLayout.astro";
+import { site, datasets } from "../config/site";
+---
+
+<SiteLayout title="About" description="About the FOCUS archive project.">
+  <div class="page">
+    <header class="page__header">
+      <p class="page__eyebrow">About</p>
+      <h1 class="page__title">About this archive</h1>
+    </header>
+
+    <article class="prose">
+      <p>
+        <em>FOCUS on Political Repression in Southern Africa</em> was the news bulletin of the
+        International Defence &amp; Aid Fund (IDAF), published from 1975 onwards. Each issue
+        documented detentions, political trials, banning orders, deaths in custody, and
+        military violence across South Africa, Rhodesia/Zimbabwe, Namibia, Mozambique, and
+        the wider region — sourced from contemporary press reporting.
+      </p>
+
+      <p>
+        This site is a research front-end for the structured archive that {site.org} builds
+        from the original page scans. Layouts are produced with
+        <a href="https://github.com/rednote-hilab/dots.ocr">dots.ocr</a>, manually corrected
+        page-by-page, and then post-processed with
+        <a href="https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite-preview">
+          Gemini 3.1 Flash Lite Preview
+        </a>
+        to recover the editorial structure of each issue and surface the people, places, and
+        organizations mentioned in every section.
+      </p>
+
+      <h2>Datasets</h2>
+      <ul>
+        {datasets.map((d) => (
+          <li>
+            <a href={d.href} rel="noreferrer">
+              <strong>{d.label}</strong>
+            </a>{" "}— {d.blurb}
+          </li>
+        ))}
+      </ul>
+
+      <h2>How it works</h2>
+      <ol>
+        <li>Each page is rendered to PNG and run through dots.ocr to produce a layout JSON.</li>
+        <li>Annotators validate the layout and correct any OCR errors in a custom tool.</li>
+        <li>
+          Per-page corrections are joined with the rendered images and published as
+          <code>focus-raw-ocr</code>.
+        </li>
+        <li>
+          Per-issue, the corrected layouts are sent to Gemini 3.1 Flash Lite Preview, which
+          returns a structured JSON listing each editorial section (front matter, articles,
+          end matter), a reflowed body, a summary, and the per-section entity lists. These
+          are published as <code>focus-processed-articles</code> and rendered into this site.
+        </li>
+        <li>
+          The site is built with Astro, deployed to GitHub Pages, and indexed at build time
+          by Pagefind for fully-static client-side search.
+        </li>
+      </ol>
+
+      <h2>Citation</h2>
+      <pre><code>{`@misc{bitter_aloe_focus_archive,
+  title  = {The FOCUS Archive},
+  author = {The Bitter Aloe Project},
+  year   = {2026},
+  url    = {${site.url}}
+}`}</code></pre>
+
+      <h2>License</h2>
+      <p>
+        Code on this site is MIT-licensed. The structured datasets are released for
+        non-commercial research use under CC-BY-NC-4.0. The underlying <em>FOCUS</em>
+        publication is © the International Defence &amp; Aid Fund and its successors.
+      </p>
+    </article>
+  </div>
+</SiteLayout>

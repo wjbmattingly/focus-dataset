@@ -1,0 +1,66 @@
+---
+import { site, social } from "../config/site";
+const year = new Date().getFullYear();
+---
+
+<footer class="site-footer">
+  <div class="wrap wrap--wide site-footer__inner">
+    <p class="site-footer__name">
+      {site.title} · {year} · <a href={site.orgUrl} rel="noreferrer">{site.org}</a>
+    </p>
+    <ul class="site-footer__social">
+      {
+        social.map((s) => (
+          <li>
+            <a href={s.href} rel="noreferrer">
+              {s.name}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</footer>
+
+<style>
+  .site-footer {
+    margin-top: var(--space-9);
+    padding-top: var(--space-6);
+    padding-bottom: var(--space-6);
+    border-top: 1px solid var(--color-border-subtle);
+    background: color-mix(in srgb, var(--color-bg-warm) 50%, var(--color-bg));
+  }
+  .site-footer__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem 2.5rem;
+    flex-wrap: wrap;
+  }
+  .site-footer__name {
+    margin: 0;
+    font-family: var(--font-serif);
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-text);
+  }
+  .site-footer__name a { color: var(--color-link); }
+  .site-footer__social {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1.5rem;
+  }
+  .site-footer__social a {
+    text-decoration: none;
+    color: var(--color-text-muted);
+    font-size: 0.92rem;
+    transition: color 0.15s ease;
+  }
+  .site-footer__social a:hover {
+    color: var(--color-text);
+    text-decoration: underline;
+  }
+</style>

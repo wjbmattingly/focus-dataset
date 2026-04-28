@@ -1,0 +1,134 @@
+---
+import { getCollection } from "astro:content";
+import SiteLayout from "../../components/SiteLayout.astro";
+import { url } from "../../lib/url";
+
+export async function getStaticPaths() {
+  const issues = await getCollection("issues");
+  return issues.map((entry) => ({
+    params: { slug: entry.id },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const data = entry.data;
+
+const articles = data.sections.filter((s) => s.section_type === "article");
+const front = data.sections.filter((s) => s.section_type === "front_matter");
+const end = data.sections.filter((s) => s.section_type === "end_matter");
+---
+
+<SiteLayout
+  title={data.issue_title ?? data.issue_name}
+  description={data.issue_summary}
+>
+  <div class="page" data-pagefind-meta="kind:issue">
+    <header class="page__header">
+      <p class="page__eyebrow">{data.parent_folder ?? "Issue"}</p>
+      <h1 class="page__title">{data.issue_title ?? data.issue_name}</h1>
+      <p class="page__lede">{data.issue_summary}</p>
+      <p class="muted issue-meta">
+        {data.num_pages} pages · {articles.length} articles · {data.is_validated ? "validated" : "draft"}
+      </p>
+    </header>
+
+    <div class="issue-layout">
+      <div class="issue-main">
+        {
+          front.length > 0 && (
+            <section class="section">
+              <header class="section__head">
+                <h2 class="section__title">Front matter</h2>
+              </header>
+              <ul class="section-list">
+                {front.map((s: any) => (
+                  <li class="section-list__item" data-pagefind-meta={`kind:front_matter, issue:${data.issue_id}`}>
+                    <span class={`section-list__type section-list__type--${s.section_type}`}>{s.section_type.replace("_", " ")}</span>
+                    <h3 class="section-list__title">
+                      <a href={url(`/issues/${entry.id}/${s.url_slug}`)}>{s.title}</a>
+                    </h3>
+                    <p class="section-list__meta">pp. {s.page_start}{s.page_end !== s.page_start ? `–${s.page_end}` : ""}</p>
+                    <p class="section-list__summary">{s.summary}</p>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )
+        }
+
+        {
+          articles.length > 0 && (
+            <section class="section">
+              <header class="section__head">
+                <h2 class="section__title">Articles</h2>
+                <span class="section__meta">{articles.length}</span>
+              </header>
+              <ul class="section-list">
+                {articles.map((s: any) => (
+                  <li class="section-list__item" data-pagefind-meta={`kind:article, issue:${data.issue_id}`}>
+                    <span class="section-list__type">article</span>
+                    <h3 class="section-list__title">
+                      <a href={url(`/issues/${entry.id}/${s.url_slug}`)}>{s.title}</a>
+                    </h3>
+                    <p class="section-list__meta">
+                      <span>pp. {s.page_start}{s.page_end !== s.page_start ? `–${s.page_end}` : ""}</span>
+                      {s.people.length > 0 && <span>{s.people.length} people</span>}
+                      {s.places.length > 0 && <span>{s.places.length} places</span>}
+                      {s.organizations.length > 0 && <span>{s.organizations.length} organizations</span>}
+                    </p>
+                    <p class="section-list__summary">{s.summary}</p>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )
+        }
+
+        {
+          end.length > 0 && (
+            <section class="section">
+              <header class="section__head">
+                <h2 class="section__title">End matter</h2>
+              </header>
+              <ul class="section-list">
+                {end.map((s: any) => (
+                  <li class="section-list__item" data-pagefind-meta={`kind:end_matter, issue:${data.issue_id}`}>
+                    <span class={`section-list__type section-list__type--${s.section_type}`}>{s.section_type.replace("_", " ")}</span>
+                    <h3 class="section-list__title">
+                      <a href={url(`/issues/${entry.id}/${s.url_slug}`)}>{s.title}</a>
+                    </h3>
+                    <p class="section-list__meta">pp. {s.page_start}{s.page_end !== s.page_start ? `–${s.page_end}` : ""}</p>
+                    <p class="section-list__summary">{s.summary}</p>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )
+        }
+      </div>
+
+      <aside class="issue-pages" aria-label="Pages">
+        <p class="issue-pages__label">Pages ({data.pages.length})</p>
+        {
+          data.pages.map((p: any) => (
+            <a class="issue-page-thumb" href={url(p.image)} target="_blank" rel="noreferrer">
+              <img
+                src={url(p.image)}
+                alt={`Page ${p.page_number}`}
+                loading="lazy"
+                width={p.width}
+                height={p.height}
+              />
+              <p class="issue-page-thumb__caption">p. {p.page_number}</p>
+            </a>
+          ))
+        }
+      </aside>
+    </div>
+  </div>
+</SiteLayout>
+
+<style>
+  .issue-meta { margin-top: var(--space-3); font-size: 0.85rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-text-faint); }
+</style>

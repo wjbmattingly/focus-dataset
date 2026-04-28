@@ -1,0 +1,166 @@
+---
+import { getCollection } from "astro:content";
+import SiteLayout from "../../../components/SiteLayout.astro";
+import EntityBlock from "../../../components/EntityBlock.astro";
+import { url } from "../../../lib/url";
+import { highlightBody, paragraphs as splitParagraphs } from "../../../lib/entities";
+
+export async function getStaticPaths() {
+  const issues = await getCollection("issues");
+  const paths: { params: { slug: string; section: string }; props: any }[] = [];
+  for (const entry of issues) {
+    const sections = entry.data.sections;
+    sections.forEach((section: any, idx: number) => {
+      const prev = idx > 0 ? sections[idx - 1] : null;
+      const next = idx < sections.length - 1 ? sections[idx + 1] : null;
+      paths.push({
+        params: { slug: entry.id, section: section.url_slug },
+        props: { entry, section, prev, next },
+      });
+    });
+  }
+  return paths;
+}
+
+const { entry, section, prev, next } = Astro.props;
+const data = entry.data;
+
+const pages = data.pages.filter(
+  (p: any) => p.page_number >= section.page_start && p.page_number <= section.page_end
+);
+
+const paragraphsRaw = splitParagraphs(section.body);
+const paragraphsHtml = paragraphsRaw.map((p) =>
+  highlightBody(
+    p,
+    [
+      { kind: "people", entities: section.people ?? [] },
+      { kind: "places", entities: section.places ?? [] },
+      { kind: "organizations", entities: section.organizations ?? [] },
+    ],
+    url
+  )
+);
+
+const description = section.summary || `${section.title} from ${data.issue_name}`;
+---
+
+<SiteLayout title={`${section.title} — ${data.issue_name}`} description={description}>
+  <div
+    class="page"
+    data-pagefind-body
+    data-pagefind-meta={`kind:${section.section_type}, issue:${data.issue_id}`}
+  >
+    <header class="page__header">
+      <p class="page__eyebrow">
+        <a href={url(`/issues/${entry.id}`)}>{data.issue_name}</a>
+        {" · "}
+        <span data-pagefind-meta="kind">{section.section_type.replace("_", " ")}</span>
+      </p>
+      <h1 class="page__title" data-pagefind-meta="title">{section.title}</h1>
+      <p class="page__lede">{section.summary}</p>
+      <p class="muted issue-meta">
+        pp. {section.page_start}
+        {section.page_end !== section.page_start ? `–${section.page_end}` : ""}
+      </p>
+
+      <p class="article-toolbar">
+        <button
+          type="button"
+          class="entity-toggle"
+          data-entity-toggle
+          aria-pressed="true"
+          aria-controls="article-body"
+        >
+          <span class="entity-toggle__dot" aria-hidden="true"></span>
+          <span data-entity-toggle-label>Highlights on</span>
+        </button>
+      </p>
+    </header>
+
+    <div class="article-page">
+      <article id="article-body" class="article-body">
+        {paragraphsHtml.map((html) => <p set:html={html} />)}
+
+        {
+          pages.length > 0 && (
+            <section class="section">
+              <header class="section__head">
+                <h2 class="section__title">Source pages</h2>
+              </header>
+              <div class="article-pages">
+                {pages.map((p: any) => (
+                  <a class="issue-page-thumb article-page-thumb" href={url(p.image)} target="_blank" rel="noreferrer">
+                    <img src={url(p.image)} alt={`Page ${p.page_number}`} loading="lazy" width={p.width} height={p.height} />
+                    <p class="issue-page-thumb__caption">p. {p.page_number}</p>
+                  </a>
+                ))}
+              </div>
+            </section>
+          )
+        }
+
+        <nav class="article-nav" aria-label="Article navigation">
+          {
+            prev ? (
+              <a class="article-nav__link" href={url(`/issues/${entry.id}/${prev.url_slug}`)}>
+                <span class="article-nav__direction">← Previous</span>
+                <span class="article-nav__title">{prev.title}</span>
+              </a>
+            ) : <span />
+          }
+          {
+            next ? (
+              <a class="article-nav__link" href={url(`/issues/${entry.id}/${next.url_slug}`)} style="text-align: right">
+                <span class="article-nav__direction">Next →</span>
+                <span class="article-nav__title">{next.title}</span>
+              </a>
+            ) : null
+          }
+        </nav>
+      </article>
+
+      <aside class="article-aside">
+        <EntityBlock kind="people" heading="People" entities={section.people} />
+        <EntityBlock kind="places" heading="Places" entities={section.places} />
+        <EntityBlock kind="organizations" heading="Organizations" entities={section.organizations} />
+      </aside>
+    </div>
+  </div>
+</SiteLayout>
+
+<style>
+  .article-pages {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(8rem, 1fr));
+    gap: 0.75rem;
+  }
+  .article-page-thumb img {
+    max-width: 100%;
+  }
+  .issue-meta { margin-top: var(--space-3); font-size: 0.85rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-text-faint); }
+  .article-toolbar { margin-top: var(--space-4); }
+</style>
+
+<script is:inline>
+  (function () {
+    var btn = document.querySelector("[data-entity-toggle]");
+    var article = document.getElementById("article-body");
+    if (!btn || !article) return;
+    var label = btn.querySelector("[data-entity-toggle-label]");
+    var key = "focus-archive:entities-on";
+    var stored = window.localStorage ? localStorage.getItem(key) : null;
+    var on = stored == null ? true : stored !== "0";
+    apply();
+    btn.addEventListener("click", function () {
+      on = !on;
+      apply();
+      try { localStorage.setItem(key, on ? "1" : "0"); } catch (e) {}
+    });
+    function apply() {
+      article.classList.toggle("entities-off", !on);
+      btn.setAttribute("aria-pressed", on ? "true" : "false");
+      if (label) label.textContent = on ? "Highlights on" : "Highlights off";
+    }
+  })();
+</script>

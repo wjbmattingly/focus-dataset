@@ -1,0 +1,70 @@
+---
+import { entitySlug } from "../lib/entities";
+import { url } from "../lib/url";
+
+interface Props {
+  /** "people" | "places" | "organizations" */
+  kind: "people" | "places" | "organizations";
+  heading: string;
+  entities: { name: string; canonical?: string | null }[];
+}
+const { kind, heading, entities } = Astro.props;
+
+function key(e: { name: string; canonical?: string | null }) {
+  return (e.canonical && e.canonical.trim()) || e.name.trim();
+}
+
+interface Grouped {
+  display: string;
+  slug: string;
+  surfaces: string[];
+}
+
+const groups = new Map<string, Grouped>();
+for (const e of entities) {
+  const display = key(e);
+  const slug = entitySlug(display);
+  let g = groups.get(slug);
+  if (!g) {
+    g = { display, slug, surfaces: [] };
+    groups.set(slug, g);
+  }
+  if (!g.surfaces.includes(e.name)) g.surfaces.push(e.name);
+}
+const unique = Array.from(groups.values());
+---
+
+{
+  unique.length > 0 && (
+    <div class="entity-block">
+      <p class="entity-block__heading">{heading}</p>
+      <ul class={`entity-list entity-list--${kind}`}>
+        {unique.map((g) => {
+          const variants = g.surfaces.filter((s) => s !== g.display);
+          const titleAttr =
+            g.surfaces.length > 1
+              ? `Appears as: ${g.surfaces.join(", ")}`
+              : g.display;
+          return (
+            <li>
+              <a
+                class={`entity-tag entity-tag--${kind}`}
+                href={url(`/${kind}/${g.slug}`)}
+                data-pagefind-filter={kind}
+                title={titleAttr}
+              >
+                <span class="entity-tag__name">{g.display}</span>
+                {variants.length > 0 && (
+                  <span class="entity-canonical">
+                    as {variants.slice(0, 2).join(" / ")}
+                    {variants.length > 2 ? ` +${variants.length - 2}` : ""}
+                  </span>
+                )}
+              </a>
+            </li>
+          );
+        })}
+      </ul>
+    </div>
+  )
+}

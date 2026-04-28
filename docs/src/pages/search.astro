@@ -1,0 +1,64 @@
+---
+import SiteLayout from "../components/SiteLayout.astro";
+import { url } from "../lib/url";
+---
+
+<SiteLayout title="Search" description="Search the FOCUS archive.">
+  <div class="page">
+    <header class="page__header">
+      <p class="page__eyebrow">Find</p>
+      <h1 class="page__title">Search the archive</h1>
+      <p class="page__lede">
+        Full-text search across every article, front-matter section, and end-matter block in the
+        archive — including the people, places, and organizations referenced in each.
+      </p>
+    </header>
+
+    <link href={url("/pagefind/pagefind-ui.css")} rel="stylesheet" />
+    <div id="search" class="search-shell"></div>
+
+    <p class="muted faint search-hint">
+      Tip: refine results with the <strong>kind</strong> filter (article / front matter / end matter)
+      or by <strong>issue</strong>.
+    </p>
+  </div>
+
+  <script is:inline src={url("/pagefind/pagefind-ui.js")}></script>
+  <script
+    is:inline
+    define:vars={{ baseUrl: url("/pagefind/") }}
+  >
+    window.addEventListener("DOMContentLoaded", function () {
+      if (typeof PagefindUI === "undefined") {
+        var el = document.getElementById("search");
+        if (el)
+          el.innerHTML =
+            "<p class=\"muted\">Search index is not built yet. Run <code>npm run build</code> in the docs folder to generate it.</p>";
+        return;
+      }
+      var pf = new PagefindUI({
+        element: "#search",
+        bundlePath: baseUrl,
+        showSubResults: true,
+        showImages: false,
+        resetStyles: false,
+        translations: {
+          placeholder: "Search articles, people, places, organizations…",
+          zero_results: "No matches for [SEARCH_TERM].",
+        },
+      });
+      var qs = new URLSearchParams(window.location.search).get("q");
+      if (qs) {
+        var input = document.querySelector("#search input");
+        if (input) {
+          input.value = qs;
+          input.dispatchEvent(new Event("input", { bubbles: true }));
+        }
+      }
+    });
+  </script>
+</SiteLayout>
+
+<style>
+  .search-hint { margin-top: var(--space-5); font-size: 0.92rem; }
+</style>

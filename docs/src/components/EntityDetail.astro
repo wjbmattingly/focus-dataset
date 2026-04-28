@@ -1,0 +1,93 @@
+---
+import SiteLayout from "./SiteLayout.astro";
+import { url } from "../lib/url";
+import type { EntityKind, EntityRecord } from "../lib/entities";
+
+interface Props {
+  kind: EntityKind;
+  record: EntityRecord;
+}
+const { kind, record } = Astro.props;
+
+// Group mentions by issue, sorted by issue id.
+const byIssue = new Map<string, EntityRecord["mentions"]>();
+for (const m of record.mentions) {
+  const arr = byIssue.get(m.issueId) ?? [];
+  arr.push(m);
+  byIssue.set(m.issueId, arr);
+}
+const grouped = Array.from(byIssue.entries())
+  .sort(([a], [b]) => a.localeCompare(b, undefined, { numeric: true }))
+  .map(([issueId, mentions]) => ({
+    issueId,
+    issueSlug: mentions[0].issueSlug,
+    issueName: mentions[0].issueName,
+    mentions: mentions.slice().sort((a, b) => a.pageStart - b.pageStart),
+  }));
+
+const KIND_LABEL: Record<EntityKind, string> = {
+  people: "Person",
+  places: "Place",
+  organizations: "Organization",
+};
+const KIND_PLURAL: Record<EntityKind, string> = {
+  people: "People",
+  places: "Places",
+  organizations: "Organizations",
+};
+---
+
+<SiteLayout title={record.display} description={`Mentions of ${record.display} across FOCUS.`}>
+  <div class="page">
+    <header class="page__header">
+      <p class="page__eyebrow">
+        <a href={url(`/${kind}`)}>{KIND_PLURAL[kind]}</a> · {KIND_LABEL[kind]}
+      </p>
+      <h1 class="page__title">{record.display}</h1>
+      <p class="page__lede">
+        Mentioned in <strong>{record.mentions.length}</strong> section{record.mentions.length === 1 ? "" : "s"}
+        across <strong>{grouped.length}</strong> issue{grouped.length === 1 ? "" : "s"}.
+      </p>
+
+      {
+        record.surfaces.length > 1 && (
+          <ul class="entity-surfaces" aria-label="Surface forms">
+            {record.surfaces.map((s) => (
+              <li class="entity-surface-pill">{s}</li>
+            ))}
+          </ul>
+        )
+      }
+    </header>
+
+    {
+      grouped.map((group) => (
+        <section class="section">
+          <header class="section__head">
+            <h2 class="section__title">
+              <a href={url(`/issues/${group.issueSlug}`)}>{group.issueName}</a>
+            </h2>
+            <span class="section__meta">{group.mentions.length} mention{group.mentions.length === 1 ? "" : "s"}</span>
+          </header>
+          <ul class="entity-mentions">
+            {group.mentions.map((m) => (
+              <li class="entity-mentions__item">
+                <h3 class="entity-mentions__title">
+                  <a href={url(`/issues/${m.issueSlug}/${m.sectionUrlSlug}`)}>{m.sectionTitle}</a>
+                </h3>
+                <p class="entity-mentions__meta">
+                  <span>{m.sectionType.replace("_", " ")}</span>
+                  <span>
+                    pp. {m.pageStart}
+                    {m.pageEnd !== m.pageStart ? `–${m.pageEnd}` : ""}
+                  </span>
+                  {m.surface !== record.display && <span>“{m.surface}”</span>}
+                </p>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))
+    }
+  </div>
+</SiteLayout>

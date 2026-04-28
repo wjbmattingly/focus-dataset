@@ -1,0 +1,173 @@
+---
+import { getCollection } from "astro:content";
+import SiteLayout from "../components/SiteLayout.astro";
+import { site, datasets } from "../config/site";
+import { url } from "../lib/url";
+
+const issues = (await getCollection("issues")).sort((a, b) =>
+  a.data.issue_id.localeCompare(b.data.issue_id, undefined, { numeric: true })
+);
+
+const totalArticles = issues.reduce(
+  (acc, i) => acc + i.data.sections.filter((s) => s.section_type === "article").length,
+  0
+);
+const totalPages = issues.reduce((acc, i) => acc + i.data.num_pages, 0);
+const totalIssues = issues.length;
+const recent = issues.slice(0, 6);
+---
+
+<SiteLayout title={site.title} description={site.description} mainClass="home-main">
+  <section class="focus-hero" aria-labelledby="home-heading">
+    <div class="focus-hero__inner">
+      <p class="focus-hero__eyebrow">{site.org}</p>
+      <h1 id="home-heading" class="focus-hero__title">
+        Search the FOCUS bulletin
+      </h1>
+      <p class="focus-hero__lead">{site.description}</p>
+
+      <form class="hero-search" role="search" action={url("/search")} method="get">
+        <input
+          class="hero-search__input"
+          type="search"
+          name="q"
+          placeholder="Search articles, people, places, organizations…"
+          autocomplete="off"
+          aria-label="Search the archive"
+        />
+        <button class="hero-search__btn" type="submit">Search</button>
+      </form>
+
+      <ul class="hero-stats" aria-label="Archive size">
+        <li>
+          <span class="hero-stats__num">{totalIssues}</span>
+          <span class="hero-stats__label">issues</span>
+        </li>
+        <li>
+          <span class="hero-stats__num">{totalArticles}</span>
+          <span class="hero-stats__label">articles</span>
+        </li>
+        <li>
+          <span class="hero-stats__num">{totalPages}</span>
+          <span class="hero-stats__label">pages</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="wrap section">
+    <header class="section__head">
+      <h2 class="section__title">Recent issues</h2>
+      <a class="section__meta" href={url("/issues")}>All issues →</a>
+    </header>
+    {
+      recent.length === 0 ? (
+        <p class="muted">No issues exported yet. Run <code>scripts/export_for_site.py</code> to populate this site.</p>
+      ) : (
+        <ul class="issue-grid">
+          {recent.map((i) => (
+            <li>
+              <a class="issue-card" href={url(`/issues/${i.id}`)}>
+                <span class="issue-card__id">{i.data.issue_id}</span>
+                <h3 class="issue-card__title">{i.data.issue_title ?? i.data.issue_name}</h3>
+                <p class="issue-card__meta">
+                  {i.data.num_pages} pages · {i.data.sections.filter((s) => s.section_type === "article").length} articles
+                </p>
+              </a>
+            </li>
+          ))}
+        </ul>
+      )
+    }
+  </section>
+
+  <section class="wrap section">
+    <header class="section__head">
+      <h2 class="section__title">Datasets</h2>
+      <a class="section__meta" href={site.orgUrl}>bitter-aloe ↗</a>
+    </header>
+    <ul class="dataset-grid">
+      {
+        datasets.map((d) => (
+          <li class="card">
+            <h3 class="card__title">{d.label}</h3>
+            <p class="muted">{d.blurb}</p>
+            <p>
+              <a href={d.href} rel="noreferrer">View on Hugging Face →</a>
+            </p>
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+</SiteLayout>
+
+<style>
+  .hero-search {
+    display: flex;
+    gap: 0.6rem;
+    margin: var(--space-5) 0 var(--space-5);
+    max-width: 36rem;
+  }
+  .hero-search__input {
+    flex: 1;
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    padding: 0.8rem 1.1rem;
+    border: 1px solid var(--color-border);
+    background: var(--color-elevated);
+    color: var(--color-text);
+    border-radius: 999px;
+    outline: none;
+  }
+  .hero-search__input:focus {
+    border-color: var(--color-accent);
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--color-accent) 18%, transparent);
+  }
+  .hero-search__btn {
+    font-family: var(--font-sans);
+    font-weight: 600;
+    font-size: 0.95rem;
+    padding: 0.8rem 1.4rem;
+    border-radius: 999px;
+    border: 1px solid var(--color-ink);
+    background: var(--color-ink);
+    color: var(--color-elevated);
+    cursor: pointer;
+    transition: background 0.15s ease;
+  }
+  .hero-search__btn:hover { background: var(--color-link); border-color: var(--color-link); }
+
+  .hero-stats {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.2rem;
+  }
+  .hero-stats li { display: flex; flex-direction: column; }
+  .hero-stats__num {
+    font-family: var(--font-serif);
+    font-weight: 600;
+    font-size: 1.7rem;
+    color: var(--color-text);
+    line-height: 1;
+  }
+  .hero-stats__label {
+    font-size: 0.78rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--color-text-faint);
+    margin-top: 0.35rem;
+  }
+
+  .dataset-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    gap: 1rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+</style>
