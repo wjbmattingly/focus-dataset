@@ -20,7 +20,9 @@ from __future__ import annotations
 import argparse
 import json
 import sys
+import threading
 import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -118,23 +120,69 @@ def process_documents(
     *,
     skip_existing: bool = True,
     sleep_between: float = 0.0,
+    workers: int = 1,
 ) -> dict[str, IssueExtraction]:
     cache_dir.mkdir(parents=True, exist_ok=True)
     debug_dir = cache_dir / "_debug"
     out: dict[str, IssueExtraction] = {}
 
-    for doc in tqdm(docs, desc="extracting"):
+    pending: list[DocumentRecord] = []
+    for doc in docs:
         cache_path = cache_dir / f"{_slug(doc.document_id)}.json"
         if skip_existing:
             cached = _load_cached(cache_path)
             if cached is not None:
                 out[doc.document_id] = cached
                 continue
-        extraction = extract_issue(doc, debug_dir=debug_dir)
+        pending.append(doc)
+
+    if not pending:
+        return out
+
+    if workers <= 1:
+        for doc in tqdm(pending, desc="extracting"):
+            cache_path = cache_dir / f"{_slug(doc.document_id)}.json"
+            extraction = extract_issue(doc, debug_dir=debug_dir)
+            cache_path.write_text(
+                extraction.model_dump_json(indent=2), encoding="utf-8"
+            )
+            out[doc.document_id] = extraction
+            if sleep_between:
+                time.sleep(sleep_between)
+        return out
+
+    out_lock = threading.Lock()
+
+    def _run(doc: DocumentRecord) -> tuple[str, IssueExtraction | None, str | None]:
+        try:
+            extraction = extract_issue(doc, debug_dir=debug_dir)
+        except Exception as exc:  # noqa: BLE001
+            return doc.document_id, None, f"{type(exc).__name__}: {exc}"
+        cache_path = cache_dir / f"{_slug(doc.document_id)}.json"
         cache_path.write_text(extraction.model_dump_json(indent=2), encoding="utf-8")
-        out[doc.document_id] = extraction
         if sleep_between:
             time.sleep(sleep_between)
+        return doc.document_id, extraction, None
+
+    failures: list[tuple[str, str]] = []
+    with ThreadPoolExecutor(max_workers=workers) as pool:
+        futures = {pool.submit(_run, doc): doc for doc in pending}
+        for fut in tqdm(
+            as_completed(futures),
+            total=len(futures),
+            desc=f"extracting (x{workers})",
+        ):
+            doc_id, extraction, err = fut.result()
+            if err is not None:
+                failures.append((doc_id, err))
+                continue
+            with out_lock:
+                out[doc_id] = extraction  # type: ignore[assignment]
+
+    if failures:
+        print(f"\n{len(failures)} document(s) failed:")
+        for doc_id, err in failures:
+            print(f"  - {doc_id}: {err}")
     return out
 
 
@@ -238,6 +286,26 @@ def main() -> None:
         nargs="*",
         help="If set, only process these document_ids.",
     )
+    parser.add_argument(
+        "--filter-prefix",
+        nargs="*",
+        default=None,
+        help=(
+            "If set, only process documents whose document_id starts with one "
+            "of these prefixes (e.g. 'Issue ' to skip Briefings/Sermons/Indexes)."
+        ),
+    )
+    parser.add_argument(
+        "--workers",
+        type=int,
+        default=1,
+        help="Number of parallel Gemini calls. 1 = sequential.",
+    )
+    parser.add_argument(
+        "--no-dataset",
+        action="store_true",
+        help="Skip building / saving the HF Dataset; only populate the Gemini cache.",
+    )
     parser.add_argument("--push", action="store_true")
     parser.add_argument("--repo-id", default=HF_REPO_ID)
     parser.add_argument("--private", action="store_true")
@@ -254,9 +322,24 @@ def main() -> None:
     if args.only:
         only = set(args.only)
         docs = [d for d in docs if d.document_id in only]
+    if args.filter_prefix:
+        prefixes = tuple(args.filter_prefix)
+        docs = [d for d in docs if d.document_id.startswith(prefixes)]
     print(f"Processing {len(docs)} documents.")
 
-    extractions = process_documents(docs, args.cache_dir, sleep_between=args.sleep)
+    extractions = process_documents(
+        docs,
+        args.cache_dir,
+        sleep_between=args.sleep,
+        workers=max(1, args.workers),
+    )
+
+    if args.no_dataset:
+        print(
+            f"Skipping dataset build (--no-dataset). "
+            f"{len(extractions)} extraction(s) cached in {args.cache_dir}."
+        )
+        return
 
     rows = []
     for doc in docs:

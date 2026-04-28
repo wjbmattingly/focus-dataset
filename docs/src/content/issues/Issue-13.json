@@ -1,0 +1,2715 @@
+{
+  "issue_id": "Issue 13",
+  "issue_name": "Issue 13",
+  "parent_folder": null,
+  "issue_title": "NOVEMBER 1977",
+  "issue_summary": "This issue of FOCUS reports on the intensification of state repression in South Africa, including the banning of numerous Black Consciousness organizations and newspapers, the death of Steve Biko in detention, and the introduction of emergency powers in the Ciskei and BophuthaTswana. It also covers political trials and security force activities in Zimbabwe/Rhodesia and Namibia.",
+  "num_pages": 16,
+  "is_validated": true,
+  "pages": [
+    {
+      "page_id": "Issue 13_page_001",
+      "page_number": 1,
+      "image": "/page-images/Issue-13/Issue_13_page_001.webp",
+      "width": 1100,
+      "height": 1514
+    },
+    {
+      "page_id": "Issue 13_page_002",
+      "page_number": 2,
+      "image": "/page-images/Issue-13/Issue_13_page_002.webp",
+      "width": 1100,
+      "height": 1512
+    },
+    {
+      "page_id": "Issue 13_page_003",
+      "page_number": 3,
+      "image": "/page-images/Issue-13/Issue_13_page_003.webp",
+      "width": 1100,
+      "height": 1512
+    },
+    {
+      "page_id": "Issue 13_page_004",
+      "page_number": 4,
+      "image": "/page-images/Issue-13/Issue_13_page_004.webp",
+      "width": 1100,
+      "height": 1512
+    },
+    {
+      "page_id": "Issue 13_page_005",
+      "page_number": 5,
+      "image": "/page-images/Issue-13/Issue_13_page_005.webp",
+      "width": 1100,
+      "height": 1512
+    },
+    {
+      "page_id": "Issue 13_page_006",
+      "page_number": 6,
+      "image": "/page-images/Issue-13/Issue_13_page_006.webp",
+      "width": 1100,
+      "height": 1511
+    },
+    {
+      "page_id": "Issue 13_page_007",
+      "page_number": 7,
+      "image": "/page-images/Issue-13/Issue_13_page_007.webp",
+      "width": 1100,
+      "height": 1511
+    },
+    {
+      "page_id": "Issue 13_page_008",
+      "page_number": 8,
+      "image": "/page-images/Issue-13/Issue_13_page_008.webp",
+      "width": 1100,
+      "height": 1514
+    },
+    {
+      "page_id": "Issue 13_page_009",
+      "page_number": 9,
+      "image": "/page-images/Issue-13/Issue_13_page_009.webp",
+      "width": 1100,
+      "height": 1514
+    },
+    {
+      "page_id": "Issue 13_page_010",
+      "page_number": 10,
+      "image": "/page-images/Issue-13/Issue_13_page_010.webp",
+      "width": 1100,
+      "height": 1514
+    },
+    {
+      "page_id": "Issue 13_page_011",
+      "page_number": 11,
+      "image": "/page-images/Issue-13/Issue_13_page_011.webp",
+      "width": 1100,
+      "height": 1514
+    },
+    {
+      "page_id": "Issue 13_page_012",
+      "page_number": 12,
+      "image": "/page-images/Issue-13/Issue_13_page_012.webp",
+      "width": 1100,
+      "height": 1507
+    },
+    {
+      "page_id": "Issue 13_page_013",
+      "page_number": 13,
+      "image": "/page-images/Issue-13/Issue_13_page_013.webp",
+      "width": 1100,
+      "height": 1507
+    },
+    {
+      "page_id": "Issue 13_page_014",
+      "page_number": 14,
+      "image": "/page-images/Issue-13/Issue_13_page_014.webp",
+      "width": 1100,
+      "height": 1505
+    },
+    {
+      "page_id": "Issue 13_page_015",
+      "page_number": 15,
+      "image": "/page-images/Issue-13/Issue_13_page_015.webp",
+      "width": 1100,
+      "height": 1505
+    },
+    {
+      "page_id": "Issue 13_page_016",
+      "page_number": 16,
+      "image": "/page-images/Issue-13/Issue_13_page_016.webp",
+      "width": 1100,
+      "height": 1502
+    }
+  ],
+  "sections": [
+    {
+      "section_id": "front_matter",
+      "section_type": "front_matter",
+      "title": "Masthead and Contents",
+      "summary": "Masthead information for the International Defence & Aid Fund and table of contents for the issue.",
+      "body": "News Bulletin of the International Defence & Aid Fund\n\nINTERNATIONAL DEFENSE & AID FUND for Southern Africa P. O. BOX 17 CAMBRIDGE MA. 02138\n\nFOR NORTH AMERICAN DISTRIBUTION\n\nNo. 13 November 1977\n\nIn this issue:\n\nSOUTH AFRICA\n- Emergency powers p. 2\n- Organisations banned p. 3\n- Bannings & detentions pp. 4-5\n- Political trials pp. 6-8\n- Steve Biko p. 8\n\nZIMBABWE/RHODESIA\n- Security forces pp. 9-10\n- Political trials pp. 11-13\n- Deportations p. 13\n- Press clamp-down p. 13\n- Detentions p. 13\n- Torture and assault p. 16\n\nNAMIBIA\n- New legislation p. 14\n- Walvis Bay p. 15\n- Tribal armies p. 15\n- Political trials p. 15",
+      "page_start": 1,
+      "page_end": 1,
+      "people": [],
+      "places": [
+        {
+          "name": "CAMBRIDGE MA.",
+          "canonical": "Cambridge, Massachusetts"
+        }
+      ],
+      "organizations": [
+        {
+          "name": "International Defence & Aid Fund",
+          "canonical": "International Defence and Aid Fund (IDAF)"
+        }
+      ],
+      "url_slug": "front-matter"
+    },
+    {
+      "section_id": "new-government-repression",
+      "section_type": "article",
+      "title": "New Government Repression",
+      "summary": "Overview of the South African government's crackdown on organizations and individuals in October 1977.",
+      "body": "On 19 October the South African government took drastic action against organisations and individuals in a repressive crackdown reminiscent of action in the early 1960s. Overnight nearly 20 organisations, mainly belonging to the Black Consciousness movement were declared illegal, two newspapers and a church magazine were closed, several whites were served with banning orders and over 40 prominent blacks interned under the Internal Security Act. Details are given elsewhere in FOCUS under the appropriate section.\n\nThis move was the culmination of a period of mounting unrest during which the police had already exercised many of their powers under security legislation. By mid-October there were already several hundred people in detention, and many more had been arrested and charged with attending illegal gatherings or causing public violence. At the same time emergency regulations had been proclaimed in the Ciskei Bantustan, and were also in force in BophuthaTswana. The situation in many urban and rural black areas was becoming increasingly unstable and the crackdown on organisations and individuals may have been intended to restore the initiative and sense of control to the authorities, as protests, demonstrations and sabotage attempts gathered force.\n\nProtests have been largely led by young people continuing the actions taken during the 1976 uprising and have been concentrated against Bantu Education, the death of Steve Biko in detention and black collaboration in the apartheid system through the Bantustan institutions and the police force.",
+      "page_start": 1,
+      "page_end": 1,
+      "people": [
+        {
+          "name": "Steve Biko",
+          "canonical": "Steve Biko"
+        }
+      ],
+      "places": [
+        {
+          "name": "South African",
+          "canonical": "South Africa"
+        },
+        {
+          "name": "Ciskei",
+          "canonical": "Ciskei"
+        },
+        {
+          "name": "BophuthaTswana",
+          "canonical": "Bophuthatswana"
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Black Consciousness",
+          "canonical": null
+        }
+      ],
+      "url_slug": "new-government-repression"
+    },
+    {
+      "section_id": "schools-boycott",
+      "section_type": "article",
+      "title": "Schools Boycott",
+      "summary": "Report on the ongoing schools boycott and student protests across South Africa.",
+      "body": "The schools boycott reported in the last issue of FOCUS (p.14) was strengthened and extended. By early October it was estimated that 200,000 students were affected. Throughout the country a boycott of classes was organised in the continuing campaign against Bantu Education, with students holding meetings in defiance of the ban on gatherings. In Soweto the campaign was extended by students calling for the resignation of teachers and by mid September some 450 out of 750 had resigned, the aim being to dismantle Bantu Education from inside and force the authorities to abandon it in favour of a non-discriminatory system. The World newspaper gave prominence to the boycott campaign, which may have been one of the reasons for its banning. Boycott action was also strong in the Pretoria townships, where it was linked to the rejection of the forthcoming 'independence' of BophuthaTswana.\n\nPolice action against the boycott has been frequent and often fierce, but appears not to have quelled the students' determination. Recent events include the following:\n\nEvanot, Vereeniging, 8-12 August. Demonstrations and arson attempts at three high schools. About 250 students arrested. (W 11/17/24.8.77)\n\nSoweto, 14 August 66 young people arrested and charged with public violence at the funeral of a girl student.\n\nSoweto, 16 August Police raid on Orlando West High School (W 17.8.77).\n\nSoweto, 25 August Boy shot dead by police outside Jabulani High School.\n\nPort Elizabeth, 30 August. Memorial meeting at Cowan High School for student killed in 1976. 22 arrested and convicted of illegal gathering at a special court (W 31.8.77).\n\nMdantsane, East London, 30 August. Large meeting at Ngcelawana School broken up by police.\n\nSoweto, 9 September. Several schools raided by police, students beaten with sjamboks (W 7.9.77).\n\n9 September. Youth dies of buckshot wounds after police break up meeting at Diepkloof School (RDM 13/15.9.77).\n\nUmtata, 16 September. Boycott followed by arson attack on hostel at Cwebe School near Ngqeleni. 46 arrested and sentenced to corporal punishment. (W 16.9.77)\n\nNelspruit, 4 October. Police arrest 125 students demonstrating outside high school. (GN 5.10.77)\n\nSibasa, Venda, 4 October. Demonstration of 5000 school students in stadium followed by march through town, setting up of road blocks and attacks on the Venda Legislative Assembly and houses of bantustan officials, including that of the White Secretary for Justice. Police arrest 180 students and two are thought to have been killed. Venda authorities close 35 secondary schools and order 12,000 students home. (RDM 5.10.77; GN 6.10.77).\n\nMahla, Gazankulu, 4 October. Police arrest 135 students following march and arson attacks on school and white headmaster's home. (RDM 5.10.77)\n\nPretoria townships, 4 October. Mass march broken up by police, with 33 arrests. (RDM 5.10.77)\n\nGrahamstown, 5 October. Police arrest 96 students after march with 'offensive placards'. (RDM 6.10.77)\n\nGrahamstown, 12 October. Primary schools boycotted. (RDM 14.10.77)\n\nThabong, Welkom, 13 October. Police arrest 71 students after boycott meeting and attacks on headmaster's home. (RDM 14.10.77)\n\nNew Brighton, Port Elizabeth and KwaNobuhle, Uitenhage, 12-13 October. Extensive boycott and attempts to obtain teachers' resignations followed by destruction of houses belonging to headteacher and former BAAB official. Police break up demonstration using guns and Hippo personnel carriers. Many arrests. (RDM 14.10.77)",
+      "page_start": 1,
+      "page_end": 2,
+      "people": [],
+      "places": [
+        {
+          "name": "Soweto",
+          "canonical": "Soweto"
+        },
+        {
+          "name": "Pretoria",
+          "canonical": "Pretoria"
+        },
+        {
+          "name": "BophuthaTswana",
+          "canonical": "Bophuthatswana"
+        },
+        {
+          "name": "Evanot",
+          "canonical": null
+        },
+        {
+          "name": "Vereeniging",
+          "canonical": "Vereeniging"
+        },
+        {
+          "name": "Port Elizabeth",
+          "canonical": "Port Elizabeth"
+        },
+        {
+          "name": "Mdantsane",
+          "canonical": "Mdantsane"
+        },
+        {
+          "name": "East London",
+          "canonical": "East London"
+        },
+        {
+          "name": "Umtata",
+          "canonical": "Umtata"
+        },
+        {
+          "name": "Ngqeleni",
+          "canonical": "Ngqeleni"
+        },
+        {
+          "name": "Nelspruit",
+          "canonical": "Nelspruit"
+        },
+        {
+          "name": "Sibasa",
+          "canonical": "Sibasa"
+        },
+        {
+          "name": "Venda",
+          "canonical": "Venda"
+        },
+        {
+          "name": "Mahla",
+          "canonical": null
+        },
+        {
+          "name": "Gazankulu",
+          "canonical": "Gazankulu"
+        },
+        {
+          "name": "Grahamstown",
+          "canonical": "Grahamstown"
+        },
+        {
+          "name": "Thabong",
+          "canonical": null
+        },
+        {
+          "name": "Welkom",
+          "canonical": "Welkom"
+        },
+        {
+          "name": "New Brighton",
+          "canonical": "New Brighton"
+        },
+        {
+          "name": "KwaNobuhle",
+          "canonical": null
+        },
+        {
+          "name": "Uitenhage",
+          "canonical": "Uitenhage"
+        }
+      ],
+      "organizations": [
+        {
+          "name": "World",
+          "canonical": "World"
+        }
+      ],
+      "url_slug": "schools-boycott"
+    },
+    {
+      "section_id": "universities",
+      "section_type": "article",
+      "title": "Universities",
+      "summary": "Report on student unrest and protests at various universities.",
+      "body": "University students have also been involved in demonstrations against separate education and Steve Biko's death.\n\nAt the University of the North at Turfloop unrest continued through August and September. The authorities sent all students home on 25 August following a two-day boycott and the expulsion of an SRC member. At a meeting in Soweto invaded by the police students decided to return but to refuse to sign the required declaration. On 13 September a mass meeting called on the rector to resign. Police detained seven SRC members and patrolled the campus. The next day students voted to continue the boycott; police moved in to expel them and baton charged a gathering outside the gates. At the end of September 1000 students were expelled. On 5 October an attempt was made to burn a students' hostel. (W 9/14/15/29.9.77; RDM 6.10.77)\n\nAt the University of Fort Hare at Alice 1200 students arrested following a memorial meeting for Steve Biko on 15 September and charged under the Riotous Assemblies Act (W 16.9.77). Also in Alice, there was an arson attempt on the administrative building of a teacher's training college on 11 September. The college had recently been reopened by the Ciskei education department after being closed following a boycott (W 12.9.77).\n\nPolice were called to the campus of the (Coloured) University of the Western Cape in late September and were stoned by students. The rector dismissed the SRC. (CT 28.9.77)\n\nIn Durban the University of Natal's black medical school SRC announced an indefinite boycott of all lectures and examinations in protest against the decision to phase out black medical training there from 1978. Academic staff were said to support the students' stand. (NW 6/7.10.77) On 21 October it was reported that the decision had been postponed. (RDM 21.10.77)",
+      "page_start": 2,
+      "page_end": 2,
+      "people": [
+        {
+          "name": "Steve Biko",
+          "canonical": "Steve Biko"
+        }
+      ],
+      "places": [
+        {
+          "name": "Turfloop",
+          "canonical": "Turfloop"
+        },
+        {
+          "name": "Soweto",
+          "canonical": "Soweto"
+        },
+        {
+          "name": "Alice",
+          "canonical": "Alice"
+        },
+        {
+          "name": "Durban",
+          "canonical": "Durban"
+        }
+      ],
+      "organizations": [
+        {
+          "name": "University of the North",
+          "canonical": "University of the North"
+        },
+        {
+          "name": "University of Fort Hare",
+          "canonical": "University of Fort Hare"
+        },
+        {
+          "name": "University of the Western Cape",
+          "canonical": "University of the Western Cape"
+        },
+        {
+          "name": "University of Natal",
+          "canonical": "University of Natal"
+        }
+      ],
+      "url_slug": "universities"
+    },
+    {
+      "section_id": "biko-funeral",
+      "section_type": "article",
+      "title": "Biko Funeral",
+      "summary": "Report on police attacks during memorial services and the funeral of Steve Biko.",
+      "body": "In Soweto police with guns and tear gas attacked people at a memorial service for Steve Biko in an Anglican church. One boy was shot dead, and others wounded. On 23 September police again attacked people gathering to board buses to attend the funeral, using tear gas, batons and sjamboks. The attack continued through the night. (RDM 22/26.9.77)\n\nThe funeral itself passed off without violence from the police but later a boy was killed at Dimbaza after attacks on the Ciskei department of labour and local Bantu Administration offices and factories. Police used guns and tear gas to disperse the crowd. (MS 27.9.77)",
+      "page_start": 2,
+      "page_end": 2,
+      "people": [
+        {
+          "name": "Steve Biko",
+          "canonical": "Steve Biko"
+        }
+      ],
+      "places": [
+        {
+          "name": "Soweto",
+          "canonical": "Soweto"
+        },
+        {
+          "name": "Dimbaza",
+          "canonical": "Dimbaza"
+        }
+      ],
+      "organizations": [],
+      "url_slug": "biko-funeral"
+    },
+    {
+      "section_id": "eastern-cape",
+      "section_type": "article",
+      "title": "Eastern Cape",
+      "summary": "Report on unrest and police actions in the Eastern Cape.",
+      "body": "At the beginning of October unrest exploded at Queenstown when a match was stopped by police using batons and tear gas. Two people were killed. Public buildings and a policeman's home were burnt; over 80 arrests were made in four days of disturbances. At Cradock a policeman's home was destroyed and a Bantu Administration office burnt; five people were injured by police gunshots. Following this and incidents in Whittlesea and Mdantsane, East London, the Ciskei education department closed all its schools in East London, King Williams Town, Queenstown and Port Elizabeth and on 7 October the Ezibeleni township at Queenstown was sealed off by Transkeian police. On 11 October police arrested 471 people in New Brighton. (RDM 3/5/6/8.10.77; D. Tel. 13.10.77)",
+      "page_start": 2,
+      "page_end": 2,
+      "people": [],
+      "places": [
+        {
+          "name": "Queenstown",
+          "canonical": "Queenstown"
+        },
+        {
+          "name": "Cradock",
+          "canonical": "Cradock"
+        },
+        {
+          "name": "Whittlesea",
+          "canonical": "Whittlesea"
+        },
+        {
+          "name": "Mdantsane",
+          "canonical": "Mdantsane"
+        },
+        {
+          "name": "East London",
+          "canonical": "East London"
+        },
+        {
+          "name": "King Williams Town",
+          "canonical": "King William's Town"
+        },
+        {
+          "name": "Port Elizabeth",
+          "canonical": "Port Elizabeth"
+        },
+        {
+          "name": "Ezibeleni",
+          "canonical": "Ezibeleni"
+        },
+        {
+          "name": "New Brighton",
+          "canonical": "New Brighton"
+        }
+      ],
+      "organizations": [],
+      "url_slug": "eastern-cape"
+    },
+    {
+      "section_id": "emergency-powers",
+      "section_type": "article",
+      "title": "Emergency Powers",
+      "summary": "Report on the introduction of emergency powers in the Ciskei and BophuthaTswana.",
+      "body": "On 30 September emergency powers were introduced in the Ciskei Bantustan under Proclamation R252 under the 1927 Native Administration Act, bringing into force similar provisions as have obtained in the Transkei under Proclamation R400 of 1960, as amended by R413, and latterly re-codified in the Transkei Public Security Act (see FOCUS 12, p.15).\n\nThe emergency powers include detention without trial, banishment by decree, prohibition of unauthorised meetings of more than ten people and penalties of up to three years' imprisonment and/or a fine of R600 for those showing disrespect or disobedience to chiefs and headmen.\n\nThe proclamation is intended to curb the unrest which has been simmering in the Ciskei since the uprising of June 1976 and more particularly since the funeral of Steve Biko, when the bantustan policy was denounced and the Ciskei's Chief Minister, Lennox Sebe was ridiculed in songs as the 'toy' of the white authorities. Two policemen were later killed by an angry crowd. There have been arson outbreaks in the Ciskei townships of Mdantsane and Dimbaza, student demonstrations in Alice and disturbances in Queenstown, which lies midway between the Ciskei and Transkei. The proclamation buttresses the already powerful position of chiefs and headmen who are the key supporters of the bantustan programme.\n\nChief Sebe has defended the emergency powers as necessary for the maintenance of law and order and the promotion of economic growth, and has aligned himself with the South African government on the need to enforce repressive measures. (GG No. 5757, 30.9.77; RDM 4.10.77)\n\nSimilar regulations were introduced in the Bophutha Tswana Bantustan on 19 August in Proclamation R.174 of 1977. They appear to have been introduced in order to curb opposition to the Bantustan elections held as a prelude to Bophutha-Tswana's 'independence' on 6 December.\n\nOpposition to 'independence' has been strong, though mainly in the urban areas (see under SCHOOLS BOYCOTT). On 17 July Chief Minister Mangope was prevented from holding a public meeting in Potchefstroom by a crowd of opponents; 19 youths were later charged with public violence (RDM 12/14.10.77). During the election campaign in August one of the opposition candidates complained that chiefs had refused him permission to hold meetings in 21 out of 24 villages in his constituency. (RDM 28.8.77)\n\nUnder the title 'Regulations for the Administration of Security Districts', the proclamation contains the following provisions:\n\n* Section 3 all meetings are unlawful unless authorised in writing by a magistrate except for church services, educational instruction, sport or entertainment gatherings, official tribal or bantustan meetings.\n\n* Section 4 no non-resident shall be allowed to enter a prohibited area without magisterial permission, unless an employee of the state or a bona-fide traveller.\n\n* Section 5 residents in a prohibited area shall be obliged to report the presence of persons unlawfully in that area to the authorities.\n\n* Section 6 residents may not leave a prohibited area without a permit.\n\n* Section 9 vehicles belonging to persons convicted of an offence under Section 4 may be confiscated by the government.\n\n* Section 11 it shall be an offence to (a) say or do anything subverting the authority of the state or any chief or headman; (c) threaten or participate in any boycott or a meeting convened by the state or tribal authority; (e) refuse an order issued by a chief or headman; (f) treat a chief or headman with disrespect or disobedience.\n\n* Section 13 the Minister may deem any area a prohibited area to any person, may order any activity to cease, and may impose a dusk to dawn curfew on any person.\n\n* Section 14 the Security Forces are authorised to assist in the maintenance of powers under the regulations.\n\n* Sections 15 and 16 the state, security forces and tribal authorities are indemnified against any civil or criminal action arising out of the regulations.\n\n* Section 18 penalties for offences under the regulations may not exceed three years' imprisonment and/or a fine of R600.\n\n* Section 19(b) any person arrested under the regulations may be detained until he has 'fully and correctly replied to all questions put to him'. Under Section 20 no detainee shall be allowed to consult a legal adviser without permission. (GG No. 5716, 19.8.77)",
+      "page_start": 2,
+      "page_end": 3,
+      "people": [
+        {
+          "name": "Steve Biko",
+          "canonical": "Steve Biko"
+        },
+        {
+          "name": "Lennox Sebe",
+          "canonical": "Lennox Sebe"
+        },
+        {
+          "name": "Mangope",
+          "canonical": "Lucas Mangope"
+        }
+      ],
+      "places": [
+        {
+          "name": "Ciskei",
+          "canonical": "Ciskei"
+        },
+        {
+          "name": "Transkei",
+          "canonical": "Transkei"
+        },
+        {
+          "name": "Mdantsane",
+          "canonical": "Mdantsane"
+        },
+        {
+          "name": "Dimbaza",
+          "canonical": "Dimbaza"
+        },
+        {
+          "name": "Alice",
+          "canonical": "Alice"
+        },
+        {
+          "name": "Queenstown",
+          "canonical": "Queenstown"
+        },
+        {
+          "name": "BophuthaTswana",
+          "canonical": "Bophuthatswana"
+        },
+        {
+          "name": "Potchefstroom",
+          "canonical": "Potchefstroom"
+        }
+      ],
+      "organizations": [],
+      "url_slug": "emergency-powers"
+    },
+    {
+      "section_id": "organisations-banned",
+      "section_type": "article",
+      "title": "Organisations Banned",
+      "summary": "List and description of the 19 organizations banned by the South African government on 19 October 1977.",
+      "body": "In the fiercest attack on opposition organisations since the banning of the ANC and PAC in 1960, the government took action under the Unlawful Organisations Act on 19 October and banned at least 18 organisations, including most groups in the Black Consciousness movement. The full list of organisations banned is as follows (from RDM 20.10.77 and FM 21.10.77):\n\nSOUTH AFRICAN STUDENTS' ORGANISATION (SASO), founded in 1969 by black students under the leadership of Steve Biko in a break-away from the white-dominated National Union of South African Students (NUSAS). SASO was prominent in student protests and unrest in the early 1970s and though based in the black 'tribal' universities and colleges has always rejected separate education, Bantustans and apartheid as a whole. In 1973 the entire SASO executive was banned and in 1974 many individuals arrested; nine were eventually imprisoned at the end of 1976 after a long trial. Many other former officials are in exile.\n\nBLACK PEOPLE'S CONVENTION (BPC) founded in 1971 as a Black People's organisation unifying African, Coloured and Indian members, building Black awareness and stimulating community action. BPC has always operated as an open political movement. In 1973 much of its leadership was banned. The BPC has remained active politically (for example it organised the 'Heroes Week' called in March this year - see FOCUS 10 p.16) and in encouraging community projects such as health clinics. The current president of BPC is Hlaku Kenneth Rachidi (see under PREVENTIVE DETENTION).\n\nSOUTH AFRICAN STUDENTS' MOVEMENT (SASM) formed in 1970 as a national movement for Black high school students, and involved in the 1976 boycott of Afrikaans in schools and subsequent demonstrations. SASM has branches all over the country; in September 1976 five members were imprisoned for incitement to military training (see FOCUS 5 p.12, 6 p.6, 7 p.11). Many other school student members have been arrested.\n\nNATIONAL YOUTH ORGANISATION (NAYO) formed in 1973 as a Black youth organisation. Its president was banned in the same year and in 1975-76 several officials and members stood trial under the Terrorism Act before being acquitted (see FOCUS 2, p.9, 3 p.4, 4 p.10, 5 p.13). Among NAYO's constituent bodies are the following, also banned:\n\nBORDER YOUTH ORGANISATION NATAL YOUTH ORGANISATION TRANSVAAL YOUTH ORGANISATION WESTERN CAPE YOUTH ORGANISATION EASTERN CAPE YOUTH ORGANISATION\n\nBLACK COMMUNITY PROGRAMMES (BCP) formed in 1973 to undertake and encourage projects by and for the Black community. It has organised welfare and self help projects in the Eastern Cape, Natal and Transvaal. Its workers and officials have suffered bannings similar to those imposed on SASO and BPC. BCP has also published the annual survey Black Review from 1972-6.\n\nZIMELE TRUST FUND, a Black charitable organisation established in 1975 to help the economic, social and educational rehabilitation of former political prisoners and their families, which has initiated a relief fund and various other projects. Almost all the Zimele Board of Trustees detained in August 1976 and its administrator, Mapeta Mohapi, died in detention (see FOCUS 6 p.7).\n\nBLACK WOMEN'S FEDERATION (BWF) formed in 1976 as an umbrella body for about 60 Black women's organisations. Several of its members, including its president Fatima Meer and Mrs. Winnie Mandela were detained during 1976 and subsequently banned. The BWF has taken a strong position on the issues of squatters, Bantu Education and nursery provision.\n\nBLACK PARENTS ASSOCIATION (BPA) formed in Soweto during the 1976 uprising to act as a liaison between the students and the authorities. It has continued to speak on behalf of Black people and has been responsible for distributing relief money to victims of last year's shootings. Its chairman is Dr. Manas Buthelezi.\n\nSOWETO STUDENTS' REPRESENTATIVE COUNCIL (SSRC) formed in 1976 by SASM members with delegates from Soweto secondary schools to organise the action against Afrikaans and Bantu Education and subsequent demonstrations. Responsible for issuing many of the calls to action and subject to intense police harassment which forced many of the leadership underground and eventually into exile. Before its banning, the SSRC was actively organising the schools boycott in Soweto and calling on teachers to resign as a first stage in the dismantling of Bantu Education.\n\nUNION OF BLACK JOURNALISTS (UBJ) formed in 1973 to represent Black journalists. Has published a bulletin; several members were detained during 1976 and the current UBJ president and five other members are in detention.\n\nMEDUPE WRITERS ASSOCIATION, formed in January 1977 as a Black writers' group based in Johannesburg to promote Black literature. Membership is currently over 200. (W 26.8.77)\n\nASSOCIATION FOR THE EDUCATIONAL AND CULTURAL ADVANCEMENT OF AFRICAN PEOPLE (ASSECA) founded in 1969 to raise funds and improve the standard of African education. Criticised as too moderate by some Black people.\n\nCHRISTIAN INSTITUTE (CI) formed in 1963 as an ecumenical church group. Together with the South African Council of Churches the CI sponsored SPRO-CAS, the study project on Christianity in an Apartheid Society, which produced ten reports on different aspects of apartheid. In 1975 the CI was declared an Affected Organisation and prohibited from receiving funds from overseas. It has regional offices as well as headquarters in Johannesburg. Several of its officers and its journal were also banned. (see under BANNINGS)\n\nIn addition to the above it was reported that the SIYAZINCEDA TRUST, a group in Cape Town established to help the families of political detainees, had also been declared an unlawful organisation. (RDM 20.10.77). This would bring the total number of banned organisations to 19.\n\nThe banning of virtually all the organisations within the Black Consciousness movement represents an extension of state repression in South Africa. Formed in the late 1960s following the outlawing of the liberation movement, as a channel for legitimate protest, Black Consciousness was tolerated by the government when it originally emerged because it appeared to endorse the racial separation of apartheid through its 'blacks only' policies. The movement however consistently rejected the tribal separation favoured by the state and attacked the Bantustan programme. Black Consciousness itself aimed to increase Black self-awareness and self-reliance and did so both through political organisation, where it represented one of the few remaining lawful voices of the Black community, and through practical projects designed to provide medical care, welfare and employment for Black people. The state has hitherto attempted to control Black Consciousness by means of banning orders on its office bearers and staff who have been regularly restricted and replaced, but neither this nor the enforced exile of many SASO and BPC members has succeeded in curbing the movement. In 1974 a large number of Black Consciousness people were arrested following rallies in support of the new FRELIMO transitional government in Mozambique. In one of the longest trials under the Terrorism Act nine men were eventually imprisoned (see FOCUS Nos. 2-8) but the conviction was not easily secured and the state has not in general used the courts against Black Consciousness activities. Henceforth it will be an offence to belong to or work on behalf of any of the above organisations, and their banning means that there are no longer legitimate black channels for protest and negotiation.",
+      "page_start": 3,
+      "page_end": 4,
+      "people": [
+        {
+          "name": "Steve Biko",
+          "canonical": "Steve Biko"
+        },
+        {
+          "name": "Hlaku Kenneth Rachidi",
+          "canonical": "Hlaku Kenneth Rachidi"
+        },
+        {
+          "name": "Mapeta Mohapi",
+          "canonical": "Mapeta Mohapi"
+        },
+        {
+          "name": "Fatima Meer",
+          "canonical": "Fatima Meer"
+        },
+        {
+          "name": "Winnie Mandela",
+          "canonical": "Winnie Mandela"
+        },
+        {
+          "name": "Manas Buthelezi",
+          "canonical": "Manas Buthelezi"
+        }
+      ],
+      "places": [
+        {
+          "name": "Johannesburg",
+          "canonical": "Johannesburg"
+        },
+        {
+          "name": "Soweto",
+          "canonical": "Soweto"
+        },
+        {
+          "name": "Cape Town",
+          "canonical": "Cape Town"
+        },
+        {
+          "name": "Mozambique",
+          "canonical": "Mozambique"
+        }
+      ],
+      "organizations": [
+        {
+          "name": "African National Congress (ANC)",
+          "canonical": "African National Congress (ANC)"
+        },
+        {
+          "name": "Pan-Africanist Congress (PAC)",
+          "canonical": "Pan-Africanist Congress (PAC)"
+        },
+        {
+          "name": "South African Students' Organisation (SASO)",
+          "canonical": "South African Students' Organisation (SASO)"
+        },
+        {
+          "name": "National Union of South African Students (NUSAS)",
+          "canonical": "National Union of South African Students (NUSAS)"
+        },
+        {
+          "name": "Black People's Convention (BPC)",
+          "canonical": "Black People's Convention (BPC)"
+        },
+        {
+          "name": "South African Students' Movement (SASM)",
+          "canonical": "South African Students' Movement (SASM)"
+        },
+        {
+          "name": "National Youth Organisation (NAYO)",
+          "canonical": "National Youth Organisation (NAYO)"
+        },
+        {
+          "name": "Black Community Programmes (BCP)",
+          "canonical": "Black Community Programmes (BCP)"
+        },
+        {
+          "name": "Zimele Trust Fund",
+          "canonical": "Zimele Trust Fund"
+        },
+        {
+          "name": "Black Women's Federation (BWF)",
+          "canonical": "Black Women's Federation (BWF)"
+        },
+        {
+          "name": "Black Parents Association (BPA)",
+          "canonical": "Black Parents Association (BPA)"
+        },
+        {
+          "name": "Soweto Students' Representative Council (SSRC)",
+          "canonical": "Soweto Students' Representative Council (SSRC)"
+        },
+        {
+          "name": "Union of Black Journalists (UBJ)",
+          "canonical": "Union of Black Journalists (UBJ)"
+        },
+        {
+          "name": "Medupe Writers Association",
+          "canonical": "Medupe Writers Association"
+        },
+        {
+          "name": "Association for the Educational and Cultural Advancement of African People (ASSECA)",
+          "canonical": "Association for the Educational and Cultural Advancement of African People (ASSECA)"
+        },
+        {
+          "name": "Christian Institute (CI)",
+          "canonical": "Christian Institute (CI)"
+        },
+        {
+          "name": "South African Council of Churches",
+          "canonical": "South African Council of Churches"
+        },
+        {
+          "name": "SPRO-CAS",
+          "canonical": "Study Project on Christianity in an Apartheid Society (SPRO-CAS)"
+        },
+        {
+          "name": "Siyazinceda Trust",
+          "canonical": "Siyazinceda Trust"
+        },
+        {
+          "name": "FRELIMO",
+          "canonical": "FRELIMO"
+        }
+      ],
+      "url_slug": "organisations-banned"
+    },
+    {
+      "section_id": "banning-orders",
+      "section_type": "article",
+      "title": "Banning Orders",
+      "summary": "Report on the banning orders served on several white opponents of the government.",
+      "body": "On 19 October, the same day as the government banned Black Consciousness organisations and detained prominent Black people, (see under ORGANISATIONS BANNED and PREVENTIVE DETENTION) it acted against a number of persistent white opponents by restricting them under banning orders.\n\nThose banned, all apparently for five years, were:\n\n* Donald WOODS, editor of the East London Daily Dispatch, who has been an outspoken critic of the Nationalist government. Amongst other things, Woods had repeatedly questioned the official version of Steve Biko's death in detention (see under BIKO DIES).\n\n* Rev. BEYERS NAUDE, director of the Christian Institute (see under ORGANISATIONS BANNED), a former minister in the Dutch Reformed Church and a long-standing opponent of apartheid. Under Naude the Christian Institute refused to give evidence before the Schlebusch Commission and Naude and a number of others were prosecuted in court (see FOCUS 9 p.14). The Christian Institute had also published reports on the use of political detention and police torture. (see FOCUS 10 p.1)\n\n* Rev. Theo KOTZE, Cape regional director of the Christian Institute.\n\n* Mr. Brian BROWN, Christian Institute administrator.\n\n* Mr. Cedric MAYSON, editor of the Christian Institute's monthly magazine Pro Veritate.\n\n* Mr. Peter RANDALL, director of the publishing firm Ravan Press, associated with the Christian Institute, and former director of SPRO-CAS, the study project on apartheid.\n\n* Rev. David RUSSELL, Anglican minister in Cape Town who has campaigned against the destruction of family life through migrant labour and the plight of the squatter communities. At the beginning of 1977 Russell helped to compile a report on the role of the riot police in killings and burnings which occurred in Langa township last Christmas and was convicted for refusing to disclose the names of informants (see FOCUS 9 p.13, 12 p.11) (RDM 20.10.77).\n\nIn addition it was reported that an official of the Siyazinceda Trust (see under ORGANISATIONS BANNED) had also been served with a banning order. No name was given. (RDM 20.10.77)",
+      "page_start": 4,
+      "page_end": 4,
+      "people": [
+        {
+          "name": "Donald WOODS",
+          "canonical": "Donald Woods"
+        },
+        {
+          "name": "Steve Biko",
+          "canonical": "Steve Biko"
+        },
+        {
+          "name": "BEYERS NAUDE",
+          "canonical": "Beyers Naude"
+        },
+        {
+          "name": "Theo KOTZE",
+          "canonical": "Theo Kotze"
+        },
+        {
+          "name": "Brian BROWN",
+          "canonical": "Brian Brown"
+        },
+        {
+          "name": "Cedric MAYSON",
+          "canonical": "Cedric Mayson"
+        },
+        {
+          "name": "Peter RANDALL",
+          "canonical": "Peter Randall"
+        },
+        {
+          "name": "David RUSSELL",
+          "canonical": "David Russell"
+        }
+      ],
+      "places": [
+        {
+          "name": "East London",
+          "canonical": "East London"
+        },
+        {
+          "name": "Cape Town",
+          "canonical": "Cape Town"
+        },
+        {
+          "name": "Langa",
+          "canonical": "Langa"
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Daily Dispatch",
+          "canonical": "Daily Dispatch"
+        },
+        {
+          "name": "Christian Institute",
+          "canonical": "Christian Institute"
+        },
+        {
+          "name": "Dutch Reformed Church",
+          "canonical": "Dutch Reformed Church"
+        },
+        {
+          "name": "Schlebusch Commission",
+          "canonical": "Schlebusch Commission"
+        },
+        {
+          "name": "Pro Veritate",
+          "canonical": "Pro Veritate"
+        },
+        {
+          "name": "Ravan Press",
+          "canonical": "Ravan Press"
+        },
+        {
+          "name": "SPRO-CAS",
+          "canonical": "Study Project on Christianity in an Apartheid Society (SPRO-CAS)"
+        },
+        {
+          "name": "Siyazinceda Trust",
+          "canonical": "Siyazinceda Trust"
+        }
+      ],
+      "url_slug": "banning-orders"
+    },
+    {
+      "section_id": "winnie-mandelas-visitors",
+      "section_type": "article",
+      "title": "Winnie Mandela's Visitors",
+      "summary": "Report on the legal and police harassment of Winnie Mandela and her visitors.",
+      "body": "Mrs. Winnie Mandela appeared in court on 31 August charged with contravening her banning order by receiving visitors and attending social gatherings (see FOCUS 12, p.13-14). The policeman who has been detailed to keep the Mandela house under observation said several people had visited the house and stayed overnight. Mrs. Mandela told him they 'were her daughter's visitors and that she would rather be arrested than have the police force them to leave. Visitors gave evidence of police harrassment. The police denied having told Mrs. Mandela that things were different now she was restricted to Brandfort in the Orange Free State and saying \"we will make you co-operate with us eventually.\" On 27 October the trial was adjourned to 17 January. (W 1/2.9.77; RDM 2.9.77; Times 26.10.77; MS 28.10.77)\n\nOn 6 September Nelson Mandela was granted a court interdict against two Brandfort security policemen restraining them from preventing people visiting his daughter Zinzi and from molesting or harrassing her. The judge ruled that Mrs. Mandela's restrictions did not apply to Zinzi and the policemen were ordered to pay the costs of the action. (D.Tel. 8.9.77; RDM 24.9.77)\n\nFour women were taken to court over their visit to Mrs. Mandela, and sentenced to jail terms for refusing to answer questions lest they risk prosecution. Mrs. Ilona Kleinschmidt and Miss Jacqueline Bosman were both convicted of refusing to testify under the new Criminal Procedure Act and sentenced to 12 months imprisonment. Both had been subpoenaed to make statements about alleged visits to Mrs. Mandela. (RDM 9.9.77)\n\nA month later Mrs. Helen Joseph, aged 72, who spent many years under house arrest for her opposition to apartheid, was sentenced to four months, and Mrs. Barbara Waite to 12 months on similar charges. All four women were released on bail pending appeals (RDM 14.10.77).\n\nMrs. Mandela has met with other obstruction from the Brandfort police. On 3 September she was prevented from leaving the town in time to catch a flight to Cape Town which would enable her to pay one of her allotted visits to her husband on Robben Island on 4 September, and was therefore allowed to see him only once, on 5 September. (W 5.9.77). Later in the month Mrs. Mandela was refused permission to visit her elder daughter in Swaziland (W 11.9.77).",
+      "page_start": 4,
+      "page_end": 4,
+      "people": [
+        {
+          "name": "Winnie Mandela",
+          "canonical": "Winnie Mandela"
+        },
+        {
+          "name": "Nelson Mandela",
+          "canonical": "Nelson Mandela"
+        },
+        {
+          "name": "Zinzi",
+          "canonical": "Zinzi Mandela"
+        },
+        {
+          "name": "Ilona Kleinschmidt",
+          "canonical": "Ilona Kleinschmidt"
+        },
+        {
+          "name": "Jacqueline Bosman",
+          "canonical": "Jacqueline Bosman"
+        },
+        {
+          "name": "Helen Joseph",
+          "canonical": "Helen Joseph"
+        },
+        {
+          "name": "Barbara Waite",
+          "canonical": "Barbara Waite"
+        }
+      ],
+      "places": [
+        {
+          "name": "Brandfort",
+          "canonical": "Brandfort"
+        },
+        {
+          "name": "Orange Free State",
+          "canonical": "Orange Free State"
+        },
+        {
+          "name": "Cape Town",
+          "canonical": "Cape Town"
+        },
+        {
+          "name": "Robben Island",
+          "canonical": "Robben Island"
+        },
+        {
+          "name": "Swaziland",
+          "canonical": "Swaziland"
+        }
+      ],
+      "organizations": [],
+      "url_slug": "winnie-mandelas-visitors"
+    },
+    {
+      "section_id": "preventive-detention",
+      "section_type": "article",
+      "title": "Preventive Detention",
+      "summary": "Report on the detention of prominent individuals under the Internal Security Act.",
+      "body": "In the massive police swoop on organisations and individuals on 19 October (see also under ORGANISATIONS BANNED) it appears that over 40 prominent individuals were detained under the provisions of the Internal Security Act allowing for preventive detention (see FOCUS 5 p.14). Later it was said that they would be held until August 1978.\n\nThose detained included the following:\n\nIn the Transvaal:\nMembers of the Soweto Committee of Ten\nDr. Nthato Motlana, medical doctor\nMr. Leonard Mosala, businessman\nMr. Legau Mathabathe, school principal\nMr. Douglas Lolwane, publisher's manager\nMr. Veli Kraai, businessman\nMrs. Ellen Khuzwayo, social worker\nMr. Thandisizwe Mazibuko, BPC general secretary\nMr. Ramsy Ramokgopa, BPC member\nBlack People's Convention\nMr. Kenneth Rachidi, president\nRev. Drake Ntshenkeng, vice-president\nMr. George Wauchope, regional chairman\n\nIn the Western Cape:\nMiss Ann Tomlinson, church worker\n\nThe Internal Security Act was first invoked at the height of last year's disturbances, and 135 persons held under it for varying terms (see FOCUS 8 p.4, 9 p.11, 10 p.13). It was extended for a further year on 11 August 1977. Internal Security Act (I.S.A.) detention differs from Terrorism Act detention in that those held are allowed visitors and association with others and are not suspected of unlawful activity. The purpose is internment rather than interrogation, the Act allowing the state to imprisonment by decree people who would not be convicted in any court of law. Most of those held under ISA detention in 1976 were subsequently served with banning orders, another administrative measure. It was announced that the current ISA detainees will be held in Modder B prison, and allowed two visits per week. (RDM 21.10.77)",
+      "page_start": 4,
+      "page_end": 5,
+      "people": [
+        {
+          "name": "Nthato Motlana",
+          "canonical": "Nthato Motlana"
+        },
+        {
+          "name": "Leonard Mosala",
+          "canonical": "Leonard Mosala"
+        },
+        {
+          "name": "Legau Mathabathe",
+          "canonical": "Legau Mathabathe"
+        },
+        {
+          "name": "Douglas Lolwane",
+          "canonical": "Douglas Lolwane"
+        },
+        {
+          "name": "Veli Kraai",
+          "canonical": "Veli Kraai"
+        },
+        {
+          "name": "Ellen Khuzwayo",
+          "canonical": "Ellen Khuzwayo"
+        },
+        {
+          "name": "Thandisizwe Mazibuko",
+          "canonical": "Thandisizwe Mazibuko"
+        },
+        {
+          "name": "Ramsy Ramokgopa",
+          "canonical": "Ramsy Ramokgopa"
+        },
+        {
+          "name": "Kenneth Rachidi",
+          "canonical": "Hlaku Kenneth Rachidi"
+        },
+        {
+          "name": "Drake Ntshenkeng",
+          "canonical": "Drake Ntshenkeng"
+        },
+        {
+          "name": "George Wauchope",
+          "canonical": "George Wauchope"
+        },
+        {
+          "name": "Ann Tomlinson",
+          "canonical": "Ann Tomlinson"
+        }
+      ],
+      "places": [
+        {
+          "name": "Transvaal",
+          "canonical": "Transvaal"
+        },
+        {
+          "name": "Western Cape",
+          "canonical": "Western Cape"
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Soweto Committee of Ten",
+          "canonical": "Soweto Committee of Ten"
+        },
+        {
+          "name": "Black People's Convention (BPC)",
+          "canonical": "Black People's Convention (BPC)"
+        }
+      ],
+      "url_slug": "preventive-detention"
+    },
+    {
+      "section_id": "other-detentions",
+      "section_type": "article",
+      "title": "Other Detentions",
+      "summary": "Report on various individuals detained under the Terrorism Act.",
+      "body": "People detained before 19 October under the Terrorism Act include the following:\n\nEmily NDABA, 54, of Dobsonville, Johannesburg, detained in early August and held at John Vorster Square (W 29.8.77). Joseph Oupa MOEKETSI, 21, school student and footballer, detained at Ga Rankuwa on 15 August after a paraffin bomb exploded at his school. Moeketsi lost a hand and died a week later, still under detention. Another student was also detained connection with this incident (W 18/21/22.8.77).\n\nOn 21 August police raided a BPC meeting in Johannesburg and arrested Rev. M. MAYATHULA, former BPC vice-president and member of the Soweto Committee of Ten; Tandisizwe MAZIBUKO, BPC general secretary, George WAUCHOPE, local BPC chairman (all detained during 1976); Manfred YENDE of Rockville, Vincent SELANTO, acquitted under the Terrorism Act (see FOCUS 3 p.5) and Letsatsi MOSALA (W 22.8.77).\n\nOn 24 August Elizabeth ITSHEGENG, 16, was detained when police brought a youth to her Soweto home, searching for another girl (W 25.8.77).\n\nOn 25 August Moki CEKISANI, 39, local BPC president was detained in Port Elizabeth. On 28 September he was admitted to hospital in an unconscious state (see also under BIKO DIES). (RDM 25.8.77). On 4 October he was released from detention (NW 7.10.77).\n\nAlso in August Mzukisi SCHWEYIYA, bantamweight boxing champion was detained in East London. Shortly after Biko's funeral, and the deaths of two policemen in Mdantsane township (see under EMERGENCY PROCLAMATIONS) it was rumoured that Shweyiya had also died in detention. In an unprecedented move, which may be attributed to the angry mood of the East London townships, police invited a news photographer from the Daily Dispatch to photograph Shweyiya, who was brought to the police station; he was apparently uninjured, but complained of pains in his chest. (RDM 28.9.77, 1.10.77)\n\nOn 9 September in Durban George SITHOLE, secretary of the Umlazi Residents Association and banned person (see FOCUS 9 p.14) and Marion ZEEMAN, of Berea, Durban, were also detained. Police later confirmed this (NW 15.9.77). Sipho SITHOLE, brother of George, was also detained (CT 16.9.77).\n\nAt an unknown date Ms. Limpho SEKAMANE, a Lesotho citizen, was detained in Ladybrand. This was disclosed in September by the Lesotho Minister of Foreign Affairs in an official communique expressing concern for the safety of detainees in South Africa in view of the growing numbers dying in 'mysterious circumstances'. The Lesotho government's concern was based, according to the communique, 'on the fact that nationals of Lesotho lost their lives in the Soweto incidents' (RDM 29.9.77).\n\nOn 21 September an unknown number of students were detained in Sharpeville during police raids after an incident at a football match (RDM 22.9.77).\n\nOn 23 September Ms. Ilva MACKAY, a library assistant who has been previously detained and was waiting for an exit permit, was detained for five days in Port Elizabeth. On 24 September the playwright Kayalethu MGAYISA and another man Nontobeko MAGHUBELA were also arrested in Port Elizabeth (CT 24.9.77).\n\nOn 25 September, the day of Steve Biko's funeral, police in King Williams Town detained Ray MAGIDA, local BPC chairman, and Fikile MLINDA, Zimele Trust Fund worker; both organisations were later banned (see under ORGANISATIONS BANNED). In Pretoria Tau MOKOLA, 26, a SASO member, was detained (RDM 28.9.77).\n\nOn 26 September, Enoch DUMA, a Sunday Times journalist was detained in Johannesburg (ST 9.10.77).\n\nTwo men were arrested in connection with the deaths of two black policemen at Mdantsane on 25 September (RDM 29.9.77).\n\nOn 18 October Vivane MADE, BPC regional director in Natal was detained by Security Police in Durban (RDM 19.10.77).",
+      "page_start": 5,
+      "page_end": 5,
+      "people": [
+        {
+          "name": "Emily NDABA",
+          "canonical": "Emily Ndaba"
+        },
+        {
+          "name": "Joseph Oupa MOEKETSI",
+          "canonical": "Joseph Oupa Moeketsi"
+        },
+        {
+          "name": "M. MAYATHULA",
+          "canonical": "M. Mayathula"
+        },
+        {
+          "name": "Tandisizwe MAZIBUKO",
+          "canonical": "Thandisizwe Mazibuko"
+        },
+        {
+          "name": "George WAUCHOPE",
+          "canonical": "George Wauchope"
+        },
+        {
+          "name": "Manfred YENDE",
+          "canonical": "Manfred Yende"
+        },
+        {
+          "name": "Vincent SELANTO",
+          "canonical": "Vincent Selanto"
+        },
+        {
+          "name": "Letsatsi MOSALA",
+          "canonical": "Letsatsi Mosala"
+        },
+        {
+          "name": "Elizabeth ITSHEGENG",
+          "canonical": "Elizabeth Itshegeng"
+        },
+        {
+          "name": "Moki CEKISANI",
+          "canonical": "Moki Cekisani"
+        },
+        {
+          "name": "Mzukisi SCHWEYIYA",
+          "canonical": "Mzukisi Schweyiya"
+        },
+        {
+          "name": "George SITHOLE",
+          "canonical": "George Sithole"
+        },
+        {
+          "name": "Marion ZEEMAN",
+          "canonical": "Marion Zeeman"
+        },
+        {
+          "name": "Sipho SITHOLE",
+          "canonical": "Sipho Sithole"
+        },
+        {
+          "name": "Limpho SEKAMANE",
+          "canonical": "Limpho Sekamane"
+        },
+        {
+          "name": "Ilva MACKAY",
+          "canonical": "Ilva Mackay"
+        },
+        {
+          "name": "Kayalethu MGAYISA",
+          "canonical": "Kayalethu Mgayisa"
+        },
+        {
+          "name": "Nontobeko MAGHUBELA",
+          "canonical": "Nontobeko Maghubela"
+        },
+        {
+          "name": "Ray MAGIDA",
+          "canonical": "Ray Magida"
+        },
+        {
+          "name": "Fikile MLINDA",
+          "canonical": "Fikile Mlinda"
+        },
+        {
+          "name": "Tau MOKOLA",
+          "canonical": "Tau Mokola"
+        },
+        {
+          "name": "Enoch DUMA",
+          "canonical": "Enoch Duma"
+        },
+        {
+          "name": "Vivane MADE",
+          "canonical": "Vivane Made"
+        }
+      ],
+      "places": [
+        {
+          "name": "Dobsonville",
+          "canonical": "Dobsonville"
+        },
+        {
+          "name": "Johannesburg",
+          "canonical": "Johannesburg"
+        },
+        {
+          "name": "Ga Rankuwa",
+          "canonical": "Ga-Rankuwa"
+        },
+        {
+          "name": "Soweto",
+          "canonical": "Soweto"
+        },
+        {
+          "name": "Rockville",
+          "canonical": "Rockville"
+        },
+        {
+          "name": "Port Elizabeth",
+          "canonical": "Port Elizabeth"
+        },
+        {
+          "name": "East London",
+          "canonical": "East London"
+        },
+        {
+          "name": "Mdantsane",
+          "canonical": "Mdantsane"
+        },
+        {
+          "name": "Durban",
+          "canonical": "Durban"
+        },
+        {
+          "name": "Umlazi",
+          "canonical": "Umlazi"
+        },
+        {
+          "name": "Berea",
+          "canonical": "Berea"
+        },
+        {
+          "name": "Ladybrand",
+          "canonical": "Ladybrand"
+        },
+        {
+          "name": "Sharpeville",
+          "canonical": "Sharpeville"
+        },
+        {
+          "name": "King Williams Town",
+          "canonical": "King William's Town"
+        },
+        {
+          "name": "Pretoria",
+          "canonical": "Pretoria"
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Black People's Convention (BPC)",
+          "canonical": "Black People's Convention (BPC)"
+        },
+        {
+          "name": "Soweto Committee of Ten",
+          "canonical": "Soweto Committee of Ten"
+        },
+        {
+          "name": "Daily Dispatch",
+          "canonical": "Daily Dispatch"
+        },
+        {
+          "name": "Umlazi Residents Association",
+          "canonical": "Umlazi Residents Association"
+        },
+        {
+          "name": "Zimele Trust Fund",
+          "canonical": "Zimele Trust Fund"
+        },
+        {
+          "name": "SASO",
+          "canonical": "South African Students' Organisation (SASO)"
+        }
+      ],
+      "url_slug": "other-detentions"
+    },
+    {
+      "section_id": "inquests-detainees",
+      "section_type": "article",
+      "title": "Inquests - Detainees",
+      "summary": "Report on inquests into the deaths of detainees.",
+      "body": "MAZWEMBE: Suicide verdict recorded on 8 September (see FOCUS 12 p.12). Evidence was given by Lt. M.L. Sekame, one of the policemen who arrested Mazwembe. Sekame said Mazwembe worked for the Western Province Workers Advice Bureau which was thought to be engaged in underground activities. Sekame has since been made deputy Police Commissioner in BophuthaTswana. (RDM 9.9.77)\n\nMABIJA: Suicide verdict recorded in early September. Cause of death was given as multiple injuries following jump from sixth floor window; no one else was responsible (see FOCUS 12 p.12). At the inquest police claimed that Mabija led a double life as a church worker and underground activist as a member of the ANC. The head of the Security Police in the Northern Cape read from an alleged ANC pamphlet urging detainees to commit suicide. (W 11.9.77)\n\nNTSHUNTSHA: Verdict - death by hanging, probably suicide; no one else responsible. Lt. Piet Kruger of Springs Security Police said he had interrogated Ntshuntsha who, he said, was not unwilling to talk. Questioning began on 6 January and apparently continued for three days. Ntshuntsha was then moved to Leandra in the Eastern Transvaal where he died on 9 January. The body was taken back to Springs, where it was apparently tampered with, and then to Johannesburg where it was examined by an eminent state pathologist, Prof. van Jaarsveld (name later given as J.J.F. Taljaard), who found that the head had already been opened with an incision behind the ear, and another incision 28 cm long, roughly stitched, on the abdomen. The pathologist also found several abrasions, on the left temple and in both ears, which he said could have been caused electrically or 'by impression', but had not been the cause of death, which he gave as hanging. There was a 2 cm mark on the neck. At the inquest, which closed on 5 October, the family's legal representative pressed for a verdict of 'death by hanging in inexplicable circumstances'. (RDM 16.9.77, 6.10.77).",
+      "page_start": 5,
+      "page_end": 5,
+      "people": [
+        {
+          "name": "M.L. Sekame",
+          "canonical": "M.L. Sekame"
+        },
+        {
+          "name": "Piet Kruger",
+          "canonical": "Piet Kruger"
+        },
+        {
+          "name": "van Jaarsveld",
+          "canonical": "van Jaarsveld"
+        },
+        {
+          "name": "J.J.F. Taljaard",
+          "canonical": "J.J.F. Taljaard"
+        }
+      ],
+      "places": [
+        {
+          "name": "BophuthaTswana",
+          "canonical": "Bophuthatswana"
+        },
+        {
+          "name": "Northern Cape",
+          "canonical": "Northern Cape"
+        },
+        {
+          "name": "Springs",
+          "canonical": "Springs"
+        },
+        {
+          "name": "Leandra",
+          "canonical": "Leandra"
+        },
+        {
+          "name": "Eastern Transvaal",
+          "canonical": "Eastern Transvaal"
+        },
+        {
+          "name": "Johannesburg",
+          "canonical": "Johannesburg"
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Western Province Workers Advice Bureau",
+          "canonical": "Western Province Workers Advice Bureau"
+        },
+        {
+          "name": "ANC",
+          "canonical": "African National Congress (ANC)"
+        }
+      ],
+      "url_slug": "inquests-detainees"
+    },
+    {
+      "section_id": "newspapers-banned",
+      "section_type": "article",
+      "title": "Newspapers Banned",
+      "summary": "Report on the banning of the World and Weekend World newspapers.",
+      "body": "As part of the clampdown in South Africa on 19 October, two newspapers - the Johannesburg based World and Weekend World - were banned. Although staffed by blacks and with a predominantly black readership, the sister newspapers were in fact owned largely by the Argus Company. At the same time the editors of both papers were detained under the Internal Security Act. (RDM 20.10.77)\n\nBoth papers had played a leading role in supporting the 'Committee of Ten' (see under preventive detention) in campaigning for the modernisation of Soweto, the scrapping of Bantu Education and against the Bantustan system.",
+      "page_start": 5,
+      "page_end": 5,
+      "people": [],
+      "places": [
+        {
+          "name": "Johannesburg",
+          "canonical": "Johannesburg"
+        },
+        {
+          "name": "Soweto",
+          "canonical": "Soweto"
+        }
+      ],
+      "organizations": [
+        {
+          "name": "World",
+          "canonical": "World"
+        },
+        {
+          "name": "Weekend World",
+          "canonical": "Weekend World"
+        },
+        {
+          "name": "Argus Company",
+          "canonical": "Argus Company"
+        },
+        {
+          "name": "Committee of Ten",
+          "canonical": "Soweto Committee of Ten"
+        }
+      ],
+      "url_slug": "newspapers-banned"
+    },
+    {
+      "section_id": "political-trials",
+      "section_type": "article",
+      "title": "Political Trials",
+      "summary": "Report on various political trials in South Africa.",
+      "body": "TRANSKEI FIVE CONVICTED\nFive men accused in the Transkei under the Suppression of Communism Act (see FOCUS 8 p.8, 10 p.15, 11 p.3) were convicted early in September.\n\nDumisa NTSEBEZA, 27, Lungisile NTSEBEZA, 23, Meluxolo SILINGA, 23 and Matthew GONIWE, 30, were each jailed for four years and Michael MGOBOZI, 23, was sentenced to two years, suspended by the judge on the grounds that he had played a minor role in the conspiracy.\n\nDuring his 15 months in detention, Matthew Goniwe contracted spinal tuberculosis and came to court on crutches. Dismissing a plea for mitigation on medical grounds, the judge said the required treatment could be obtained in Umtata prison. (W 4.9.77)\n\nCHRISTMAS TINTO CONVICTED\nIn August a former member of the ANC appeared in court charged with an offence under the Internal Security Act. Christmas TINTO, 52, of Guguletu, Cape Town, was alleged to have encouraged students to go for military training to further the aims of the ANC and other banned organisations. At the time of his arrest he was president of the Western Province Soccer Board.\n\nNo state witnesses were identified in court. One student described meetings at Tinto's home in January and February this year, at one of which, she said, Tinto had told the group of his membership of an ANC cell, which was said to include Elijah Loza, the detainee who died in Tygerberg Hospital on 2 August, and who was detained in May, as was Tinto. Other witnesses claimed that Tinto had told them of ANC activity in the 1960s and later, offering to help the students if they wished to go abroad for military training. (CT 17/18/19/20.8.77)\n\nIn defence Tinto said he had been an ANC member until its banning in 1960, but was no longer; on request, he had given the students a brief history of the ANC from 1912–60. He denied having spoken of possible routes out of South Africa for military training and said he had advised the students to return to school. Their evidence was untrue.\n\nThe court found Tinto guilty and sentenced him to seven years imprisonment. (CT 13/14/15.9.77)\n\nLINDIWE SISULU\nLindiwe Sisulu, daughter of ANC leader Walter Sisulu, serving a life sentence on Robben Island, has been released from detention after eleven months. Miss Sisulu (23) was detained last June, just before the uprising and held for 329 days in solitary confinement. (CT 11.5.77)\n\nMARITZBURG TEN\nWITNESS CONVICTED\nMdelwa Franz KUNENE, 31, a witness in the case of the ten ANC men concluded in Pietermaritzburg in July (see FOCUS Nos. 6–12) was jailed for six months after being convicted of perjury on 2 September.\n\nKunene, who was recalled by the defence to say that previous evidence he had given was untrue (see FOCUS 10 p. 15) repeated this statement in his own trial. He had been told what to say by the police and had received R125 for doing so. The judge said it was impossible to tell which of Kunene's statements had been false. (NW 19/20.8.77, 3.9.77)\n\nAPPEAL\nTwo of those convicted in the main trial, Joseph Nduli (sentenced to 18 years) and Cleopas Ndhlovu (15 years) appealed against the judgement in September on the grounds that they had been unlawfully arrested in Swaziland. (see FOCUS 6 p.5) On 7 September judgement was reserved. (RDM 8.9.77)\n\nPOLICE WITNESS KILLED\nFollowing the trial a security policeman, Det. Sgt. Leonard Nkosi, who had given evidence for the state, was shot dead at his home by unknown assailants, in what was reported to be a political assassination. He was killed by bullets from a Scorpion machine pistol fired through his bedroom window. (D. Tel. 13.9.77)\n\nNkosi, who left South Africa in 1963 and undertook political and military training abroad, was caught by Rhodesian security forces while making his way back to South Africa as a guerilla fighter. He 'changed sides' after his arrest and joined the South African security police in 1970; thereafter he gave evidence in several Terrorism Act trials, including that of the Maritzburg Ten. (RDM 12.9.77)\n\nTHREE ACQUITTED\nGarnet Themba MLANGENI, 33, Paul Nphiheni FAKUDA, 33, and Mpho Vincent MASHININI, 17, all accused of recruiting others to go for military training (see FOCUS 12 p. 10) were on 30 August acquitted of all charges, on the grounds that Mashinini's evidence, given in camera after six months in solitary confinement, was contradictory and unreliable. The evidence of his mother and another woman was held to be insufficient. Mrs. Mashinini had told the court of visiting the PAC headquarters in Swaziland to see a younger son who was going abroad for education.\n\nDuring the trial three state witnesses who told the court their police statements were false were arrested and charged with perjury. They were William Tshimong, 20, Johannes Ramolhabi, 19, and Francesco Ntwe, 21. Tshimong said he had made a statement regarding Mashinini's part in the school boycott of Afrikaans, and been forced to add that Mashinini had urged him to go abroad for military training. Seized by security police as he left the witness box, Tshimong was dragged from the court screaming for help, saying the police would beat him up. Defence counsel intervened but he was arrested nevertheless. (CT 23/24.8.77; W 23/25/30.8.77, 1/4.9.77; RDM 25/26/31.8.77, 1.9.77)\n\nJAILED FOR WRITING LETTER\nA 17 year old youth whose name was not given in the press was jailed for five years under the Terrorism Act in Bloemfontein regional court on 22 September.\n\nThe case arose from 'inflammatory statements' said to have been mailed to the secretary of the Tswana School Board in Bloemfontein earlier in the month. Pleading not guilty, the accused said two other youths had forced him to write the letter. (CT 23.9.77)\n\nMSITSHANA CONVICTED\nSelf-styled Soweto 'rabbi', V.J. Msitshana (see FOCUS 12 p.11) was on 30 September convicted of producing and distributing an inflammatory pamphlet urging attacks on government property during last year's uprising, and sentenced to five years under the Terrorism Act.\n\nIn evidence Msitshana, a former policeman, who admitted praying for the government in his 'services', said that he was regarded as a collaborator and informer by the Soweto students. He had written the pamphlet because he had been threatened and because of a 'divine command' in a dream. On conviction he blessed the court. (W 23.8.77, 1.9.77; RDM 26/31.8.77)\n\nPRETORIA TWELVE\nAt the end of September the state closed its case against the eleven men and one woman accused of ANC organisation and sabotage activities (see FOCUS 11 p.1, 12 p.9) after having called a large number of witnesses.\n\nThree men, Super Maloi, Matheson Morove and Billy Masethla, refused to give evidence and were jailed for six months (RDM 22/29.9.77). Another witness, Newton Mosime, retracted the evidence he had given against Michael Ngubeni, one of the accused, saying his original statement had been made after assaults in Rustenburg police station (RDM 24/25.8.77). Alec Nchabaleng refused to give evidence against his father; access to a lawyer was allowed (RDM 24.8.77).\n\nAn application for the discharge of accused Paulina Mohale on the grounds that the evidence against her was inadequate was rejected by the court.\n\nFour youths gave evidence that accused Simon Mohlanyeng had explained the underground structure of the ANC and encouraged young people to go abroad for training. (RDM 4/9.8.77; CT 11.8.77; W 12.8.77). Three other youths and Antoinette Ngubeni gave evidence against Michael Ngubeni, who was said to have spoken about recruiting and sabotage in Rustenburg, where he was restricted (RDM 24/25/26/28.8.77). Three men gave evidence against accused Nelson Diale, including his father, who said Diale had spoken of recruiting in Sekhukhuniland in December 1976. He was also said to have offered recruits R20 per day. (RDM 24/27.8.77; W 30.8.77).\n\nEvidence against accused Jacob Seatlholo was given by Freddie Motaung, who had a previous conviction as a habitual criminal and was said to have been given a bagful of chemicals by Seatlholo. Arms and ammunition were later found hidden in Motaung's garden in Alexandra township. Similar evidence was given by police witnesses, who said Seatlholo's fingerprints had been found on explosives containers. Seatlholo was also said to have revealed the location of the arms cache. (W 10.8.77, 8.9.77).\n\nFingerprints of accused Lele Motaung were said to have been found on the same containers, and he was alleged to have taken police to a house in Alexandra where 255 pamphlets entitled 'A Message to the Workers from the South African Communist Party' were found. A former prison warder, Thompson Mbutu, who claimed to have been held by Frelimo in Mozambique on suspicion of being a BOSS spy, said he had met Motaung in Maputo and been asked to go for military training. He also claimed to have met Elias Masinga (accused) in Mozambique, who told him that he was a member of the ANC. In cross examination Mbutu denied being a spy or having said he was interested in military training. (RDM 2/3/8.9.77).\n\nPolice witnesses gave evidence of accompanying Motaung to a house at Jonathan near Pretoria where 104 bullets and grenade components were found. The house was said to be a hiding place used by the accused Motaung, Sexwale and Mohlanyeng. Police also told of the discovery of an arms cache in Sekhukhuniland in Mohlanyeng's presence (RDM 10.0.77).\n\nEvidence was given of pamphlets entitled 'Spear of the Nation: the war is on' and other documents having been found at accused Joe Gqabi's home in Soweto. A state witness against Gqabi was Abel Mtembo, who said he had been trained in China with Gqabi in the early 1960s. Mtembo gave evidence in the Rivonia and other trials; defence counsel recalled that his evidence had been rejected as unreliable in the 1965 trial when Stephen Naidoo was acquitted (RDM 1/9.9.77).\n\nGeorgina Mhlabane was warned as an accomplice when she gave evidence against Sexwale, Motaung, Mohlanyeng and Tsiki, of plans to go to Swaziland to collect guns (RDM 1.9.77).\n\nThe two policemen injured in the explosion in a land-rover on the border on 30 November also gave evidence, identifying Sexwale as one of the four men involved. Evidence against Sexwale was also given by Jacob Seatlholo's disabled younger brother (W 12.8.77; RDM 20.9.77).\n\nAfter the state case closed, defence counsel submitted admissions on behalf of Mosima Sexwale, who admitted leaving South Africa for training and being involved in the land-rover attack; and of Naledi Tsiki, who admitted leaving South Africa and participating in a sabotage incident in the Pretoria-Pietersburg railway line in October 1976. The defence also accepted expert evidence that some of the weapons of communist origin captured by police were superior to those used by the South African Defence Force. (RDM 29.9.77)\n\nSPRINGS SIX\nIn the trial in Springs Special Court of six men accused of offences relating to the possession of arms and explosives following the explosion in a Soweto 'bomb factory' (see FOCUS 12 p.10) evidence was given by two men who were in the house at the time of the explosion.\n\nLazarus Ndlovu said he had joined the ANC in October 1976 following the funeral of a relative killed in the uprising. He had later been invited to join a group because of his skills in welding and radio repairing. The evening of the explosion (7 January - see FOCUS 9 p.10) he and three others, named as John Phala (accused), Sipho Nhlapo and Elmon Malele, who was arrested after the explosion and died in police custody (see FOCUS 9 p.8) went and fixed a small bomb to the Johannesburg-Vereniging railway line. Later, in a Klipspruit house, he said Patrick Mabinda was giving instructions and Edmund Nkuna was wiring a bomb when the explosion occurred. The blast killed Nkuna and injured Ndlovu, who was arrested at Baragwanath Hospital.\n\nSolomon Ngubane also gave evidence to the effect that he was injured in the explosion and arrested at Baragwanath. Taken first to Johannesburg Fort and then to Pretoria prison, he was returned to John Vorster Square to make a statement, where he found Mabinda and Phala on the 10th floor. Later Mabinda, who was described by the prosecution as a 'trained terrorist' and said to be the leader of the group, escaped from custody and fled to Tanzania. (see FOCUS 10 p.12, 11 p.5)\n\nEarlier two other men gave evidence against John Thabo, describing how they had been invited to join a group meeting in Thabo's room at Nancefield Hostel where 'military training' was given on Saturdays. On one occasion Mabinda allegedly demonstrated how to assemble a bomb using a watch, battery, detonator and TNT. Mabinda was said to have claimed that the bombs were intended to 'cripple the economy'.\n\nLt. Adam described how an automatic rifle, grenades and another gun were discovered in a false-bottomed suitcase in a house in Mapetale, and grenades and detonators in a shopping bag in a house in Dube. The ANC picture story book 'Simon and Jane' was discovered in Thabo's home in Sibasa; he explained that he had found it in Nancefield and taken it home to give to his children at Christmas. (W 11/14.8.77; RDM 23/24/25/26/31.8.77, 1/8.9.77, 6.10.77)\n\nCANZI LIYA\nCanzi Liya, 27, of Soweto, appeared in the Johannesburg Magistrate's Court on 24 October, on charges under the Terrorism and Sabotage Acts.\n\nThe State alleged that between June 1 and June 16 1977, the accused committed acts in Johannesburg, Kagiso and Langlaagte with the intention of disrupting law and order. It was also alleged that he possessed explosives, firearms and ammunition - 200 g. TNT blocks, a Makarov 9mm automatic pistol and two Makarov magazines with bullets.\n\nJoseph Thabiso Koetle and Sidumo Nobanda, who were not before the court, were named as accomplices. It was alleged that Liya and Nobanda went to Langlaagte station at night and attached the explosives to a railway truck containing fuel. After this they are alleged to have sent a telegram to the ANC in Botswana, saying: \"The baby was well but not sure of its health as yet\".\n\nThe hearing was postponed to October 28 after the prosecutor said Liya was no longer being detained under Section 6 of the Terrorism Act. (RDM 25.10.77)\n\nNKABINDE AND SIMELANE\nTwo students from Mamelodi, Pretoria, appeared in court at the end of August charged under the Terrorism Act with attempting to leave the country for military training between May and August 1976.\n\nAndrew Amos NKABINDE, 19, and Simon Zenzele SIMELANE, 21, both former pupils at Vlakfontein Technical High School and alleged members of Mamelodi Students Representative Council, were said to have asked two teachers to help them leave the country. Both accused denied the charges. (RDM 25/26/27.8.77)\n\nMASUKU AND NKOSI\nIn September two men appeared in Pretoria magistrates court charged with receiving training in urban warfare and sabotage outside South Africa, and with possessing firearms and explosives.\n\nThomas MASUKU, 27, and Themba Stephen NKOSI, 19, pleaded guilty to the charges, saying they had been trained in Mozambique and Angola. Masuku told the court he had been trained in Angola to destroy bridges and railway lines, Nkosi said he was trained in Mozambique and returned to South Africa to 'support the riots'.\n\nA third man, Richard Siphu CHAUKE, 25, pleaded not guilty to a charge of incitement. (RDM 15.9.77; BBC 17.9.77)\n\nPULE, MHLEKWA AND GXEKWA\nOn 19 September three men appeared briefly in Pietermaritzburg Magistrates Court charged under the Terrorism Act.\n\nStanley Thabo PULE, Isaac Nontsenwana MHLEKWA, and Nogaga Morgan GXEKWA were charged with having returned from abroad. Pule and Mhlekwa were further charged with attempting to train people in 'terrorist activities' in northern Zululand in 1975 and 1976. (NW 20.9.77)\n\nIn a statement of agreed facts, submitted to the court, defence counsel said that if the men were apprehended outside SA's border the court did not have the jurisdiction to try them. For this reason it was necessary to establish where, when and by whom they were apprehended. The prosecutor said that it was irrelevant whether the men were arrested within SA or outside. Their mere presence before the court gave the right to try them. (W 18.10.77)\n\nOn 20 October trial was adjourned to 31 October to allow counsel for the state to examine the jurisdiction of the court to try the men. (Star 21.10.77)\n\nGOCH ST. TRIAL\nMundy Johannes MOTLOUNG, 20, of Nigel, and Solomon MAHLANGU, 21, of Mamelodi, Pretoria, appeared in court on 23 September charged with murder, allegedly in connexion with the shooting in Goch St. Johannesburg on 13 June when three black men were apparently surprised in the street and entered a warehouse with guns and hand grenades. Two white men were killed and two injured.\n\nMotloung and Mahlangu pleaded not guilty and refused to answer questions. They were not legally represented until their next appearance in court on 26 September when their lawyers explained that they had been unable to consult with their clients as they were being held under Section 6 of the Terrorism Act and had only known of the court appearance through press reports.\n\nThe indictment consists of two murder charges, relating to the deaths in the warehouse, two of attempted murder, relating to the injured men in the same incident and five charges of terrorist activities. These charges allege that the two men are active supporters of the ANC who left South Africa for training, which took place in Mozambique, Angola and/or Swaziland. Between 11 and 13 June they were said to be in unlawful possession of explosives and arms at Middelburg, Nigel, Springs, Germiston, Natalspruit and Johannesburg. The explosives consisted of homemade bombs hidden in tins and boxes of food, soap, insecticide etc. A Scorpion Vizor 61 Automatic pistol and handgrenade had been used in the Goch St. shootings. (RDM 24/27.9.77)",
+      "page_start": 6,
+      "page_end": 8,
+      "people": [
+        {
+          "name": "Dumisa NTSEBEZA",
+          "canonical": "Dumisa Ntsebeza"
+        },
+        {
+          "name": "Lungisile NTSEBEZA",
+          "canonical": "Lungisile Ntsebeza"
+        },
+        {
+          "name": "Meluxolo SILINGA",
+          "canonical": "Meluxolo Silinga"
+        },
+        {
+          "name": "Matthew GONIWE",
+          "canonical": "Matthew Goniwe"
+        },
+        {
+          "name": "Michael MGOBOZI",
+          "canonical": "Michael Mgobozi"
+        },
+        {
+          "name": "Christmas TINTO",
+          "canonical": "Christmas Tinto"
+        },
+        {
+          "name": "Elijah Loza",
+          "canonical": "Elijah Loza"
+        },
+        {
+          "name": "Lindiwe Sisulu",
+          "canonical": "Lindiwe Sisulu"
+        },
+        {
+          "name": "Walter Sisulu",
+          "canonical": "Walter Sisulu"
+        },
+        {
+          "name": "Mdelwa Franz KUNENE",
+          "canonical": "Mdelwa Franz Kunene"
+        },
+        {
+          "name": "Joseph Nduli",
+          "canonical": "Joseph Nduli"
+        },
+        {
+          "name": "Cleopas Ndhlovu",
+          "canonical": "Cleopas Ndhlovu"
+        },
+        {
+          "name": "Leonard Nkosi",
+          "canonical": "Leonard Nkosi"
+        },
+        {
+          "name": "Garnet Themba MLANGENI",
+          "canonical": "Garnet Themba Mlangeni"
+        },
+        {
+          "name": "Paul Nphiheni FAKUDA",
+          "canonical": "Paul Nphiheni Fakuda"
+        },
+        {
+          "name": "Mpho Vincent MASHININI",
+          "canonical": "Mpho Vincent Mashinini"
+        },
+        {
+          "name": "William Tshimong",
+          "canonical": "William Tshimong"
+        },
+        {
+          "name": "Johannes Ramolhabi",
+          "canonical": "Johannes Ramolhabi"
+        },
+        {
+          "name": "Francesco Ntwe",
+          "canonical": "Francesco Ntwe"
+        },
+        {
+          "name": "V.J. Msitshana",
+          "canonical": "V.J. Msitshana"
+        },
+        {
+          "name": "Super Maloi",
+          "canonical": "Super Maloi"
+        },
+        {
+          "name": "Matheson Morove",
+          "canonical": "Matheson Morove"
+        },
+        {
+          "name": "Billy Masethla",
+          "canonical": "Billy Masethla"
+        },
+        {
+          "name": "Newton Mosime",
+          "canonical": "Newton Mosime"
+        },
+        {
+          "name": "Michael Ngubeni",
+          "canonical": "Michael Ngubeni"
+        },
+        {
+          "name": "Alec Nchabaleng",
+          "canonical": "Alec Nchabaleng"
+        },
+        {
+          "name": "Paulina Mohale",
+          "canonical": "Paulina Mohale"
+        },
+        {
+          "name": "Simon Mohlanyeng",
+          "canonical": "Simon Mohlanyeng"
+        },
+        {
+          "name": "Antoinette Ngubeni",
+          "canonical": "Antoinette Ngubeni"
+        },
+        {
+          "name": "Nelson Diale",
+          "canonical": "Nelson Diale"
+        },
+        {
+          "name": "Jacob Seatlholo",
+          "canonical": "Jacob Seatlholo"
+        },
+        {
+          "name": "Freddie Motaung",
+          "canonical": "Freddie Motaung"
+        },
+        {
+          "name": "Lele Motaung",
+          "canonical": "Lele Motaung"
+        },
+        {
+          "name": "Thompson Mbutu",
+          "canonical": "Thompson Mbutu"
+        },
+        {
+          "name": "Elias Masinga",
+          "canonical": "Elias Masinga"
+        },
+        {
+          "name": "Sexwale",
+          "canonical": "Mosima Sexwale"
+        },
+        {
+          "name": "Joe Gqabi",
+          "canonical": "Joe Gqabi"
+        },
+        {
+          "name": "Abel Mtembo",
+          "canonical": "Abel Mtembo"
+        },
+        {
+          "name": "Stephen Naidoo",
+          "canonical": "Stephen Naidoo"
+        },
+        {
+          "name": "Georgina Mhlabane",
+          "canonical": "Georgina Mhlabane"
+        },
+        {
+          "name": "Naledi Tsiki",
+          "canonical": "Naledi Tsiki"
+        },
+        {
+          "name": "Lazarus Ndlovu",
+          "canonical": "Lazarus Ndlovu"
+        },
+        {
+          "name": "John Phala",
+          "canonical": "John Phala"
+        },
+        {
+          "name": "Sipho Nhlapo",
+          "canonical": "Sipho Nhlapo"
+        },
+        {
+          "name": "Elmon Malele",
+          "canonical": "Elmon Malele"
+        },
+        {
+          "name": "Patrick Mabinda",
+          "canonical": "Patrick Mabinda"
+        },
+        {
+          "name": "Edmund Nkuna",
+          "canonical": "Edmund Nkuna"
+        },
+        {
+          "name": "Solomon Ngubane",
+          "canonical": "Solomon Ngubane"
+        },
+        {
+          "name": "John Thabo",
+          "canonical": "John Thabo"
+        },
+        {
+          "name": "Canzi Liya",
+          "canonical": "Canzi Liya"
+        },
+        {
+          "name": "Joseph Thabiso Koetle",
+          "canonical": "Joseph Thabiso Koetle"
+        },
+        {
+          "name": "Sidumo Nobanda",
+          "canonical": "Sidumo Nobanda"
+        },
+        {
+          "name": "Andrew Amos NKABINDE",
+          "canonical": "Andrew Amos Nkabinde"
+        },
+        {
+          "name": "Simon Zenzele SIMELANE",
+          "canonical": "Simon Zenzele Simelane"
+        },
+        {
+          "name": "Thomas MASUKU",
+          "canonical": "Thomas Masuku"
+        },
+        {
+          "name": "Themba Stephen NKOSI",
+          "canonical": "Themba Stephen Nkosi"
+        },
+        {
+          "name": "Richard Siphu CHAUKE",
+          "canonical": "Richard Siphu Chauke"
+        },
+        {
+          "name": "Stanley Thabo PULE",
+          "canonical": "Stanley Thabo Pule"
+        },
+        {
+          "name": "Isaac Nontsenwana MHLEKWA",
+          "canonical": "Isaac Nontsenwana Mhlekwa"
+        },
+        {
+          "name": "Nogaga Morgan GXEKWA",
+          "canonical": "Nogaga Morgan Gxekwa"
+        },
+        {
+          "name": "Mundy Johannes MOTLOUNG",
+          "canonical": "Mundy Johannes Motloung"
+        },
+        {
+          "name": "Solomon MAHLANGU",
+          "canonical": "Solomon Mahlangu"
+        }
+      ],
+      "places": [
+        {
+          "name": "Transkei",
+          "canonical": "Transkei"
+        },
+        {
+          "name": "Umtata",
+          "canonical": "Umtata"
+        },
+        {
+          "name": "Guguletu",
+          "canonical": "Guguletu"
+        },
+        {
+          "name": "Cape Town",
+          "canonical": "Cape Town"
+        },
+        {
+          "name": "Robben Island",
+          "canonical": "Robben Island"
+        },
+        {
+          "name": "Pietermaritzburg",
+          "canonical": "Pietermaritzburg"
+        },
+        {
+          "name": "Swaziland",
+          "canonical": "Swaziland"
+        },
+        {
+          "name": "Bloemfontein",
+          "canonical": "Bloemfontein"
+        },
+        {
+          "name": "Soweto",
+          "canonical": "Soweto"
+        },
+        {
+          "name": "Rustenburg",
+          "canonical": "Rustenburg"
+        },
+        {
+          "name": "Sekhukhuniland",
+          "canonical": "Sekhukhuniland"
+        },
+        {
+          "name": "Alexandra",
+          "canonical": "Alexandra"
+        },
+        {
+          "name": "Pretoria",
+          "canonical": "Pretoria"
+        },
+        {
+          "name": "Jonathan",
+          "canonical": null
+        },
+        {
+          "name": "China",
+          "canonical": "China"
+        },
+        {
+          "name": "Springs",
+          "canonical": "Springs"
+        },
+        {
+          "name": "Johannesburg",
+          "canonical": "Johannesburg"
+        },
+        {
+          "name": "Kagiso",
+          "canonical": "Kagiso"
+        },
+        {
+          "name": "Langlaagte",
+          "canonical": "Langlaagte"
+        },
+        {
+          "name": "Botswana",
+          "canonical": "Botswana"
+        },
+        {
+          "name": "Mamelodi",
+          "canonical": "Mamelodi"
+        },
+        {
+          "name": "Mozambique",
+          "canonical": "Mozambique"
+        },
+        {
+          "name": "Angola",
+          "canonical": "Angola"
+        },
+        {
+          "name": "Zululand",
+          "canonical": "Zululand"
+        },
+        {
+          "name": "Nigel",
+          "canonical": "Nigel"
+        },
+        {
+          "name": "Middelburg",
+          "canonical": "Middelburg"
+        },
+        {
+          "name": "Germiston",
+          "canonical": "Germiston"
+        },
+        {
+          "name": "Natalspruit",
+          "canonical": "Natalspruit"
+        }
+      ],
+      "organizations": [
+        {
+          "name": "ANC",
+          "canonical": "African National Congress (ANC)"
+        },
+        {
+          "name": "Western Province Soccer Board",
+          "canonical": "Western Province Soccer Board"
+        },
+        {
+          "name": "Tygerberg Hospital",
+          "canonical": "Tygerberg Hospital"
+        },
+        {
+          "name": "PAC",
+          "canonical": "Pan-Africanist Congress (PAC)"
+        },
+        {
+          "name": "Tswana School Board",
+          "canonical": "Tswana School Board"
+        },
+        {
+          "name": "South African Communist Party",
+          "canonical": "South African Communist Party"
+        },
+        {
+          "name": "Frelimo",
+          "canonical": "FRELIMO"
+        },
+        {
+          "name": "BOSS",
+          "canonical": "Bureau of State Security (BOSS)"
+        },
+        {
+          "name": "South African Defence Force",
+          "canonical": "South African Defence Force"
+        },
+        {
+          "name": "Mamelodi Students Representative Council",
+          "canonical": "Mamelodi Students Representative Council"
+        }
+      ],
+      "url_slug": "political-trials"
+    },
+    {
+      "section_id": "steve-biko",
+      "section_type": "article",
+      "title": "Steve Biko",
+      "summary": "Report on the death of Steve Biko in detention and the subsequent international and domestic reaction.",
+      "body": "Black Consciousness leader Steve BIKO, 30, died in detention on 12 September. His death brings the number of people known to have died in political detention to 24 since March 1976 and 46 since 1963.\n\nBiko was honorary president of the Black Peoples Convention (BPC) and a leading exponent of the Black Consciousness movement. He had suffered much official harassment although never found guilty in a court of law. In 1973 he was banned and restricted to King Williams Town in the Eastern Cape. In August 1976 he was detained and interned under the Internal Security Act for 101 days. Earlier this year he was charged twice, firstly for allegedly inciting students to commit perjury in a Grahamstown sabotage trial, for which he was acquitted on 13 July (see FOCUS 10 p.15, 12 p.10); and secondly for breaking his banning order with two other people in early July. Before this case was concluded Biko was detained on 19 August at a road block and held in Port Elizabeth, allegedly in connexion with pamphlets 'inciting arson and violence'.\n\nHis death was announced on 13 September. Justice Minister Kruger claimed Biko had begun a hunger strike on 5 September and had been medically examined five times between 7-9 September as he 'appeared unwell'. On the night of 11 September he was transferred 700 miles to Pretoria where he died on the following day. (RDM 14.9.77)\n\nA post-mortem was begun immediately although the pathologist engaged by the Biko family was only informed after the autopsy had begun. This was completed by 18 September and according to reports, the preliminary findings indicated brain damage, a finding supported by the appearance of Biko's head at the funeral parlour, where observers noted swelling and an injury to the forehead. These were later confirmed by photographs taken just before the funeral (RDM 19.9.77; Evening Standard 25.10.77). Other reports mentioned broken ribs and chest injuries. (RDM 20/30.9.77).\n\nMany commentators laid the blame for Biko's death on the security police, and there was widespread scepticism at the official explanations, which were in some cases contradictory. The African National Congress said on 15 September that Biko's death illustrated the apartheid regime's determination to pursue its savage method of executing political opponents without bringing them to trial (BBC 17.9.77) while the BPC said Biko had not died in vain. His death 'can only feed and fan the flame of liberation which cannot be extinguished by retribution forces'. (RDM 15.9.77)\n\nThe funeral took place at King Williams Town on 25 September, attended by many thousands of mourners. Twelve Western countries sent representatives: United States, Great Britain, West Germany, Sweden, Netherlands, Finland, Australia, Brazil, Belgium, Italy and France (RDM 24/26.9.77). In London a memorial service in St. Paul's Cathedral was conducted by Canon L. John Collins, president of International Defence and Aid Fund (MS 21.9.77)\n\nThere were several press reports, particularly by the East London Daily Dispatch, claiming that the post mortem had shown no signs of hunger strike, but evidence of injury to the head and ribcage (RDM 30.9.77). On 7 September the Rand Daily Mail published a report based on interviews with the doctors who examined Biko in Port Elizabeth, concluding that there had been much concern about his deteriorating condition in detention. A lumbar puncture was said to have been done, to determine the presence of brain damage. This led Kruger to complain to the Press Council, which issued a reprimand to the newspaper (RDM 7/8.10.77)\n\nThe official post mortem report, submitted to the Minister of Police on 24 October, found that death was caused by extensive brain damage resulting in a reduction of circulation to other organs, intravascular coagulation, acute renal failure and ureaemia. In addition there were other injuries. Not all were suffered at the same time: the damage occurred over a period of eight days before death, that is from 5 September when Biko was said to have begun his 'hunger strike'. From this it would appear that death occurred gradually following severe head injury. Although medically examined several times, there is no evidence that Biko received any medical treatment while in police custody. (T 26.10.77)",
+      "page_start": 8,
+      "page_end": 8,
+      "people": [
+        {
+          "name": "Steve BIKO",
+          "canonical": "Steve Biko"
+        },
+        {
+          "name": "Kruger",
+          "canonical": "Jimmy Kruger"
+        },
+        {
+          "name": "L. John Collins",
+          "canonical": "L. John Collins"
+        }
+      ],
+      "places": [
+        {
+          "name": "King Williams Town",
+          "canonical": "King William's Town"
+        },
+        {
+          "name": "Eastern Cape",
+          "canonical": "Eastern Cape"
+        },
+        {
+          "name": "Grahamstown",
+          "canonical": "Grahamstown"
+        },
+        {
+          "name": "Port Elizabeth",
+          "canonical": "Port Elizabeth"
+        },
+        {
+          "name": "Pretoria",
+          "canonical": "Pretoria"
+        },
+        {
+          "name": "London",
+          "canonical": "London"
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Black Peoples Convention (BPC)",
+          "canonical": "Black People's Convention (BPC)"
+        },
+        {
+          "name": "African National Congress",
+          "canonical": "African National Congress (ANC)"
+        },
+        {
+          "name": "International Defence and Aid Fund",
+          "canonical": "International Defence and Aid Fund (IDAF)"
+        },
+        {
+          "name": "Daily Dispatch",
+          "canonical": "Daily Dispatch"
+        },
+        {
+          "name": "Rand Daily Mail",
+          "canonical": "Rand Daily Mail"
+        },
+        {
+          "name": "Press Council",
+          "canonical": "Press Council"
+        }
+      ],
+      "url_slug": "steve-biko"
+    },
+    {
+      "section_id": "solidarity-with-political-prisoners",
+      "section_type": "article",
+      "title": "Solidarity with Political Prisoners",
+      "summary": "Report on the Day of Solidarity with South African Political Prisoners and an address by Canon L. John Collins.",
+      "body": "On 11 October, commemorated as the \"Day of Solidarity with South African Political Prisoners\", the President of International Defence and Aid Fund, Canon L. John Collins, was among those who addressed the United Nations Special Committee Against Apartheid, meeting in New York. Here we reproduce an extract from that address.\n\nRecalling that 11 October is the anniversary of the opening of the Rivonia trial in 1963, when Nelson Mandela and others of the ANC were sentenced to life imprisonment, Canon Collins went on to say:\n\n> \"It is the provision of humanitarian aid in the form of the best available legal assistance for those accused of political offences, as in the Rivonia trial, that has saved many of the liberators from death sentences, has given them an assurance of not being left alone in their struggle, and has played a significant part in exposing to the world the true nature of the tyranny of the apartheid regime. It is by provision of aid to the families and dependants of those who, in the course of their struggle against apartheid, are subjected to detention, to house arrest, to torture, to many other kinds of intimidation and hardship, and to death, that the morale of the Liberation Movements is preserved. And it is by the provision of an accurate account to the world of the facts concerning the white racialist regimes in Southern Africa, and as true an evaluation of the facts as can be assessed, that the conscience of the world can be stirred....\n\n> \"Armed struggle or no armed struggle, the need for humanitarian aid for the victims of white nationalist racial oppression in Southern Africa will persist till full freedom is achieved.\"",
+      "page_start": 8,
+      "page_end": 8,
+      "people": [
+        {
+          "name": "L. John Collins",
+          "canonical": "L. John Collins"
+        },
+        {
+          "name": "Nelson Mandela",
+          "canonical": "Nelson Mandela"
+        }
+      ],
+      "places": [
+        {
+          "name": "New York",
+          "canonical": "New York City"
+        }
+      ],
+      "organizations": [
+        {
+          "name": "International Defence and Aid Fund",
+          "canonical": "International Defence and Aid Fund (IDAF)"
+        },
+        {
+          "name": "United Nations Special Committee Against Apartheid",
+          "canonical": "United Nations Special Committee Against Apartheid"
+        },
+        {
+          "name": "ANC",
+          "canonical": "African National Congress (ANC)"
+        }
+      ],
+      "url_slug": "solidarity-with-political-prisoners"
+    },
+    {
+      "section_id": "rhodesian-security-forces",
+      "section_type": "article",
+      "title": "Guardians of White Power: The Rhodesian Security Forces",
+      "summary": "Analysis of the Rhodesian security forces and their role in the context of settlement proposals.",
+      "body": "Under the latest Anglo-American proposals for a settlement in Zimbabwe, published in the form of a White Paper by the British government and presented to the Rhodesian Front on 1 September 1977, the Smith regime's existing security forces would be retained substantially intact during the transitional period preceding full independence. Such a suggestion, however, stands very little chance of being accepted by the Zimbabwean liberation movement and indeed has been strongly criticised by the leadership of the Patriotic Front. There is abundant evidence that the character, composition and mode of operation of the Rhodesian armed forces, as these have developed in the colonial situation and in response to more than a decade of armed struggle, are sources of fear and deeply rooted suspicion among the vast majority of the African people. Both police and army have been used consistently over many years to enforce the mass of racial and discriminatory legislation introduced by successive white minority governments and to suppress African resistance to colonial rule, both peaceful and in the form of the armed liberation struggle.\n\nThe settlement proposals are based upon the assumption that the Smith regime can be persuaded to surrender power peacefully. Zimbabwe would then enter into a transitional phase under the legislative and administrative control of a British Resident Commissioner, assisted by a Special Representative of the United Nations. During this transition, \"the primary responsibility for the maintenance of law and order . . . will lie with the police forces\". The existing structure of the British South Africa Police would remain, with the exception of the Commissioner, who would be replaced by a new commissioner appointed by and responsible to the British Resident Commissioner. (\"Rhodesia - Proposals for a Settlement\", Cmnd. 6919 September 1977 Paragraph 11 (d))\n\nThe White Paper itself has relatively little to say about the precise status of the existing Rhodesian army and airforce during the transition period. According to Annex B paragraph 5, the British Resident Commissioner would during this time \"be the Commander-in-Chief of all armed forces which may be lawfully operating in Southern Rhodesia,\" with the exception of a United Nations Zimbabwe Force which it is proposed should be stationed in the country to supervise the ceasefire contingent upon the start of the transition. Further details were contained in a supplementary statement on law and order, issued in Salisbury by the British Foreign Secretary, Dr. David Owen, immediately after the White Paper had been handed to the regime. According to this document, the Resident Commissioner on taking office would \"at once appoint new officers to any key posts in the Rhodesian Army and the Rhodesian Air Force which are thought to be appropriate\" and \"will give instructions for the disbanding of certain units such as the Selous Scouts\". \"In addition urgent steps will be taken to arrange for the discharge of those non-Rhodesians who have entered Rhodesia in order to join the Rhodesian defence forces\" — a reference to overseas mercenary recruits who have not yet presumably taken out Rhodesian citizenship. In themselves these proposals do not necessarily imply any major changes in the regime's army and airforce, and assume that existing personnel would honour a new oath of loyalty to the interim administration. (SM 4.9.77)\n\nIt is also clear from the British White Paper that the regime's civil servants including officials of the Ministry of Internal Affairs (heavily involved in the maintenance of 'law and order' in the Tribal Trust Lands and responsible, in collaboration with the Ministry of Defence, for the carrying out the protected and consolidated villages programme) would retain their positions during the transitional period. The judiciary, likewise, would be retained with the exception of the present Chief Justice. (Cmnd. 6919, Annex B paragraphs 11 and 15).\n\nAccording to The International Institute for Strategic Studies in London, the Smith regime's armed forces have a potential strength of 111,500 men and women. Not all of these are in practice mobilised at any one time. The armed forces are made up as follows:\n\nArmy - regulars 5,000\nconscripts (full-time national servicemen) 3,250\nTerritorial Force (of which about 15,000 are called up for service at any one time) 55,000\nReserve Holding Unit (men over 38) 3,000\nAir Force 1,300\nBritish South Africa Police regulars 8,000\nreservists 35,000\nGuard Force (responsible for defence of protected villages) 1,000\nTotal: 111,550\n\n\"(The Military Balance 1977-1978\", IISS)\nEmployees of the Ministry of Internal Affairs, who do not feature in the above table, are nevertheless armed. \"Administrative reinforcement units\", introduced by the regime in June 1977 to restore order in areas where local African councils and chiefs have been attacked by guerillas, are fully trained in counter insurgency techniques. (see FOCUS 12 p.6; BBC 3.10.77).",
+      "page_start": 9,
+      "page_end": 9,
+      "people": [
+        {
+          "name": "David Owen",
+          "canonical": "David Owen"
+        }
+      ],
+      "places": [
+        {
+          "name": "Zimbabwe",
+          "canonical": "Zimbabwe"
+        },
+        {
+          "name": "Southern Rhodesia",
+          "canonical": "Zimbabwe"
+        },
+        {
+          "name": "Salisbury",
+          "canonical": "Harare"
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Rhodesian Front",
+          "canonical": "Rhodesian Front"
+        },
+        {
+          "name": "Patriotic Front",
+          "canonical": "Patriotic Front"
+        },
+        {
+          "name": "British South Africa Police",
+          "canonical": "British South Africa Police (BSAP)"
+        },
+        {
+          "name": "United Nations",
+          "canonical": "United Nations"
+        },
+        {
+          "name": "Rhodesian Army",
+          "canonical": "Rhodesian Army"
+        },
+        {
+          "name": "Rhodesian Air Force",
+          "canonical": "Rhodesian Air Force"
+        },
+        {
+          "name": "Selous Scouts",
+          "canonical": "Selous Scouts"
+        },
+        {
+          "name": "Ministry of Internal Affairs",
+          "canonical": "Ministry of Internal Affairs"
+        },
+        {
+          "name": "Ministry of Defence",
+          "canonical": "Ministry of Defence"
+        },
+        {
+          "name": "International Institute for Strategic Studies",
+          "canonical": "International Institute for Strategic Studies"
+        }
+      ],
+      "url_slug": "rhodesian-security-forces"
+    },
+    {
+      "section_id": "rhodesian-army-units",
+      "section_type": "article",
+      "title": "The Rhodesian Army",
+      "summary": "Detailed breakdown of the various units within the Rhodesian Army and the British South Africa Police.",
+      "body": "The regular army contains five main fighting units:-\n\nRhodesian Light Infantry (RLI) - an all-white regiment formally established in February 1961. It first saw action as part of a federal force on border control duty between Northern Rhodesia (now Zambia) and the Congo (now Zaire). In 1964-5 the RLI's role was switched from that of the conventional army deploying troops en masse, to a commando unit, deployed \"by the best means available to do a clandestine job\". Companies became known as \"commandos\", privates as \"troopers\" or \"troopies\". (RH 24.7.75) The RLI claims to be one of the most effective counter-insurgency units in the world, trained and adapted to bush warfare. In February 1977 the regime claimed that a total of 29 members of the RLI had been killed in action since the onset of the armed struggle, while the regiment had accounted for the deaths of \"hundreds\" of guerrillas. (RH 1.2.77) The RLI comprises a single battalion of about 1,000 men, divided into three commandos. It is believed to contain a large number of overseas mercenary recruits.\n\nRhodesian African Rifles (RAR) - an all-African regiment staffed by white officers. According to the regime the number of African volunteers coming forward to serve in the regular army has increased in recent months and it is clear that recruiting efforts have been stepped up as the mobilisation of the white population approaches saturation point. A second RAR battalion of around 1,200 men was formed in 1975, a third was due to become operational at the end of November 1977 and a fourth is planned for early 1978. This could bring the number of black regulars to around 4,000 men. (Star 12.6.76; GN 20.8.77, 28.9.77).\n\nSpecial Air Service (SAS) - like the RLI, an all-white unit. The SAS are elite troops who have undergone a three year training in free-fall parachuting, tracking and bushcraft, physical fitness, the handling of canoes and boats, etc., as well as counter-insurgency techniques. The strength of the SAS, like that of other security force units, is treated as classified information by the regime but it is believed to number about 300 men divided between three squadrons. (GN 6.3.76; SM 5.12.76)\n\nSelous Scouts - believed to number about 1,000 men, the majority Africans. Their main official function is to seek out and assist the security forces to destroy guerilla units. While the Scouts are undoubtedly the most notorious of all the regime's security forces and have acquired a reputation for extreme ruthlessness and brutality, other units such as the SAS and the Police Support Unit (see below) operate in a very similar fashion. (see FOCUS 3 p.9; 10 p. 3).\n\nGrey's Scouts - A mounted infantry unit set up in July 1975 and containing both white and African troops. Total strength probably around 250 (see FOCUS 10 p. 3).\n\nA number of other units within the regular army have assumed a fighting role and been actively deployed in the frontline as the guerrilla war has developed. They include the Rhodesian Artillery (authorized to form a regular troop in October 1976), the Engineers Corps (specialists in mine warfare besides having responsibility for road, bridge and other construction works in the operational areas) and the Military Police. Members of the Rhodesia Women's Service of both the army and the airforce were accepted as full regulars from 1 July 1977 but as yet have no combatant capacity (RH 9.6.77).\n\nBRITISH SOUTH AFRICA POLICE\nThe BSAP, today the Smith regime's largest single fighting force, grew out of a nucleus of 500 men recruited by the British South African Company in 1889 to help consolidate the colonial occupation of Mashonaland. Up to 1954 members of the BSAP were trained both as policemen and soldiers, and doubled as a standing army. Today the BSAP play a crucial role in the regime's counter-insurgency operations. About two-thirds of the regular BSAP, overall strength 8,000, are Africans. Reservists are almost exclusively white. Since 1973 national servicemen have been accepted into the BSAP as an alternative to army training. Regular and reserve policemen, both black and white, are deployed in the war zones under the aegis of the Police Anti-Terrorist Unit (PATU), and operate as tracking and fighting units in \"sticks\" of up to five men. A mounted unit, similar to the army's Grey Scouts, was established in early 1977. Other elite units include:\n\nPolice Support Unit (PSU) - the BSAP's \"mailed fist\" operates on very similar lines to the Selous Scouts. PSU instructors are trained at the army's School of Infantry and units often team up with army and air force personnel in the field. (RFG 30.7.76; Star 17.7.76; see FOCUS 10 p. 3)\n\nSpecial Unit - established in the first half of 1975 to counter urban guerilla warfare. In October 1976 the Special Unit was reported to comprise 30 men in the Salisbury area, two of whom were black. The men use helicopters for roof-top landings and are armed with pistols, submachineguns and automatic shotguns. (Star 16.10.76).\n\nCriminal Investigation Department (CID) - the CID are known to be heavily involved in counter-insurgency operations, although their activities receive very little publicity. They are responsible, for example, for completing cases for prosecution under the Law and Order (Maintenance) Act - i.e. undertaking the interrogation of captured guerilla fighters, and those accused of harbouring or assisting them. (See also under TORTURE AND ASSAULT)\n\nThe BSAP's heavy deployment on active military service in the war zones has in fact led to undermanning in the urban areas. The 'normal' law and order functions of a civilian police force are to a large extent now undertaken by the elderly (i.e. over 50) or physically less fit white male volunteers of the Police Special Reserve. Unemployed Africans in the urban areas have also been recruited by the regime into plainclothes Crime Prevention Units, armed and operating largely unsupervised in the African townships. (see FOCUS 10 p. 4)",
+      "page_start": 10,
+      "page_end": 10,
+      "people": [],
+      "places": [
+        {
+          "name": "Northern Rhodesia",
+          "canonical": "Zambia"
+        },
+        {
+          "name": "Zambia",
+          "canonical": "Zambia"
+        },
+        {
+          "name": "Congo",
+          "canonical": "Democratic Republic of the Congo"
+        },
+        {
+          "name": "Zaire",
+          "canonical": "Democratic Republic of the Congo"
+        },
+        {
+          "name": "Mashonaland",
+          "canonical": "Mashonaland"
+        },
+        {
+          "name": "Salisbury",
+          "canonical": "Harare"
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Rhodesian Light Infantry (RLI)",
+          "canonical": "Rhodesian Light Infantry (RLI)"
+        },
+        {
+          "name": "Rhodesian African Rifles (RAR)",
+          "canonical": "Rhodesian African Rifles (RAR)"
+        },
+        {
+          "name": "Special Air Service (SAS)",
+          "canonical": "Special Air Service (SAS)"
+        },
+        {
+          "name": "Selous Scouts",
+          "canonical": "Selous Scouts"
+        },
+        {
+          "name": "Grey's Scouts",
+          "canonical": "Grey's Scouts"
+        },
+        {
+          "name": "Rhodesian Artillery",
+          "canonical": "Rhodesian Artillery"
+        },
+        {
+          "name": "Engineers Corps",
+          "canonical": "Engineers Corps"
+        },
+        {
+          "name": "Military Police",
+          "canonical": "Military Police"
+        },
+        {
+          "name": "Rhodesia Women's Service",
+          "canonical": "Rhodesia Women's Service"
+        },
+        {
+          "name": "British South Africa Police (BSAP)",
+          "canonical": "British South Africa Police (BSAP)"
+        },
+        {
+          "name": "British South African Company",
+          "canonical": "British South Africa Company"
+        },
+        {
+          "name": "Police Anti-Terrorist Unit (PATU)",
+          "canonical": "Police Anti-Terrorist Unit (PATU)"
+        },
+        {
+          "name": "Police Support Unit (PSU)",
+          "canonical": "Police Support Unit (PSU)"
+        },
+        {
+          "name": "School of Infantry",
+          "canonical": "School of Infantry"
+        },
+        {
+          "name": "Criminal Investigation Department (CID)",
+          "canonical": "Criminal Investigation Department (CID)"
+        },
+        {
+          "name": "Police Special Reserve",
+          "canonical": "Police Special Reserve"
+        },
+        {
+          "name": "Crime Prevention Units",
+          "canonical": "Crime Prevention Units"
+        }
+      ],
+      "url_slug": "rhodesian-army-units"
+    },
+    {
+      "section_id": "conscription",
+      "section_type": "article",
+      "title": "Conscription and Defence Spending",
+      "summary": "Report on the extension of conscription to Africans and increased defence spending in Rhodesia.",
+      "body": "Under regulations published by the regime in August 1977, African doctors have been made liable for military service in the Rhodesian security forces. They are the first category of Africans to be affected by the National Services Act of 1976. The Act, which came into force in September 1976, made Africans potentially liable for conscription by widening the definition of \"resident\". A number of African doctors at two of Rhodesia's largest hospitals, Harare Hospital in Salisbury and Mpilo Hospital in Bulawayo, have been told they are due to serve in the army from January 1978. (RDM 19.10.77)\n\nThe regime's decision to extend conscription to Africans, finally put into effect after more than a year of discussing the possibility (see FOCUS 7 p.5), illustrates its growing manpower problems. The extension of conscription in February 1977 to white, Asian and coloured men in the 38 to 50 age group (who now perform at least 10 weeks service a year) has meant that the military service potential of the non-African population is now fully extended. New measures introduced in September 1977 can do no more than close the few remaining loopholes in the draft:\n\n* deferment of national service for university students has been abolished. All non-African school-leavers intending to enter university or college will now be required to first complete two full years in uniform. Current students are also liable for call-up. The regime's Minister of Combined Operations and Defence told the House of Assembly that about 248 students would be affected. (GN/FT 28.9.77; BBC 7.10.77)\n\n* a bonus scheme has been introduced to encourage conscripts deployed in an 'operational combat role' and others who have been discharged but wish to return to full-time service, to serve for longer than their statutory 18 months call-up. The bonus amounts to an extra R$100 a month for each month served up to a maximum of a year. (GN/FT 28.9.77)\n\n* men of all ages who have been granted continuous exemption from call-up will now be inducted on a part-time basis into either the police reserve or the urban special constabulary. (GN 28.9.77). Taken together with provisions of the revised Emergency Powers Regulations published in June 1977 (see FOCUS 11 p.11) the ruling means that exemptions and deferments from service will be practically impossible to obtain.\n\nDEFENCE SPENDING\nThe worsening security situation has forced the Smith regime to allocate an additional R$15 million to fighting the guerilla war. Following a precedent established in 1976-7, the extra money is to be included in the Treasury vote as a reserve and distributed to other security votes as required. The regime's Minister of Finance, David Smith told the Rhodesian House of Assembly on 21 September that such distribution would be at his own discretion. (Parliamentary Debates 21.9.77)\n\nSmith was reintroducing the regime's budget proposals for 1977-8 which had lapsed on the calling of the 31 August general election and the subsequent dissolution of parliament. Under budget estimates presented to the House of Assembly on 14 July 1977, around 32% of total expenditure has been allocated to defence and related matters (see FOCUS 12 p.5)",
+      "page_start": 10,
+      "page_end": 10,
+      "people": [
+        {
+          "name": "David Smith",
+          "canonical": "David Smith"
+        }
+      ],
+      "places": [
+        {
+          "name": "Salisbury",
+          "canonical": "Harare"
+        },
+        {
+          "name": "Bulawayo",
+          "canonical": "Bulawayo"
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Harare Hospital",
+          "canonical": "Harare Hospital"
+        },
+        {
+          "name": "Mpilo Hospital",
+          "canonical": "Mpilo Hospital"
+        },
+        {
+          "name": "Rhodesian House of Assembly",
+          "canonical": "Rhodesian House of Assembly"
+        }
+      ],
+      "url_slug": "conscription"
+    },
+    {
+      "section_id": "rhodesian-political-trials",
+      "section_type": "article",
+      "title": "Political Trials in Rhodesia",
+      "summary": "Report on death sentences and other political trials in Rhodesia.",
+      "body": "DEATH SENTENCES\nFour more people are known to have been sentenced to death under the Law and Order (Maintenance) Act since the publication of the latest Anglo-American settlement proposals at the beginning of September. They are:-\n\nSIMON MPALA, an executive member of the African National Council of Zimbabwe, sentenced to death by a Special Court in Bulawayo on conviction of recruiting for guerilla training.\n\nLUTA DHLAMINI, a branch official of the ANC(Z) sentenced to death by a Special Court in Bulawayo on 29 September on recruiting charges.\n\nKENAANI NYATI, also an ANC(Z) official, reported on 9 October to have been sentenced to death on being found guilty of encouraging four youths to go for guerilla training in Zambia. (S.T. (Lon) 9.10.77)\n\nTARU NGOBENI, sentenced to death by a Salisbury court on 12 October.\n\nIn addition, FRANCIS CHAMUNORWA MOYO, an employee of the Ministry of Health in Gwelo, was sentenced to death in the Salisbury High Court on 22 July 1977, on being found guilty of conspiring with a guerilla to shoot a headman. The charge was one of murder. Two others, GEORGE SEZI and an unnamed 18 year-old youth who were jointly charged with Moyo, were sentenced to 7 and 10 years imprisonment respectively. (RH 22/23.7.77)\n\nThese new cases bring the total number of people known to have been sentenced to death since early 1975 on charges under the Law and Order (Maintenance) Act or otherwise connected with the armed struggle, to 109, of whom 6 are known to have been successful on appeal in having their sentences commuted to prison terms.\n\nLUCAS TLOU, whose conviction on recruiting charges was reported in FOCUS 12, had his appeal against the death penalty dismissed in October. (FOCUS 12 p. 2.) MAHLATINI SAMBULO NDHLOVU, sentenced to death in June, has also been unsuccessful on appeal (FOCUS 11 p. 9).\n\nThe British White Paper, \"Rhodesia - Proposals for a Settlement\" (Cmnd 6919, September 1977) has raised a number of serious questions. The proposal that a general amnesty should be declared on the establishment of a transitional administration, in particular, appears to have dangerous implications for those now being charged under the \"hanging clauses\" of the Smith regime's Law and Order (Maintenance) Act. Paragraph 18(c) of Annex B of the White Paper states that \"it will be necessary to 'wipe the slate clean' when legality is restored (i.e. at the start of the transition) and to prevent punitive or recriminatory action being taken thereafter in respect of acts arising out of the political situation which obtained during that period (i.e since UDI). In practice it will be necessary to extinguish both civil and criminal liability for such acts\".\n\nThere appears to be little to prevent the regime interpreting this particular clause as a legal carte blanche to continue and even to step up the trial and execution of its political opponents in the period preceding the installation of a transitional administration, in the knowledge that no legal action will subsequently be taken against it. In effect, the White Paper seems almost to be sanctioning the regime's Indemnity and Compensation Act of 1975 under which members of the security forces and other regime employees have been indemnified against the legal consequences of any action taken in the course of \"suppressing terrorism\".\n\nSTOP PRESS\nIn addition to the above, KOKI NCUBE, alias Jabulani Ndiweni, was sentenced to death by a Special Court in Bulawayo at the end of October. He was convicted of possessing arms of war and recruiting 33 young people for guerilla training. His conviction brings the total number of people known to have been sentenced to death on political grounds since early 1975 to 110.\n\nSPECIAL COURTS\nAlthough there have continued to be few reports of trials in the Rhodesian press, Special Court sittings are known to have been taking place, particularly in Salisbury and Bulawayo. Very large numbers of people are known to have been arrested in all parts of the country in recent weeks (see under DETENTIONS), many of whom are now awaiting trial. It appears highly likely that a considerable backlog of cases has built up.\n\n8 August: Salisbury.\nAn unnamed 18 year old youth was sentenced to life imprisonment after pleading guilty to possessing four SKS rifles, six AK rifles, 20 grenades and ammunition. He was alleged to have been a member of a guerilla group which came into contact with the regime's forces in the Honde Valley on 15 November 1976. The accused was wounded and captured during this engagement. (RH 9.8.77)\n\n16 August: Bulawayo.\nPIPONI SIBANDA, a farm worker, was sentenced to ten years imprisonment for not reporting the presence of guerrillas. It was alleged in court that the accused had been in contact with guerrillas who had killed Andries Burger and three other people at Riverside Ranch in the Wankie area. Sibanda had worked at the ranch as a cattle herder for nine years. (RH 17.8.77)\n\nOTHER CONVICTIONS\n5 August: Marandellas Magistrates' Court\nGILBERT MANDIGWA, 21, a committee member of the United African National Council (UANC), Harari Youth Wing, and PHINEAS MUPINGO, 21, were both sentenced to four years imprisonment for trying to leave the country for guerrilla training in Mozambique. Mupingo's address was given as \"shanty town\", Salisbury. (RH 6.8.77)\n\n26 August: Marandellas Magistrates' Court\nTwo 18 year old sisters, who were not named, received sentences of six years imprisonment with labour, of which five years was conditionally suspended, for attempting to leave the country for guerrilla training. The magistrate commended the parents of the girls who, the court was told, reported their daughters to the authorities. He said this was the \"most unusual and commendable aspect of the case\". He told the accused that in deciding what sentence to impose, the effect it would have on their parents \"weighs heavily on my mind\" (RH 27.8.77).\n\n1 September: Salisbury Magistrates Court\nA 46-year-old man, CHITATE MUYANGWA, was sentenced to a four-and-a-half year prison term for allegedly assisting a guerrilla in the Mount Darwin area in February 1977. He was found guilty on two counts of contravening the Law and Order (Maintenance) Act, firstly by assisting the guerrilla and his friends by providing them with food, and secondly by not reporting their presence to the authorities. Evidence was led that Muyangwa lived in a \"protected village\" - at the Gatsi Kraal, Kandeya Tribal Trust Land, Mount Darwin, and that he had bought food and arranged for sadza to be cooked for the group. Muyangwa told the magistrate that the guerrilla had come into his hut in the keep. He had told the accused he had climbed over the wire. Muyangwa was sentenced to eight years' imprisonment, of which three and a half years were conditionally suspended for five years. (RH 1.9.77)\n\n14 September: Salisbury High Court\nAn unnamed youth, aged between 17 and 18 years, was sentenced to 25 years imprisonment for murder and possessing arms of war. The court was told he was a member of a guerrilla group which came into contact with security forces in the Nyajena Tribal Trust land near Fort Victoria on 22 December 1976. (RDM 15.9.77)",
+      "page_start": 11,
+      "page_end": 11,
+      "people": [
+        {
+          "name": "SIMON MPALA",
+          "canonical": "Simon Mpala"
+        },
+        {
+          "name": "LUTA DHLAMINI",
+          "canonical": "Luta Dhlamini"
+        },
+        {
+          "name": "KENAANI NYATI",
+          "canonical": "Kenaani Nyati"
+        },
+        {
+          "name": "TARU NGOBENI",
+          "canonical": "Taru Ngobeni"
+        },
+        {
+          "name": "FRANCIS CHAMUNORWA MOYO",
+          "canonical": "Francis Chamunorwa Moyo"
+        },
+        {
+          "name": "GEORGE SEZI",
+          "canonical": "George Sezi"
+        },
+        {
+          "name": "LUCAS TLOU",
+          "canonical": "Lucas Tlou"
+        },
+        {
+          "name": "MAHLATINI SAMBULO NDHLOVU",
+          "canonical": "Mahlatini Sambulo Ndhlovu"
+        },
+        {
+          "name": "KOKI NCUBE",
+          "canonical": "Koki Ncube"
+        },
+        {
+          "name": "Jabulani Ndiweni",
+          "canonical": "Koki Ncube"
+        },
+        {
+          "name": "PIPONI SIBANDA",
+          "canonical": "Piponi Sibanda"
+        },
+        {
+          "name": "Andries Burger",
+          "canonical": "Andries Burger"
+        },
+        {
+          "name": "GILBERT MANDIGWA",
+          "canonical": "Gilbert Mandigwa"
+        },
+        {
+          "name": "PHINEAS MUPINGO",
+          "canonical": "Phineas Mupingo"
+        },
+        {
+          "name": "CHITATE MUYANGWA",
+          "canonical": "Chitate Muyangwa"
+        }
+      ],
+      "places": [
+        {
+          "name": "Bulawayo",
+          "canonical": "Bulawayo"
+        },
+        {
+          "name": "Zambia",
+          "canonical": "Zambia"
+        },
+        {
+          "name": "Salisbury",
+          "canonical": "Harare"
+        },
+        {
+          "name": "Gwelo",
+          "canonical": "Gweru"
+        },
+        {
+          "name": "Honde Valley",
+          "canonical": "Honde Valley"
+        },
+        {
+          "name": "Wankie",
+          "canonical": "Hwange"
+        },
+        {
+          "name": "Riverside Ranch",
+          "canonical": "Riverside Ranch"
+        },
+        {
+          "name": "Marandellas",
+          "canonical": "Marondera"
+        },
+        {
+          "name": "Mozambique",
+          "canonical": "Mozambique"
+        },
+        {
+          "name": "Mount Darwin",
+          "canonical": "Mount Darwin"
+        },
+        {
+          "name": "Kandeya Tribal Trust Land",
+          "canonical": "Kandeya Tribal Trust Land"
+        },
+        {
+          "name": "Nyajena Tribal Trust land",
+          "canonical": "Nyajena Tribal Trust land"
+        },
+        {
+          "name": "Fort Victoria",
+          "canonical": "Masvingo"
+        }
+      ],
+      "organizations": [
+        {
+          "name": "African National Council of Zimbabwe",
+          "canonical": "African National Council of Zimbabwe (ANC(Z))"
+        },
+        {
+          "name": "ANC(Z)",
+          "canonical": "African National Council of Zimbabwe (ANC(Z))"
+        },
+        {
+          "name": "Ministry of Health",
+          "canonical": "Ministry of Health"
+        },
+        {
+          "name": "United African National Council (UANC)",
+          "canonical": "United African National Council (UANC)"
+        }
+      ],
+      "url_slug": "rhodesian-political-trials"
+    },
+    {
+      "section_id": "rhodesian-appeals",
+      "section_type": "article",
+      "title": "Appeals and Further Cases in Rhodesia",
+      "summary": "Report on various appeals and political cases in Rhodesia.",
+      "body": "Twelve women jailed for five years for public violence had their prison sentences reduced to three years by the Appellate Division of the High Court in Salisbury on 25 June. The women were convicted by a magistrates' court in connection with unrest in five African townships in the Zaka area between 23 and 26 January. In his judgement, Mr. Justice Lewis, the judge president said: \"In this particular area at that time there was a terrorist presence and it would appear that the local inhabitants had been considerably subverted.\" He allowed the appeal and suspended two years of the five on condition they were not convicted of any offence under the Law and Order (Maintenance) Act. (RH 26.7.77).\n\nOn 29 July, COLIN SIBANDA lost his appeal against a 20 year jail sentence with labour in the Appellate Division. The accused had been convicted by a special court of recruiting or encouraging seven people to go for guerilla training. He had been approached in Fort Victoria by seven pupils who ran away from Wanezi Mission, Filabusi and who wanted to go for guerilla training in Mozambique. Chief Justice Macdonald said there were special circumstances in that Sibanda tried to persuade the seven recruits not to leave the country on at least two occasions. Sibanda thought it was dangerous, but not that it was wrong. The judge said the sentence was \"entirely appropriate\" and dismissed the appeal. (RH 30.7.77).\n\nThe headmaster of Honde Mission School, JOHN GODO, had his appeal against a six year sentence dismissed at the Appellate Division on 8 August (previously reported as JOHN GOOD - See FOCUS 10 p.6). John Godo was convicted by a regional court in Umtali together with three other members of the mission staff for not reporting the presence of guerrillas (see FOCUS 10 p. 6). The other three who received sentences ranging from 4 to 9 years, successfully appealed against their sentences. On appeal STANISLAUS MASUNDA was cautioned and discharged, and JONATHAN KATSIDZIRA and CHARLES KUNYENZA had their sentences reduced to two years imprisonment with labour. (RH 9.8.77).\n\nFour unnamed young people who were convicted of attempting to leave the country for guerrilla training had their jail sentences set aside by the Appellate Division on 9 August. They had been convicted in a magistrates court for attempting to leave the country on 1 November, 1976, and given sentences of 4 to 5 years. The appeal judge sentenced the 15 year old youth to 8 cuts, and the two youths of 13 and 14 to six cuts, together with suspended sentences. Passing of sentence on the 14-year-old girl was postponed for five years. (RH 10.8.77)\n\nA seven year jail term with labour imposed on an unnamed 17-year-old youth for attempting to leave the country for guerrilla training was reduced to five years with three suspended by the Appellate Division on 11 August. He was allegedly in a group of seven youths who left Salisbury by train for Umtali on 19 November 1976. They met up with other young people, but ten of them were reported to have been arrested at a road block near Umtali after they had decided to return to Salisbury. The judge said that the appellant's case should not be treated differently from other similar cases where the court found a change of mind on the part of the accused. Three of the five years were conditionally suspended. (RH 12.8.77)\n\nAlso on 11 August the postmaster at Zaka, SHADRECK KOHLO, had his 10 year prison sentence with labour for failing to report the presence of guerrillas reduced to five years in the Appellate Division of the High Court in Salisbury. (RH 12.8.77)\n\nAgain on the same day a school headmaster, KUMUKAYI CHIFADZA, had his five year sentence (of which three had been conditionally suspended) set aside by the Appellate Division. He had been convicted for failing to report the presence of guerrillas. The appeal judge imposed a three year jail sentence conditionally suspended for five years, in place of the original sentence. The appellant was reported to have been ordered to attend a meeting of about 700 people, including teachers of his school and five kraalheads, to be addressed by three armed guerrillas. The appellant said he thought the prime responsibility to report fell on the shoulders of the kraalhead in which the school was situated. When he became aware that no report had been made he decided two days later to go and report. He was arrested by police while waiting on the side of the road trying to get a lift to go and report to security forces at their base. (RH 12.8.77)\n\nARISHI NDAMBA TAPUA had his effective prison sentence reduced from five to one and a half years by the Appellate Division on 22 August. He had been sentenced by a magistrates court to five years imprisonment with labour for contravening the Law and Order (Maintenance) Act. The charge arose from an incident at a hotel in Marandellas, when Tapua made a political statement from the stage during an evening dance. (RH 23.8.77)\n\nFURTHER CASES\nTwo officials of the Gatooma branch of the UANC, DANIEL GWAZE and JONATHAN MUKARAKATI appeared in Salisbury Regional Court on charges under the Law and Order (Maintenance) Act on 29 August. They faced two counts, the first alleging they harboured a guerrilla Ignatius George Duma, also known as Robson, and the second that they failed to report his presence to the authorities.\n\nThey both pleaded not guilty. Their defence counsel told the magistrate that although the two would admit making a statement admitting the offences, they would say they were induced to make the statement. Outcome not reported. (RH 30.8.77)\n\n7 September: Salisbury Regional Court\nRev. THOMPSON TIRIVAVI, former chairman of the Zimbabwe Reformed African National Congress, (ZRANC), WILLIAM MUSHANU, treasurer, and DENNIS CHITSAKA, organising secretary, appeared on charges under the Law and Order (Maintenance) Act of making subversive statements. The charges related to the publication of a pamphlet entitled \"Reasons Why The ZRANC was Formed\" and distributed inside Rhodesia. The ZRANC disbanded in June 1977 to form the People's Movement in support of Robert Mugabe, joint leader of the Patriotic Front. (RH 8.9.77; FOCUS 12 p.3)",
+      "page_start": 12,
+      "page_end": 12,
+      "people": [
+        {
+          "name": "COLIN SIBANDA",
+          "canonical": "Colin Sibanda"
+        },
+        {
+          "name": "JOHN GODO",
+          "canonical": "John Godo"
+        },
+        {
+          "name": "STANISLAUS MASUNDA",
+          "canonical": "Stanislaus Masunda"
+        },
+        {
+          "name": "JONATHAN KATSIDZIRA",
+          "canonical": "Jonathan Katsidzira"
+        },
+        {
+          "name": "CHARLES KUNYENZA",
+          "canonical": "Charles Kunyenza"
+        },
+        {
+          "name": "SHADRECK KOHLO",
+          "canonical": "Shadreck Kohlo"
+        },
+        {
+          "name": "KUMUKAYI CHIFADZA",
+          "canonical": "Kumukayi Chifadza"
+        },
+        {
+          "name": "ARISHI NDAMBA TAPUA",
+          "canonical": "Arishi Ndamba Tapua"
+        },
+        {
+          "name": "DANIEL GWAZE",
+          "canonical": "Daniel Gwaze"
+        },
+        {
+          "name": "JONATHAN MUKARAKATI",
+          "canonical": "Jonathan Mukarakati"
+        },
+        {
+          "name": "Ignatius George Duma",
+          "canonical": "Ignatius George Duma"
+        },
+        {
+          "name": "THOMPSON TIRIVAVI",
+          "canonical": "Thompson Tirivavi"
+        },
+        {
+          "name": "WILLIAM MUSHANU",
+          "canonical": "William Mushanu"
+        },
+        {
+          "name": "DENNIS CHITSAKA",
+          "canonical": "Dennis Chitsaka"
+        },
+        {
+          "name": "Robert Mugabe",
+          "canonical": "Robert Mugabe"
+        }
+      ],
+      "places": [
+        {
+          "name": "Salisbury",
+          "canonical": "Harare"
+        },
+        {
+          "name": "Zaka",
+          "canonical": "Zaka"
+        },
+        {
+          "name": "Fort Victoria",
+          "canonical": "Masvingo"
+        },
+        {
+          "name": "Filabusi",
+          "canonical": "Filabusi"
+        },
+        {
+          "name": "Mozambique",
+          "canonical": "Mozambique"
+        },
+        {
+          "name": "Umtali",
+          "canonical": "Mutare"
+        },
+        {
+          "name": "Marandellas",
+          "canonical": "Marondera"
+        },
+        {
+          "name": "Gatooma",
+          "canonical": "Kadoma"
+        }
+      ],
+      "organizations": [
+        {
+          "name": "UANC",
+          "canonical": "United African National Council (UANC)"
+        },
+        {
+          "name": "Zimbabwe Reformed African National Congress (ZRANC)",
+          "canonical": "Zimbabwe Reformed African National Congress (ZRANC)"
+        },
+        {
+          "name": "People's Movement",
+          "canonical": "People's Movement"
+        },
+        {
+          "name": "Patriotic Front",
+          "canonical": "Patriotic Front"
+        }
+      ],
+      "url_slug": "rhodesian-appeals"
+    },
+    {
+      "section_id": "catholic-commission",
+      "section_type": "article",
+      "title": "Catholic Commission for Justice and Peace",
+      "summary": "Report on the arrest and prosecution of members of the Catholic Commission for Justice and Peace in Rhodesia.",
+      "body": "Four members of the Roman Catholic Commission for Justice and Peace (CCJP) in Rhodesia have appeared before the regime's courts in the course of the last two months on charges under the Law and Order (Maintenance) Act, and the Official Secrets Act. The chairman of the Commission JOHN DEARY, the deputy chairman and a member of the executive Father DIETER SCHOLZ, the organising secretary Brother ARTHUR DUPUIS and the press secretary Sister JANICE McLAUGHLIN were arrested by the Rhodesian Special Branch on 31 August. Their homes were searched, together with the Commission's office, and various documents removed. Father Scholz, a German Jesuit member of the Commission had been declared a prohibited immigrant two weeks earlier and given a month to leave the country (SM 14.8.77).\n\nOn 1 September Deary, Scholz and Dupuis were brought before Salisbury Magistrate's Court on allegations of contravening the Law and Order (Maintenance) Act and the Official Secrets Act. No charges were preferred. The three men were remanded until 30 September and released on bail of R $1,000 each. (RH 2.9.77)\n\nSister Janice, however, a member of the American Mary Knoll Order who had arrived in Rhodesia in May 1977 from Nairobi, continued to be held in Chikurubi Women's Prison outside Salisbury under a 30 day detention order. As press secretary of the Commission, Sister Janice had collected documentary evidence of the use of torture and atrocities by Rhodesian troops and police, the regime's tactics of psychological warfare and particularly the distribution of propaganda against the liberation movement, the expansion of the protected village programme and other aspects of the war situation. Her arrest, and that of the other three CCJP officials was probably aimed at preventing the publication of her work in the form of five fact papers, together amounting to a serious indictment of the regime's security forces.\n\n(Sister Janice's research forms the basis of a new publication from the Catholic Institute for International Relations in London, entitled \"Rhodesia: the propaganda war\" - see FOCUS 12 p.3)\n\nOn 13 September Sister Janice appeared before the Salisbury Magistrate's Court, charged under section 49 of the Law and Order (Maintenance) Act, (Prohibition against publication of false news), with spreading \"fear, alarm or despondency\" among the Rhodesian public. It was further alleged that she had obtained classified military and government information relating to the war and had possessed a radio receiver capable of picking up security force transmissions. The trial was postponed until 27 September and Sister Janice herself remanded in custody until 16 September for judgement on her application for bail. In a statement to the court she expressed her support for the freedom fighters of the liberation movement and her belief in the necessity of revolution to bring about a more equitable society.\n\nOn 16 September, Sister Janice was refused bail on the grounds that she was a threat to public order. Minutes after the ruling that she remain in custody, Father Scholz was arrested outside the courtroom and served with a detention order. In a separate hearing, it was alleged that he had encouraged the destruction of evidence relating to the case against the CCJP, thereby breaking the terms of his bail. On 23 September however he was acquitted of this charge and re-released. (GN 17.9.77; T 24.9.77)\n\nSister Janice was never in fact brought to trial. On 22 September she was declared a prohibited immigrant and deported following, it is believed, representations from the U.S. government. A spokesman for the regime's Attorney General said that the charges against her had now fallen away. (GN 23.9.77; BBC 24.9.77)\n\nThe three remaining officials, Deary, Dupuis and Scholz, appeared before Salisbury Magistrate's Court on 30 September. They were granted a renewal of bail and remanded until 5 December. Detailed charges are expected to be laid under the Official Secrets Act and the Law and Order (Maintenance) Act. (BBC 5.10.77)",
+      "page_start": 12,
+      "page_end": 13,
+      "people": [
+        {
+          "name": "JOHN DEARY",
+          "canonical": "John Deary"
+        },
+        {
+          "name": "DIETER SCHOLZ",
+          "canonical": "Dieter Scholz"
+        },
+        {
+          "name": "ARTHUR DUPUIS",
+          "canonical": "Arthur Dupuis"
+        },
+        {
+          "name": "JANICE McLAUGHLIN",
+          "canonical": "Janice McLaughlin"
+        }
+      ],
+      "places": [
+        {
+          "name": "Salisbury",
+          "canonical": "Harare"
+        },
+        {
+          "name": "Nairobi",
+          "canonical": "Nairobi"
+        },
+        {
+          "name": "London",
+          "canonical": "London"
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Catholic Commission for Justice and Peace (CCJP)",
+          "canonical": "Catholic Commission for Justice and Peace (CCJP)"
+        },
+        {
+          "name": "Rhodesian Special Branch",
+          "canonical": "Rhodesian Special Branch"
+        },
+        {
+          "name": "Mary Knoll Order",
+          "canonical": "Maryknoll Sisters"
+        },
+        {
+          "name": "Chikurubi Women's Prison",
+          "canonical": "Chikurubi Women's Prison"
+        },
+        {
+          "name": "Catholic Institute for International Relations",
+          "canonical": "Catholic Institute for International Relations"
+        }
+      ],
+      "url_slug": "catholic-commission"
+    },
+    {
+      "section_id": "deportations",
+      "section_type": "article",
+      "title": "Deportations",
+      "summary": "Report on the deportation of various church-connected individuals from Rhodesia.",
+      "body": "A number of whites, mainly connected with the church, have been deported or declared to be prohibited immigrants by the Smith regime. In addition to Sister McLaughlin they include:\n\n* Father Laurence Lynch, an Irish Roman Catholic priest who had lived in Rhodesia for many years and ran the Mount Meleray Mission in the Inyanga district, was declared a prohibited immigrant in July. Father Lynch was given a 3½ year conditionally suspended prison sentence in April 1977 on conviction of assisting and failing to report guerillas. He was in Ireland at the time of his prohibition order. (RH 16.7.77; see FOCUS 10 pp. 6-7)\n\n* Michael Pocock, the British-born Anglican headmaster of St. Mary Magdalene School, Inyanga, who was tried and sentenced together with Father Lynch, was also declared a prohibited immigrant in July (RH 16.7.77; FOCUS ibid).\n\n* Charles Roberts, a lecturer in sociology at the University of Rhodesia, was end of the month. (RH 23.8.77)\n\n* Sister Teresa Corby (36), an Irish doctor of the Order of the Little Company of St. Mary was given seven days to leave Rhodesia in September. Sister Corby was the only doctor for the Buhera and Charter areas round Mount St. Mary's mission in Wedza TTL, 50 miles south-east of Salisbury, an area in which there has been extensive guerilla activity (GN/T 21.9.77)\n\n* Father Pascal Slevin, the Irish-born superintendent of Mount St. Mary's mission who had lived in Rhodesia since 1962, was deported at the beginning of October. Father Slevin, who took a number of photographs and made available other evidence on security force atrocities subsequently published by the Catholic Commission for Justice and Peace, told a press conference in London that the Wedza Mission had developed a close relationship with the guerillas of the liberation movement, \"for whom our respect grew with every meeting\". \"Of course there are atrocities on both sides. This is in no doubt. But what is still doubted abroad is the truth of the accusations against the security forces and the fear in which they are held by the people. It is not true that the guerillas have no support from the people. In my experience they are seen by the people as their liberators\". (Obs. 9.10.77; T 12.10.77).\n\n* Roger Riddell, a British born Jesuit missionary, teacher and author of a number of studies of the Rhodesian economy, was banned from re-entering the country in October. Riddell, who had been working at a British university for two years, was due to take up an appointment as economics lecturer at the University of Rhodesia. Some of his research had been published by the Catholic Commission. (GN 14.10.77)",
+      "page_start": 13,
+      "page_end": 13,
+      "people": [
+        {
+          "name": "Laurence Lynch",
+          "canonical": "Laurence Lynch"
+        },
+        {
+          "name": "Michael Pocock",
+          "canonical": "Michael Pocock"
+        },
+        {
+          "name": "Charles Roberts",
+          "canonical": "Charles Roberts"
+        },
+        {
+          "name": "Teresa Corby",
+          "canonical": "Teresa Corby"
+        },
+        {
+          "name": "Pascal Slevin",
+          "canonical": "Pascal Slevin"
+        },
+        {
+          "name": "Roger Riddell",
+          "canonical": "Roger Riddell"
+        }
+      ],
+      "places": [
+        {
+          "name": "Inyanga",
+          "canonical": "Nyanga"
+        },
+        {
+          "name": "Ireland",
+          "canonical": "Ireland"
+        },
+        {
+          "name": "Buhera",
+          "canonical": "Buhera"
+        },
+        {
+          "name": "Charter",
+          "canonical": "Charter"
+        },
+        {
+          "name": "Wedza",
+          "canonical": "Wedza"
+        },
+        {
+          "name": "Salisbury",
+          "canonical": "Harare"
+        },
+        {
+          "name": "London",
+          "canonical": "London"
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Mount Meleray Mission",
+          "canonical": "Mount Meleray Mission"
+        },
+        {
+          "name": "St. Mary Magdalene School",
+          "canonical": "St. Mary Magdalene School"
+        },
+        {
+          "name": "University of Rhodesia",
+          "canonical": "University of Rhodesia"
+        },
+        {
+          "name": "Order of the Little Company of St. Mary",
+          "canonical": "Order of the Little Company of St. Mary"
+        },
+        {
+          "name": "Mount St. Mary's mission",
+          "canonical": "Mount St. Mary's mission"
+        },
+        {
+          "name": "Catholic Commission for Justice and Peace",
+          "canonical": "Catholic Commission for Justice and Peace (CCJP)"
+        }
+      ],
+      "url_slug": "deportations"
+    },
+    {
+      "section_id": "press-clamp-down",
+      "section_type": "article",
+      "title": "Press Clamp-down",
+      "summary": "Report on new restrictions on the press in Rhodesia.",
+      "body": "The regime has now made it an offence for Rhodesian newspapers or other publications to publish any information - including their names - about people who are deported from the country. The order, issued on 7 October under the Emergency Powers (Maintenance of Law and Order) Regulations, does not apply to foreign correspondents working in the country, but their reports may not be printed inside Rhodesia.\n\nThe regime has always refused to explain its reasons for declaring people to be prohibited immigrants or deporting them. In an obvious reference to the recent deportation of Father Pascal Slevin and other Roman Catholic missionaries (see above), a spokesman for the Ministry of Law and Order said that recent press reports depicting \"extravagant farewells\" to deportees had been calculated to raise \"unwarranted sympathy\" and had \"failed entirely to reflect the deportee in his true colours, that is as a person, usually a foreigner, having no stake in the country, whose conduct has been so anti-Rhodesian that his presence has become untenable.\" (BBC/GN/T 8.10.77)\n\nIn what appears to be an attempt to gain even tighter control of international press and media coverage of the guerilla war, the regime has announced plans to set up a selected corps of \"journalists considered by the authorities to serve the best interests of the country\" who will receive accreditation as official defence correspondents. More than 50 local and overseas journalists from Britain, Belgium, France, Holland, South Africa, the United States and Rhodesia heard details of the scheme at a press briefing at Combined Operations Headquarters in Salisbury on 10 October. Correspondents were told that they would not be allowed to report on certain weapons used by the Rhodesians or to write about the security forces' counter-insurgency tactics. Accreditation could be withdrawn if additions or alterations were made to copy after it had been cleared by the military authorities. Journalists accredited as resident correspondents (thereby becoming liable for military service at the same time) will be issued with cards on an indefinite basis but will still require prior approval to visit operational areas and will not be attached to military patrols. Other types of accreditation are for locally based non-residents and for roving journalists. (RDM 12.10.77; BBC 12.10.77 reporting Salisbury radio in English 10.10.77).",
+      "page_start": 13,
+      "page_end": 13,
+      "people": [
+        {
+          "name": "Pascal Slevin",
+          "canonical": "Pascal Slevin"
+        }
+      ],
+      "places": [
+        {
+          "name": "Salisbury",
+          "canonical": "Harare"
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Ministry of Law and Order",
+          "canonical": "Ministry of Law and Order"
+        },
+        {
+          "name": "Combined Operations Headquarters",
+          "canonical": "Combined Operations Headquarters"
+        }
+      ],
+      "url_slug": "press-clamp-down"
+    },
+    {
+      "section_id": "detentions",
+      "section_type": "article",
+      "title": "Detentions",
+      "summary": "Report on the detention of ANC(Z) members in Rhodesia.",
+      "body": "The names of 77 members and officials of the African National Council of Zimbabwe currently detained at Marandellas Prison south-east of Salisbury have been received by IDAF. Of these, 19 were among the 98 named ANC(Z) members detained in June and July and reported in FOCUS 12. The remainder may represent more recent arrests and detentions. The 77 names include seven members of the ANC(Z) National Assembly, four National Executive members and 13 provincial officials. The majority of the others are district and branch officials. Most of the detainees have been in prison before, some for as many as 8 to 10 years.\n\nIn reply to a recent question by an African MP, the regime's Minister of Law and Order Hilary Squires denied that the police \"concentrated exclusively on detaining officials of the African National Council of Zimbabwe\". He said that members of all 'nationalist factions' had been detained but added that the ANC(Z) had \"constituted a large part of the terrorist threat to Matabeleland\". Squires further claimed that the regime's \"processes of detention\" compared \"most favourably with those in other parts of the world.\" (BBC 14.10.77, reporting Rhodesian Parliamentary Proceedings on 11 October).",
+      "page_start": 13,
+      "page_end": 13,
+      "people": [
+        {
+          "name": "Hilary Squires",
+          "canonical": "Hilary Squires"
+        }
+      ],
+      "places": [
+        {
+          "name": "Marandellas",
+          "canonical": "Marondera"
+        },
+        {
+          "name": "Salisbury",
+          "canonical": "Harare"
+        },
+        {
+          "name": "Matabeleland",
+          "canonical": "Matabeleland"
+        }
+      ],
+      "organizations": [
+        {
+          "name": "African National Council of Zimbabwe (ANC(Z))",
+          "canonical": "African National Council of Zimbabwe (ANC(Z))"
+        },
+        {
+          "name": "IDAF",
+          "canonical": "International Defence and Aid Fund (IDAF)"
+        }
+      ],
+      "url_slug": "detentions"
+    },
+    {
+      "section_id": "namibia-legislation",
+      "section_type": "article",
+      "title": "New Legislation in Namibia",
+      "summary": "Report on the appointment of an Administrator General and new legislation in Namibia.",
+      "body": "According to the South African government, Namibia has now entered into a transitional period preceding eventual independence. Mr. Justice Marthinus Steyn, formerly of the Free State Division of the South African Supreme Court, took up office on 1 September 1977 as the South African-appointed 'Administrator General for the Territory of South West Africa'. Steyn, who has been accommodated in the two top floors of Windhoek's Kalahari Sands Hotel to avoid identification with the existing SWA Administration or South African government offices in the territory, has been empowered by the South African State President to make, amend, or repeal all laws in Namibia by proclamation. (GG 19.8.77) His function is to govern Namibia during an interim period leading up to the holding of elections, the establishment of a constituent assembly and the latter's agreement of an independence constitution. The two most senior South African government officials in Namibia up to the time of Steyn's appointment - the SWA Administrator, B.J. van der Walt, and the Commissioner General for the Indigenous Peoples of SWA, Jannie de Wet - vacated office on 30 September and 1 November respectively and will not be replaced.\n\nSteyn made it clear shortly after his arrival in Windhoek that he did not envisage major changes in the territory for the time being. While certain items of existing legislation applicable to Namibia, either emanating from the SWA Legislative Assembly or the South African Parliament, would have to be altered during his term of office in line with the new social dispensation, \"as an interim government one does not want to make too many fundamental changes because one may in fact be writing indirectly a constitution for the territory which is a task for the constituent assembly\" (RDM 13.9.77). He was, he said, intending to press ahead with arrangements for a general election at as early a date as possible. While Steyn has been reported as offering SWAPO's President Sam Nujoma and other SWAPO leaders in exile a safe conduct back to Namibia, he has stressed that he does not see SWAPO's participation as essential for the success of elections. (WA 2/8.9.77)\n\nOn 14 October, Immorality Proclamation No. 19 of 1934 (South Africa's Immorality Act as applied in Namibia) was repealed by special proclamation issued by Justice Steyn. The Mixed Marriages Act, as enforced in Namibia, was also repealed by an announcement in an extraordinary Gazette. A special congress of the Nationalist Party in Namibia held in March 1977 had decided that both Acts must go if need be. (WA 14.10.77)\n\nOn 21 October, Steyn announced that Namibia's pass laws, modelled on those of South Africa, were to be repealed with immediate effect as part of the process of preparing for free general elections. Blacks will reportedly no longer have to produce pass books on demand while certain regulations restricting the entry of whites to black homelands have also been removed. Important areas of Namibia have been excluded from these new regulations however, namely the Ovambo homeland (where emergency proclamation No. R.17 of 1972 and supplementary emergency legislation of May 1976 still apply; see FOCUS 5 p.16), the \"operational area of the South African Defence Force\" (which can presumably be redefined to suit requirements and already covers the three northern homelands of Ovambo, Kavango and Caprivi; and the diamond mining areas in the Namib desert along the western coast. These are still 'no go areas' for both white and blacks without special passes.\n\nFurther, although blacks can now enter and stay in urban areas indefinitely - previously entry was restricted to 72 hours - they still may not seek or accept employment without permission. The fine for employers who fail to register black employees has been raised from about £65 to £200 to prevent the \"new freedom of movement from degenerating into widespread vagrancy\". (GN 22.10.77)\n\nSteyn also announced the repeal of other discriminatory laws including a prohibition on the extension of financial credit to blacks. He disclosed that other discriminatory measures were receiving attention. (T 22.10.77)\n\nOther changes so far introduced under Steyn's administration leave the fundamental institutions of South Africa's occupation of Namibia, including the presence of the South African army and the enforcement of martial law in the north, and the continuing implementation of the Odendaal Commission's recommendations for the establishment of homelands in the territory, substantially unchanged. The Turnhalle constitutional conference in addition, despite reports of its imminent dissolution, has been continuing to work on drafting an interim independence constitution for Namibia which would retain many elements of the bantustan structure.\n\n* Administration - legislative and administrative responsibility for virtually all issues of any importance affecting Namibia has been vested since 1969 in the SA parliament. Nearly half of Namibia's white population are South African government officials. Four SA government departments functioning in Namibia have now been transferred to the jurisdiction of the SWA Administrator-General, with effect from 28 September 1977 - Bantu Administration and Development; Water Affairs; Bantu Education; and Coloured, Rehoboth and Nama Affairs. Others may follow, but the Defence Department is not expected to be affected. Steyn has promised SA government officials that the move will involve as little disruption as possible and that their 'normal functions' will continue for the time being. (RDM 13.9.77; WA 14.9.77).\n\n* Bantustans - in addition to continuing plans to mobilise Namibians on a tribal basis for military service, ultimately against SWAPO (see under TRIBAL ARMIES) elections for a Kaptein, or ethnic leader, have been held among the Rehoboth Basters since Steyn's arrival in the territory, in terms of the South African government's Rehoboth Self-Government Act. Dr. Benjamin Africa, the leader of the Baster delegation to the Turnhalle, was elected to the post in a 64.7% poll on 3 October, despite his earlier statements opposing South Africa's bantustan strategy for Namibia. Further elections for a Baster Council were due to be held on 31 October. (WA 5.10.77)\n\n* Parliamentary representation - the six seats allocated to Namibia's white voters in the SA House of Assembly and four seats in the Senate have been abolished with effect from 28 September 1977. Namibian whites will not be taking part in the SA general election on 30 November. On 29 September the SWA Nationalist Party voted unanimously at its congress in Windhoek to sever ties with the South African party and continues to function inside Namibia. (CT 29.9.77)\n\n* Judiciary - no change appears to be envisaged in the present system under which Namibians are tried by South African courts. According to Steyn, the South African Supreme Court in Windhoek and all lower courts in the territory will continue their functions. (WA 2.9.77)\n\n* Political prisoners - any transfer of Namibian political prisoners currently on Robben Island back to prisons in Namibia appears to have been ruled out. A spokesman for the SA Prisons Department has confirmed that Namibians \"detained in the Republic of South Africa for offences against the safety of the state\" will continue to be held there. (WA 21.9.77). An amendment to the 1959 Prisons Act gazetted on 9 September, however, provides for offenders convicted and sentenced in Walvis Bay (see below) to be imprisoned in Namibia (Proclamation No. R211 of 1977, GG No. 5733, 9.9.77).",
+      "page_start": 14,
+      "page_end": 14,
+      "people": [
+        {
+          "name": "Marthinus Steyn",
+          "canonical": "Marthinus Steyn"
+        },
+        {
+          "name": "B.J. van der Walt",
+          "canonical": "B.J. van der Walt"
+        },
+        {
+          "name": "Jannie de Wet",
+          "canonical": "Jannie de Wet"
+        },
+        {
+          "name": "Sam Nujoma",
+          "canonical": "Sam Nujoma"
+        },
+        {
+          "name": "Benjamin Africa",
+          "canonical": "Benjamin Africa"
+        }
+      ],
+      "places": [
+        {
+          "name": "Namibia",
+          "canonical": "Namibia"
+        },
+        {
+          "name": "Windhoek",
+          "canonical": "Windhoek"
+        },
+        {
+          "name": "Ovambo",
+          "canonical": "Ovamboland"
+        },
+        {
+          "name": "Kavango",
+          "canonical": "Kavango"
+        },
+        {
+          "name": "Caprivi",
+          "canonical": "Caprivi"
+        },
+        {
+          "name": "Walvis Bay",
+          "canonical": "Walvis Bay"
+        },
+        {
+          "name": "Robben Island",
+          "canonical": "Robben Island"
+        }
+      ],
+      "organizations": [
+        {
+          "name": "SWAPO",
+          "canonical": "South West Africa People's Organization (SWAPO)"
+        },
+        {
+          "name": "Nationalist Party",
+          "canonical": "Nationalist Party"
+        },
+        {
+          "name": "South African Defence Force",
+          "canonical": "South African Defence Force"
+        },
+        {
+          "name": "Turnhalle",
+          "canonical": "Turnhalle"
+        },
+        {
+          "name": "SWA Nationalist Party",
+          "canonical": "Nationalist Party"
+        }
+      ],
+      "url_slug": "namibia-legislation"
+    },
+    {
+      "section_id": "walvis-bay",
+      "section_type": "article",
+      "title": "Walvis Bay",
+      "summary": "Report on the South African annexation of Walvis Bay.",
+      "body": "The South African government announced on 31 August that it was seizing control of the port of Walvis Bay on the Namibian coast with immediate effect. Under the terms of a proclamation issued in the Government Gazette on 31 August, Walvis Bay, which had been the responsibility of the SWA Administration in Windhoek since 1922 reverted to South Africa as from 1 September 1977. According to the proclamation it was 'expedient and desirable' that Walvis Bay, the only deepwater port on the Namibian coast, be administered as part of South Africa's Cape Province. (GN 1.9.77)\n\nThe annexation includes a 374 square mile enclave in the surrounding Namib desert and the 13 off-shore Penguin islands, which are rich in minerals, crayfish and guano. The important South African military base of Rooikop housing elements of 2 SAI Battalion Group is situated south of the town of Walvis Bay. The base is used for training in desert warfare and counter-insurgency techniques, reportedly with Israeli assistance. (New African Development October 1977). As the only deep water port between Cape Town and Lobito in Angola, Walvis Bay possesses considerable strategic significance in addition to its use for the export of Namibian minerals and other primary commodities. Oil is imported into Namibia from tankers calling at the port en route for the Middle East. Walvis Bay is fifth in importance out of the seven commercial harbours controlled by the South African Railways and Harbours Administration. (New African, ibid).\n\nUnder newly-amended legislation, South Africa extended its territorial waters from 9.6 km to 19.3 km and its fishery waters from 19.3 to 321 km, with effect from 30 November 1977. The extension is reported to cover all the areas and islands in the possession of the South African government, including Walvis Bay. (BBC 26.9.77). The proclamation means that South Africa has in fact annexed all fishing rights along more than 600 km of Namibia's coastline, prior to Namibia being granted its 'independence'. (GG No. 5635, 6.7.77, No. 5745, 23.9.77)\n\nSouth Africa's annexation prompted protests from United Nations member states and the UN Council for Namibia. The US administration described the move as 'untimely and unhelpful' (WA 2.9.77). SWAPO has always regarded Walvis Bay as an integral part of Namibia and likewise strongly condemned the transfer. Vorster's response was to threaten to break off negotiations over Namibia's future with the five western members of the UN Security Council, should the Security Council also condemn the move. The Administrator of the Cape Province stated on 1 September, however, that the SWA Administration would continue to exercise its usual functions in Walvis Bay for the time being (WA 2.9.77). Although the bulk of the electoral district of Walvis Bay now falls under the South African parliamentary constituency of Namaqualand, registered white voters in the enclave will not take part in the South African general election on 30 November. (WA 4.10.77)",
+      "page_start": 15,
+      "page_end": 15,
+      "people": [
+        {
+          "name": "Vorster",
+          "canonical": "B.J. Vorster"
+        }
+      ],
+      "places": [
+        {
+          "name": "Walvis Bay",
+          "canonical": "Walvis Bay"
+        },
+        {
+          "name": "Windhoek",
+          "canonical": "Windhoek"
+        },
+        {
+          "name": "Cape Province",
+          "canonical": "Cape Province"
+        },
+        {
+          "name": "Cape Town",
+          "canonical": "Cape Town"
+        },
+        {
+          "name": "Lobito",
+          "canonical": "Lobito"
+        },
+        {
+          "name": "Angola",
+          "canonical": "Angola"
+        },
+        {
+          "name": "Namibia",
+          "canonical": "Namibia"
+        },
+        {
+          "name": "Middle East",
+          "canonical": "Middle East"
+        },
+        {
+          "name": "Namaqualand",
+          "canonical": "Namaqualand"
+        }
+      ],
+      "organizations": [
+        {
+          "name": "South African Railways and Harbours Administration",
+          "canonical": "South African Railways and Harbours Administration"
+        },
+        {
+          "name": "United Nations",
+          "canonical": "United Nations"
+        },
+        {
+          "name": "SWAPO",
+          "canonical": "South West Africa People's Organization (SWAPO)"
+        }
+      ],
+      "url_slug": "walvis-bay"
+    },
+    {
+      "section_id": "tribal-armies",
+      "section_type": "article",
+      "title": "Tribal Armies",
+      "summary": "Report on the establishment of tribal military units in Namibia.",
+      "body": "Bushmen and Tswana recruits have begun military training as part of the South African government's scheme to build up eleven 'tribal armies' in Namibia. Similar arrangements are already in hand among the Ovambos, Kavangos, Namas, Hereros, Damaras, Rehoboth Basters and Coloureds. (see FOCUS 12 p.7).\n\nIt was reported in October that the \"Advisory Board of the Bushman Nation\" (a body set up by the South African authorities in October 1976 in terms of the Odendaal Commission's recommendations for bantustans in Namibia) had decided to establish a military training base in Bushmanland (the area set aside for a Bushman 'homeland' in the north-east of Namibia adjoining the border with Botswana). Training of Bushmen soldiers should start as soon as possible. (BBC 10.10.77, reporting Johannesburg radio English for abroad).\n\nA month previously in fact Major General Geldenhuys, the newly appointed Officer Commanding in SWA (see FOCUS 12 p.7) was reported as saying that four Bushman units had already been trained, (BBC 13.9.77 reporting Johannesburg in English for abroad). A special 'Bushman Centre' attached to a South African army base, reported to have been set up three years ago by the South African authorities in a remote part of the Caprivi strip, now accommodates 2,000 Bushmen men, women and children. The men are trained as soldiers while the women are taught to knit, sew and cook by a number of white Angolan refugees. A school, medical clinic, shops, bakery and a clothing factory have been established by the SA army in addition to housing. The Bushmen are allegedly free to come and go as they please; the entire Caprivi area, however, has been under martial law since March 1976. (RDM 12.9.77, WA 22.9.77)",
+      "page_start": 15,
+      "page_end": 15,
+      "people": [
+        {
+          "name": "Geldenhuys",
+          "canonical": "Geldenhuys"
+        }
+      ],
+      "places": [
+        {
+          "name": "Namibia",
+          "canonical": "Namibia"
+        },
+        {
+          "name": "Bushmanland",
+          "canonical": "Bushmanland"
+        },
+        {
+          "name": "Botswana",
+          "canonical": "Botswana"
+        },
+        {
+          "name": "Caprivi",
+          "canonical": "Caprivi"
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Advisory Board of the Bushman Nation",
+          "canonical": "Advisory Board of the Bushman Nation"
+        }
+      ],
+      "url_slug": "tribal-armies"
+    },
+    {
+      "section_id": "namibia-political-trials",
+      "section_type": "article",
+      "title": "Political Trials in Namibia",
+      "summary": "Report on the trial of Victor Nkandi.",
+      "body": "VICTOR NKANDI, a prominent SWAPO member who has been in prison for more than two years, appeared before the Windhoek Supreme Court on 24 October charged with direct involvement in the assassination of the Chief Minister of Ovamboland Filemon Elifas in August 1975 and alternatively, with being a member of a conspiracy which led to the chief's death. The trial, which had been postponed from 27 September, opened before the Judge President, Mr. Justice Badenhorst, and was expected to last for two to three weeks. (see FOCUS 12 p.8)\n\nA crowd of SWAPO supporters demonstrated and sang SWAPO songs outside the courtroom as the trial opened, while the public gallery inside was packed with people, mostly wearing SWAPO colours. Nkandi, who pleaded not guilty to all charges, is alleged to have transported a number of people from Angola to Ovamboland, knowing that they intended to assassinate Chief Elifas or alternatively to cause him bodily harm. He is alleged, together with SWAPO organising secretary Aaron Muchimba to have purchased a Land-Rover in Windhoek for the use of SWAPO guerillas, (WA 24.10.77; RDM 25.10.77).",
+      "page_start": 15,
+      "page_end": 15,
+      "people": [
+        {
+          "name": "VICTOR NKANDI",
+          "canonical": "Victor Nkandi"
+        },
+        {
+          "name": "Filemon Elifas",
+          "canonical": "Filemon Elifas"
+        },
+        {
+          "name": "Badenhorst",
+          "canonical": "Badenhorst"
+        },
+        {
+          "name": "Aaron Muchimba",
+          "canonical": "Aaron Muchimba"
+        }
+      ],
+      "places": [
+        {
+          "name": "Windhoek",
+          "canonical": "Windhoek"
+        },
+        {
+          "name": "Ovamboland",
+          "canonical": "Ovamboland"
+        },
+        {
+          "name": "Angola",
+          "canonical": "Angola"
+        }
+      ],
+      "organizations": [
+        {
+          "name": "SWAPO",
+          "canonical": "South West Africa People's Organization (SWAPO)"
+        }
+      ],
+      "url_slug": "namibia-political-trials"
+    },
+    {
+      "section_id": "end-matter",
+      "section_type": "end_matter",
+      "title": "Subscription Form",
+      "summary": "Subscription information and form for FOCUS.",
+      "body": "FOCUS SUBSCRIPTIONS\nRates: Individuals-$10/year; Institutions-$25/year\nStudents-$7/year; Student Group-$5/year (per student for group of 5 or more)\n\nINTERNATIONAL DEFENSE & AID FUND FOR SOUTHERN AFRICA\nP.O. BOX 17\nCambridge, Massachusetts 02138\n\nName\nAddress\nCity\nState\nZip Code",
+      "page_start": 15,
+      "page_end": 15,
+      "people": [],
+      "places": [
+        {
+          "name": "Cambridge, Massachusetts",
+          "canonical": "Cambridge, Massachusetts"
+        }
+      ],
+      "organizations": [
+        {
+          "name": "International Defense & Aid Fund for Southern Africa",
+          "canonical": "International Defence and Aid Fund (IDAF)"
+        }
+      ],
+      "url_slug": "end-matter"
+    },
+    {
+      "section_id": "torture-and-assault",
+      "section_type": "article",
+      "title": "Torture and Assault",
+      "summary": "Report on the use of torture and atrocities by Rhodesian security forces, based on testimony by Dr. Selwyn Spray.",
+      "body": "Dr. Selwyn Spray, the American missionary doctor who was imprisoned and eventually deported by the Smith regime in June 1977 on suspicion of assisting guerillas (see FOCUS 11 p.12), has since presented graphic evidence to the United Nations of the use of torture and atrocities by the Rhodesian security forces. Dr. Spray, who appeared before the Ad Hoc Working Group of Experts of the U.N. Commission on Human Rights in July 1977, worked for 2½ years at mission hospitals run by the United Church of Christ at Chikore and Mount Selinda, south of Chipinga and close to the Mozambique border in south-eastern Rhodesia. He was declared a prohibited immigrant by the regime in March 1977, and subsequently arrested and held for two weeks in Chipinga prison after two alleged guerillas had been shot and killed by the security forces close by his house.\n\nAccording to Dr. Spray, systematic torture was carried out by members of the Police Special Branch and the Criminal Investigation Department (CID). Beatings by the army were more spontaneous, and for punishment rather than interrogation. Torture was routine in local police stations, involving beating with fists and feet, whipping with hoses, beating with sticks and clubs, electric shocks, pushing the head under water and banging it against a wall. Techniques were used to cause great pain, but without mutilation or permanent signs of injury. Medical charts of torture victims admitted to the mission hospitals were presented by Dr. Spray to the Working Group.\n\nThe security forces used many means of intimidating the local African population according to Dr. Spray. Any incident in the vicinity would be followed up by a security force swoop in which every resident man, woman and child would be arrested, held in detention and interrogated for periods of up to a month. Individuals would be picked out by the security forces and beaten up in public as a warning to others. The dead bodies of alleged guerillas killed by the troops would be dropped into a village or in front of a school and residents or students forced to look at them. The corpses were treated in a \"disgusting\" way, without respect. In one such incident, passengers on two buses passing Mount Selinda were stopped and brought out to inspect two dead guerillas, accompanied by a lecture on the evils of \"terrorism\".\n\nAfrican informers constituted a crucial part of security force operations. Africans already employed in government service were given monetary rewards or promotion in return for passing information on to the police. While this system operated unofficially, rewards were also offered publicly to local villagers at meetings organised by regime officials - R$1,000 for anyone who could lead the police to a guerilla camp, R$500 for an AK rifle, R$100 for a landmine. In some cases the most trusted African civilian informers were provided with radio telephones to communicate with the police about anything suspicious. An atmosphere of widespread mistrust had resulted between friends and neighbours and even between members of the same family. Informers were regarded as evil people, who were prepared to allow others to be arrested, tortured, imprisoned and even executed by the regime. In many cases, Dr. Spray told the Working Group, local people \"will help the guerillas to find (informers), get rid of them, get them out of the community, because of the damage that they do to the social structure of a community.\"\n\nFurther evidence submitted by Dr. Spray included:\n\n* Prison conditions - Africans in Chipinga gaol were kept in open pens or concreted areas surrounded by a high fence with a small roof from which to get shelter in the rain. 15-20 people were kept in each pen, measuring 25 ft. by 25 ft., and shared a single flush toilet. No beds were provided and the prisoners slept on the concrete with a minimum of blankets. There was no routine for cleaning the cells or toilets and conditions were insanitary. Food for African prisoners consisting mainly of beans and cornmeal was served up in large buckets and four or five prisoners had to share a single plate.\n\n* Curfew regulations - men, women and children were shot dead without warning by the security forces when found breaking the curfew. In April 1977 the curfew regulations applying to the Chipinga and Melsetter areas were amended to prohibit the movement of all vehicles between sunset and sunrise, other than on metalled and tarmacadam roads. Both the Chipinga District Commissioner and the white officer in charge of Chipinga Police Station confirmed that moving vehicles would henceforth be fired upon without challenge. Previously people travelling by car or other vehicle after curfew hours had been first stopped and questioned. (Order in terms of the Emergency Powers (Maintenance of Law and Order) Regulations 1976, dated 17 April 1977)).\n\n* Protected villages - the entire farm population of Chikore mission had been removed into three protected villages. (See FOCUS 6 p.13). In addition to the other hardships of life in the fenced camps, the mission medical staff, who ran a clinic in one protected village, had noted a \"rather marked increase\" in malnutrition and an increase in communicable diseases among the small children. The protected villages had badly disrupted morals and traditional relationships within the community. The African guards were in general poorly educated and ill-disciplined and there were many reports of the threat and rape of young women in the camps. There was a \"very high\" incidence of venereal disease among the guards.\n\n(Ad Hoc Working Group of Experts, U.N. Commission on Human Rights, 452nd and 453rd Meetings, 27 July 1977, Geneva - Testimony of Dr. Selwyn Spray).",
+      "page_start": 16,
+      "page_end": 16,
+      "people": [
+        {
+          "name": "Selwyn Spray",
+          "canonical": "Selwyn Spray"
+        }
+      ],
+      "places": [
+        {
+          "name": "Chikore",
+          "canonical": "Chikore"
+        },
+        {
+          "name": "Mount Selinda",
+          "canonical": "Mount Selinda"
+        },
+        {
+          "name": "Chipinga",
+          "canonical": "Chipinge"
+        },
+        {
+          "name": "Mozambique",
+          "canonical": "Mozambique"
+        },
+        {
+          "name": "Melsetter",
+          "canonical": "Chimanimani"
+        },
+        {
+          "name": "Geneva",
+          "canonical": "Geneva"
+        }
+      ],
+      "organizations": [
+        {
+          "name": "United Church of Christ",
+          "canonical": "United Church of Christ"
+        },
+        {
+          "name": "United Nations",
+          "canonical": "United Nations"
+        },
+        {
+          "name": "U.N. Commission on Human Rights",
+          "canonical": "United Nations Commission on Human Rights"
+        },
+        {
+          "name": "Police Special Branch",
+          "canonical": "Rhodesian Special Branch"
+        },
+        {
+          "name": "Criminal Investigation Department (CID)",
+          "canonical": "Criminal Investigation Department (CID)"
+        }
+      ],
+      "url_slug": "torture-and-assault"
+    }
+  ]
+}

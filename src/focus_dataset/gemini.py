@@ -74,7 +74,14 @@ Your job is to reconstruct the editorial structure of the issue:
    unless the publication is itself a subject of the article.
 5. Give every section a stable lowercase slug-ish `section_id` unique within the
    issue.
-6. Always respond with JSON matching the provided schema. Do not include any
+6. The top-level `issue_title` MUST follow the strict schema "MONTH YEAR" —
+   uppercase English month name plus 4-digit year, e.g. "NOVEMBER 1975",
+   "JANUARY 1976", "JULY 1976". Do NOT include the issue number ("No 5",
+   "NO1—", "No. 10") in `issue_title`; the issue number lives in `issue_id`.
+   If the cover shows a season instead of a month, use "SPRING 1977",
+   "SUMMER 1977", "AUTUMN 1977" or "WINTER 1977". Set `issue_title` to null
+   only when the cover/masthead shows no date at all.
+7. Always respond with JSON matching the provided schema. Do not include any
    prose outside the JSON.
 """
 

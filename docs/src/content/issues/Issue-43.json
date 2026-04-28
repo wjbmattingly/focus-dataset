@@ -1,0 +1,1432 @@
+{
+  "issue_id": "Issue 43",
+  "issue_name": "Issue 43",
+  "parent_folder": null,
+  "issue_title": "NOVEMBER 1982",
+  "issue_summary": "This issue of FOCUS covers political repression in Southern Africa, focusing on labour unrest in South Africa, political trials, constitutional proposals, deaths in detention, and the ongoing conflict in Namibia and Angola.",
+  "num_pages": 10,
+  "is_validated": true,
+  "pages": [
+    {
+      "page_id": "Issue 43_page_001",
+      "page_number": 1,
+      "image": "/page-images/Issue-43/Issue_43_page_001.webp",
+      "width": 1100,
+      "height": 1525
+    },
+    {
+      "page_id": "Issue 43_page_002",
+      "page_number": 2,
+      "image": "/page-images/Issue-43/Issue_43_page_002.webp",
+      "width": 1100,
+      "height": 1515
+    },
+    {
+      "page_id": "Issue 43_page_004",
+      "page_number": 3,
+      "image": "/page-images/Issue-43/Issue_43_page_004.webp",
+      "width": 1100,
+      "height": 1520
+    },
+    {
+      "page_id": "Issue 43_page_005",
+      "page_number": 4,
+      "image": "/page-images/Issue-43/Issue_43_page_005.webp",
+      "width": 1100,
+      "height": 1520
+    },
+    {
+      "page_id": "Issue 43_page_006",
+      "page_number": 5,
+      "image": "/page-images/Issue-43/Issue_43_page_006.webp",
+      "width": 1100,
+      "height": 1517
+    },
+    {
+      "page_id": "Issue 43_page_007",
+      "page_number": 6,
+      "image": "/page-images/Issue-43/Issue_43_page_007.webp",
+      "width": 1100,
+      "height": 1517
+    },
+    {
+      "page_id": "Issue 43_page_008",
+      "page_number": 7,
+      "image": "/page-images/Issue-43/Issue_43_page_008.webp",
+      "width": 1100,
+      "height": 1512
+    },
+    {
+      "page_id": "Issue 43_page_009",
+      "page_number": 8,
+      "image": "/page-images/Issue-43/Issue_43_page_009.webp",
+      "width": 1100,
+      "height": 1512
+    },
+    {
+      "page_id": "Issue 43_page_010",
+      "page_number": 9,
+      "image": "/page-images/Issue-43/Issue_43_page_010.webp",
+      "width": 1100,
+      "height": 1516
+    },
+    {
+      "page_id": "Issue 43_page_012",
+      "page_number": 10,
+      "image": "/page-images/Issue-43/Issue_43_page_012.webp",
+      "width": 1100,
+      "height": 1517
+    }
+  ],
+  "sections": [
+    {
+      "section_id": "front_matter",
+      "section_type": "front_matter",
+      "title": "Masthead",
+      "summary": "Masthead and table of contents for the issue.",
+      "body": "News Bulletin of the International Defence & Aid Fund\n\nNo. 43\n\nNOV-DEC 1982\n\nIn this issue\n\nSOUTH AFRICA\n- Political Trials pp. 2-3\n- Review: Constitutional Proposals p. 4\n- Death and Torture in Detention p. 5\n- Detentions pp. 6-7\n- List of Deaths in Detention p. 7\n\nNAMIBIA\n- Massacre at Oshikuku p. 8\n- Countering the Culture of Apartheid p. 10\n- Prisoners of War p. 11\n- Angola - The Forgotten Occupation p. 12",
+      "page_start": 1,
+      "page_end": 1,
+      "people": [],
+      "places": [
+        {
+          "name": "SOUTH AFRICA",
+          "canonical": "South Africa"
+        },
+        {
+          "name": "NAMIBIA",
+          "canonical": "Namibia"
+        }
+      ],
+      "organizations": [
+        {
+          "name": "International Defence & Aid Fund",
+          "canonical": "International Defence and Aid Fund (IDAF)"
+        }
+      ],
+      "url_slug": "front-matter"
+    },
+    {
+      "section_id": "s-africa-labour",
+      "section_type": "article",
+      "title": "S. AFRICA: ATTACKS ON LABOUR",
+      "summary": "Report on the intensification of state actions against black workers and labour organisations amidst rising industrial action and economic recession.",
+      "body": "With industrial action by black workers continuing to increase and with growing unemployment as a result of deepening economic recession, the apartheid regime has intensified its actions against workers and labour organisations.\n\nActions by the regime since the middle of 1982 have included direct police intervention on a large scale in strikes and the promise of new legislation which will strengthen employers in relation to workers.\n\nFigures released by the Department of Manpower Utilization in early August showed that the number of workers going on strike during the first six months of 1982 (51,000) rose sharply compared with the first six months of the previous year (30,000). This increase continues a trend beginning since at least 1978, if not before, as noted in FOCUS 41 p.11.\n\nThe figures for the second half of 1982 could well be higher, as tens of thousands of black workers took industrial action in July alone -- over 10,000 in the Eastern Cape motor industry and nearly 30,000 in the mining industry (RDM 8.7.82; FT 17.7.82).\n\nPay increases were the principal issue in these two disputes, but issues of trade union organisation and negotiating procedures were also involved. The question of trade union recognition was the focus of another major dispute, which after 11 months culminated in action by about 1,000 dock-workers in Port Elizabeth at the end of August (FM 16.7.82, 13.8.82; S. Exp 1.8.82).\n\nAgainst this background the Minister of Manpower Utilization promised the introduction of new legislation to 'streamline the machinery for settling labour disputes', and shortly afterwards called on employers to resist what he called 'militants' (S 13.8.82; RDM 2.9.82).\n\nThe kinds of support which the apartheid regime gives employers were sharply illustrated during the disputes referred to above and during others.\n\n* On the day that the Minister was urging employers in Port Elizabeth to resist 'militants', Railway Police in camouflage uniform went into the Port Elizabeth docks and put hundreds of dockers onto buses after they had been sacked, and took them to townships outside the city. The dismissed workers (variously reported as being between 400 and 900) were ordered to vacate the hostels they lived in and which were owned by their employers, South African Transport Services (SATS). It was reported that the men, mainly migrant workers from the Transkei and Ciskei bantustans, were to be sent back to the bantustans (RDM 3/4.9. 82; New York Times 4.9.82).\n\nThe workers who were treated in this way were amongst 1,000 SATS dockers who had started a go-slow two days previously. They were protesting against the refusal of SATS to recognise the unregistered non-racial General Workers Union. The GWU had been trying unsuccessfully for 11 months to talk to SATS about recognition (RDM 31.8.82).\n\n* During June police attacked workers on strike at Richards Bay in Natal. About 1,700 workers at the Alusaf plant refused to participate in a pension scheme about which they had never been consulted. When 1,000 workers gathered at the plant during the dispute to hear if any progress was being made with their demands, they were confronted by police. After being given an ultimatum by the employers to return to work within five minutes, they were charged by police with dogs, teargas and batons. Eight workers were taken to hospital (Workers Unity August 1982).\n\nDuring the same dispute, use was made of the new Intimidation Act. The trial of two workers involved in the dispute is reported in this issue (see POLITICAL TRIALS).\n\n* Over 20,000 black mineworkers went on strike at the beginning of July. The wave of unrest, the biggest since the big mine-workers strike of 1946, began shortly after black miners were told of the low pay increase they were being given. The fact that white miners had already been given a bigger increase added to the miners' anger (RDM 8.7.82).\n\nSeveral gold, platinum and coal mines were affected by the unrest for over a week. By the end, 10 black miners had died. The cause of all the deaths is not clear, but at least some of the miners were shot dead by police (RDM 3.7.82; FM 9.7.82; SASPU National August 1982).\n\nOn several occasions police and mine security officials attacked miners with guns, teargas and batons. Heavily armed police entered mine compounds, large numbers of workers were put on buses and sent to the bantustans from which they had been recruited (over 1,300 in the first two days, and at least another 2,000 a few days later) (RDM 3/8.7.82).",
+      "page_start": 1,
+      "page_end": 1,
+      "people": [],
+      "places": [
+        {
+          "name": "Port Elizabeth",
+          "canonical": "Port Elizabeth"
+        },
+        {
+          "name": "Transkei",
+          "canonical": "Transkei"
+        },
+        {
+          "name": "Ciskei",
+          "canonical": "Ciskei"
+        },
+        {
+          "name": "Richards Bay",
+          "canonical": "Richards Bay"
+        },
+        {
+          "name": "Natal",
+          "canonical": "Natal"
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Department of Manpower Utilization",
+          "canonical": "Department of Manpower Utilization"
+        },
+        {
+          "name": "Railway Police",
+          "canonical": "Railway Police"
+        },
+        {
+          "name": "South African Transport Services",
+          "canonical": "South African Transport Services (SATS)"
+        },
+        {
+          "name": "General Workers Union",
+          "canonical": "General Workers Union (GWU)"
+        },
+        {
+          "name": "Alusaf",
+          "canonical": "Alusaf"
+        }
+      ],
+      "url_slug": "s-africa-labour"
+    },
+    {
+      "section_id": "political-trials",
+      "section_type": "article",
+      "title": "POLITICAL TRIALS",
+      "summary": "Overview of recent political trials, convictions, and ongoing cases involving ANC members and trade unionists.",
+      "body": "In August and September a number of major political trials were completed and resulted in the imprisonment of nine people, all members of the African National Congress. They were imprisoned for a total of eighty eight and a half years. With sentences ranging from 20 years to six months, the average prison sentence was almost ten years.\n\nNine witnesses who refused to testify in political trials were sentenced to a total of 29 years imprisonment, the average sentence being 3.2 years. Sentences ranged from two years to five years. The refusal by witnesses to testify for the state has become a common feature of political trials in recent times.\n\nA number of other major trials continue in South African courtrooms. A number of these involve persons who were engaged in labour and trade union activities.\n\nAppeals against the death sentences imposed on three ANC guerillas have been heard, but judgement has been reserved. Three others who face the death penalty dropped the appeal against their sentences and appealed instead to the State President for clemency.\n\nCONVICTIONS AND ACQUITTALS\n\nBILA AND MOKGONYANA\n\nStrike Ishmael BILA (28) was jailed for two years on 23 August for furthering the aims of the ANC and fined R300, or six months imprisonment, for being in possession of banned literature.\n\nBernard MOKGONYANA (19), who was charged with Bila, was jailed for 18 months for the same offences, six months of which were conditionally suspended for five years.\n\nBoth were acquitted on eight charges of putting up posters and writing slogans on buildings. The Court found that they had furthered the aims of the ANC by acting as messengers. The trial took place in the Pretoria Regional Court (CT 24.8.82).\n\nMAQUBELA, MAQHUTYANA AND GABA\n\nThree members of the ANC were convicted of high treason in the Pietermaritzburg Supreme Court on 7 September and each sentenced to 20 years imprisonment. The three, Patrick Ntobeko MAQUBELA (32), Mboniswa MAQHUTYANA (29) and Seth Mpumulelo GABA (24), were found by the Court to be responsible for a series of explosions in Durban during 1981 in which nine people were injured and damage of nearly R500,000 was caused.\n\nAfter the sentences were announced the convicted men raised their arms in clenched-fist salutes and shouted ANC slogans. Almost all the spectators in the public gallery responded in like manner until the police broke up the demonstration with teargas, forcing the demonstrators and lawyers to rush for the doors. The demonstration continued outside the court until it was broken up by police with dogs. Police defended the use of teargas in the light of the new Demonstrations in or near Court Buildings Prohibition Act which was introduced in June this year to prevent such demonstrations at political trials (CT. S 8.9.82; S 9.9.82).\n\nFive people who refused to testify in the trial were sentenced to prison terms under the Criminal Procedures Act. Mpilo Ichabod TAHO (28) was sentenced to the maximum penalty of five years, Luyanda MPAHLWA (23) to four years, Litha JOLOBE (25) to four years, Bulelane NGCUKA (28) and Mbulelo HONGO (26) to three years. All five were held in custody from November last year until they were sentenced in August (S 4/5/6.8.82; CT 10.8.82; see FOCUS 39. p.8, 40 p.3).\n\nSeth Gaba gave evidence in a 'trial within a trial' of how he was tortured to force him to make a statement. A wet bag was placed over his head and his hands were manacled behind his back. He was then suspended by his knees from a stick resting between two tables. The judge found that the statement he had made was made 'freely and voluntarily' and was therefore admissible (CT 11/17.8.82).\n\nCHARLTON NTULI\n\nA 73 year old man, Charlton NTULI, was sentenced in the Umtata Magistrates Court to five years imprisonment on 11 August after being found guilty on three counts under the Transkei bantustan's security laws.\n\nNtuli was convicted of being a member of the ANC, of possessing banned literature and of trying to recruit others to the ANC. He had pleaded not guilty to all the charges. He told the court that he had been a member of the ANC before it was banned in 1960 but that he had not been an active member since that time (RDM 4.8.82; Cit 12.8.82).\n\nBUTHELEZI AND OTHERS\n\nThree members of the ANC were each sentenced to seven years imprisonment in the Durban Supreme Court on 22 September after being found guilty on charges under the Terrorism Act.\n\nThe three are Amon Sipho BUTHELEZI (27), Amos DLOMO (34) and Mkipheni NYANDENI (33). They were jailed for five years for having undergone military training outside South Africa and for seven years for possessing weapons and ammunition. The sentences will run concurrently (S 20/23.9.82; RDM 23.9.82).\n\nSAM KIKINE\n\nCharges under the Terrorism Act against the general-secretary of the South African Allied Workers Union (SAAWU), Sam KIKINE, were dropped on 2 September when he appeared unexpectedly in the Durban Magistrate's Court.\n\nKikine was originally detained in November last year. He was charged in a Johannesburg court in June, had the charges against him withdrawn, was immediately redetained and transferred to Durban where he was again charged and released on bail. He was due to appear on 6 August, but was only requested to appear on 2 September, when the charges were dropped. No explanation or reasons were given for the dropping of the charges and he was not told that he would have to appear as a witness in any forthcoming security law trials, although he had been originally told that he would (RDM 23.7.82; RDM 6.8.82; RDM 3.9.82).\n\nNONDULA AND MSANA\n\nTwo men from Mdantsane in the Ciskei bantustan, Bongani NONDULA (23) and Sandile MSANA (23), were acquitted of Terrorism charges in the Ciskei Supreme Court in Zwelitsha on 15 September.\n\nThey pleaded not guilty to having participated in the activities of the ANC and to having advised people to join Umkhonto we Sizwe, the military wing of the ANC.\n\nTwo witnesses who refused to testify at the trial â€” which was held in camera were sentenced to two and a half years imprisonment (RDM 16.9.82).\n\nCONTINUING TRIALS\n\nGQWETA AND NJIKELANA\n\nThe president and vice-president of the South African Allied Workers Union (SAAWU), Thozamile GQWETA and Sisa NJIKELANA, were released on bail on 28 August. Njikelana had been held in custody since December last year. Both have been detained six times without trial since November 1980.\n\nBoth were released in East London on R750 bail after appearing earlier in court in Johannesburg and Grahamstown on charges under the Terrorism Act. Details of the charges have not been made available to their legal representatives who say it is unusual for accused persons in Terrorism Act cases to be released on bail. Several bail conditions have been imposed on the two SAAWU leaders. They have to report twice a week to the police, have had to surrender their passports and must not engage in 'illegal trade union activities' (RDM 12.5.82).\n\nBARBARA HOGAN\n\nThe trial of Barbara HOGAN (30) was adjourned on 7 September in the Rand Supreme Court to 20 October for judgement.\n\nHogan appeared on charges of treason and on charges of being a member of the ANC and furthering its aims. She pleaded not guilty to the former charge but guilty to the latter.\n\nIn the trial, the state attempted to show that Hogan had committed an act of treason",
+      "page_start": 2,
+      "page_end": 2,
+      "people": [
+        {
+          "name": "Ishmael BILA",
+          "canonical": "Ishmael Bila"
+        },
+        {
+          "name": "Bernard MOKGONYANA",
+          "canonical": "Bernard Mokgonyana"
+        },
+        {
+          "name": "Patrick Ntobeko MAQUBELA",
+          "canonical": "Patrick Ntobeko Maqubela"
+        },
+        {
+          "name": "Mboniswa MAQHUTYANA",
+          "canonical": "Mboniswa Maqhutyana"
+        },
+        {
+          "name": "Seth Mpumulelo GABA",
+          "canonical": "Seth Mpumulelo Gaba"
+        },
+        {
+          "name": "Mpilo Ichabod TAHO",
+          "canonical": "Mpilo Ichabod Taho"
+        },
+        {
+          "name": "Luyanda MPAHLWA",
+          "canonical": "Luyanda Mpahlwa"
+        },
+        {
+          "name": "Litha JOLOBE",
+          "canonical": "Litha Jolobe"
+        },
+        {
+          "name": "Bulelane NGCUKA",
+          "canonical": "Bulelane Ngcuka"
+        },
+        {
+          "name": "Mbulelo HONGO",
+          "canonical": "Mbulelo Hongo"
+        },
+        {
+          "name": "Seth Gaba",
+          "canonical": "Seth Mpumulelo Gaba"
+        },
+        {
+          "name": "Charlton NTULI",
+          "canonical": "Charlton Ntuli"
+        },
+        {
+          "name": "Amon Sipho BUTHELEZI",
+          "canonical": "Amon Sipho Buthelezi"
+        },
+        {
+          "name": "Amos DLOMO",
+          "canonical": "Amos Dlomo"
+        },
+        {
+          "name": "Mkipheni NYANDENI",
+          "canonical": "Mkipheni Nyandeni"
+        },
+        {
+          "name": "Sam KIKINE",
+          "canonical": "Sam Kikine"
+        },
+        {
+          "name": "Bongani NONDULA",
+          "canonical": "Bongani Nondula"
+        },
+        {
+          "name": "Sandile MSANA",
+          "canonical": "Sandile Msana"
+        },
+        {
+          "name": "Thozamile GQWETA",
+          "canonical": "Thozamile Gqweta"
+        },
+        {
+          "name": "Sisa NJIKELANA",
+          "canonical": "Sisa Njikelana"
+        },
+        {
+          "name": "Barbara HOGAN",
+          "canonical": "Barbara Hogan"
+        }
+      ],
+      "places": [
+        {
+          "name": "South Africa",
+          "canonical": "South Africa"
+        },
+        {
+          "name": "Pretoria",
+          "canonical": "Pretoria"
+        },
+        {
+          "name": "Pietermaritzburg",
+          "canonical": "Pietermaritzburg"
+        },
+        {
+          "name": "Durban",
+          "canonical": "Durban"
+        },
+        {
+          "name": "Umtata",
+          "canonical": "Umtata"
+        },
+        {
+          "name": "Transkei",
+          "canonical": "Transkei"
+        },
+        {
+          "name": "Johannesburg",
+          "canonical": "Johannesburg"
+        },
+        {
+          "name": "Mdantsane",
+          "canonical": "Mdantsane"
+        },
+        {
+          "name": "Ciskei",
+          "canonical": "Ciskei"
+        },
+        {
+          "name": "Zwelitsha",
+          "canonical": "Zwelitsha"
+        },
+        {
+          "name": "East London",
+          "canonical": "East London"
+        },
+        {
+          "name": "Grahamstown",
+          "canonical": "Grahamstown"
+        }
+      ],
+      "organizations": [
+        {
+          "name": "African National Congress",
+          "canonical": "African National Congress (ANC)"
+        },
+        {
+          "name": "ANC",
+          "canonical": "African National Congress (ANC)"
+        },
+        {
+          "name": "Pretoria Regional Court",
+          "canonical": "Pretoria Regional Court"
+        },
+        {
+          "name": "Pietermaritzburg Supreme Court",
+          "canonical": "Pietermaritzburg Supreme Court"
+        },
+        {
+          "name": "Durban Supreme Court",
+          "canonical": "Durban Supreme Court"
+        },
+        {
+          "name": "South African Allied Workers Union",
+          "canonical": "South African Allied Workers Union (SAAWU)"
+        },
+        {
+          "name": "SAAWU",
+          "canonical": "South African Allied Workers Union (SAAWU)"
+        },
+        {
+          "name": "Durban Magistrate's Court",
+          "canonical": "Durban Magistrate's Court"
+        },
+        {
+          "name": "Ciskei Supreme Court",
+          "canonical": "Ciskei Supreme Court"
+        },
+        {
+          "name": "Umkhonto we Sizwe",
+          "canonical": "Umkhonto we Sizwe"
+        },
+        {
+          "name": "Rand Supreme Court",
+          "canonical": "Rand Supreme Court"
+        }
+      ],
+      "url_slug": "political-trials"
+    },
+    {
+      "section_id": "constitutional-proposals",
+      "section_type": "article",
+      "title": "REVIEW: CONSTITUTIONAL PROPOSALS",
+      "summary": "Analysis of the South African regime's constitutional proposals, which aim to entrench white domination while excluding the African majority.",
+      "body": "The attempts by the South African regime to strengthen the political structures of apartheid, a major focus of white politics for some years, intensified during the past year.\n\nThe situation in August 1981 was analysed in Briefing Paper No. 3 ('Entrenchment of White Domination: A review of constitutional proposals', IDAF November 1981). The paper concluded that the proposals presented as 'reforms', while offering small concessions to a minority, were a means of entrenching and safeguarding white domination; and that they were a response to the growing weakness of the subordinate political structures imposed on the Coloured and Indian communities during the 1960s. It also drew attention to the restructuring of the regime in a way which established military control over strategic sectors of the economy, government and administration.\n\nThe developments in the year since the Briefing Paper was published have underlined and confirmed its conclusions.\n\nThe Prime Minister, P W Botha, announced proposals at a special Federal Congress of the ruling National Party at the end of July. Press reports uniformly describe the reception of the proposals by the congress as enthusiastic. This appears to have been particularly so in relation to statements that they contained nothing that was not implicit in the proposals which have been National Party policy since 1977. Delegates were also reported to have been persuaded that the plan meant; in the words of a newspaper report, that 'the National Party would retain a stranglehold on power' (ST 1.8.82, S.Exp 1.8.82).\n\nThe structures proposed (see Box) would exclude the majority of the country's population, the Africans, (21.0 million) and would bring the Coloured and Asian sections into a common political system with Whites, under White control. This would involve creating an executive president with very wide powers reducing the power of the Cabinet and Parliament, and instituting a number of procedures for the resolution of disagreements within the legislative system which would guarantee effective control by the white minority.\n\nThese aspects of the proposals mean that giving a Parliamentary vote in the new system to the Coloured and Asian sections of the population (2.5 millions and 0.8 millions respectively) would pose even less of a threat to the whites (4.5 million) than would be the case under the present system. This is reinforced by the restructuring of the political system that has already taken place independently of formal constitutional plans.\n\nThe power of the Cabinet and Parliament have, in fact, already been considerably reduced under Botha's premiership. It is generally believed that the State Security Council (SSC) has supplanted the Cabinet as the effective decision-making body (Briefing Paper No. 3).\n\nAccording to a recent press report, the State Security Council 'is to become the most important functional element of the executive presidency'. Apart from the Ministers of Defence, Foreign Affairs and Law and Order (Police), the SSC includes the Secretary for Security Intelligence, the Chief of the South African Defence Force and the Commissioner of Police. Botha is believed to have used his power to co-opt to bring onto the SSC his most powerful ministers not already ex officio members, as well as representatives of all the intelligence services, heads of the main departments of state and senior planners (ST 11.7.82).\n\nRESPONSES\n\nThe acceptance of the proposals by the special Federal Congress of the National Party and their subsequent acceptance by the provincial congresses, make it possible that legislation to implement them will be introduced during the next Parliamentary session, in 1983, unless resistance from within the black community causes delays.\n\nAs far as whites are concerned, opinion polls suggest that a majority support the proposals. A by-election in Germiston shortly after the announcement of the plans showed\n\nTHE PROPOSALS\n\nThe main proposals are set out below. They revolve around the maintenance of two basic principles of the apartheid constitutional structure: white domination and the exclusion of Africans from participation in central government.\n\n* There will be an executive president combining the powers of the present Prime Minister and State President, elected for five years by an electoral college which will in turn be elected by three separate chambers of Parliament. The college will consist of 50 White, 25 Coloured and 13 Asian members.\n\n* There is no mention in the proposals of the State Security Council.\n\n* There will be a Cabinet, containing White, Indian and Coloured members appointed by the President. There will be separate Cabinet Committees consisting of members belonging to each of the three groups.\n\n* The legislature would have three separate White, Coloured and Asian chambers. Legislation affecting all groups will have to be passed by each chamber sitting separately. The President decides whether or not legislation affects one group or all.\n\n* The three legislative chambers will be linked by a set of committees to deal with proposed legislation. In the event of disagreement within committees or between chambers, the Presidents Council will arbitrate subject to the ultimate power of the President to make decisions.\n\n* The President's Council will have 35 members nominated by the President and 35 elected by the majority parties in the three legislative chambers (20 White, 10 Coloured, 5 Asian).\n\n* At local government level, the Group Areas Act is to be retained and separate White, Coloured and Asian local authorities should exist wherever possible. At the metropolitan or regional level, bodies would be established, consisting of representatives of the local authorities, for administering joint services and matters deemed to be of common interest to the separate groups.\n\na great increase in support for parties to the right of the National Party giving them a combined majority. While most newspapers presented this as representing widespread opposition to the plans, others pointed out that there was no concrete evidence that this did reflect opposition throughout the country, or posed a threat to the National Party (ST 15.8.82; RDM 20.8.82; S.Exp 22.8.82).\n\nWithin the black community, there was evidence of only minority support for the proposals, and clear signs of widespread opposition. The exclusion of the African majority as well as the power of the Whites in the new system were main reasons given.\n\nThe successful boycott of the South African Indian Council (SAIC) elections in November 1981 made clear that the Indian community rejected apartheid political institutions, a fact apparently accepted even by most members of the SAIC (FM 6.8.82; FOCUS 38 p.12).\n\nWhile the leadership of the Coloured Labour Party (which until now has participated in government-created structures) showed signs of being divided about the proposals, the broader membership of the party showed its disagreement. A meeting of representatives of 20 Management Committees in the Cape Peninsula called for a total rejection of the proposals at a meeting in August. The committees are the local level of the apartheid political system for the Coloured and Indian communities. The Cape Peninsula committees constitute 70 per cent of all committees and their position could result in a rejection of the plan by the national association of management committees (RDM 22.8.82).\n\nAFRICAN STRUCTURES\n\nThe exclusion of Africans from participation in the central government of the country was reaffirmed by the Prime Minister both at the National Party Federal Congress in July, and in Parliament in April. Outside of the bantustans he said that they could have only local government rights in 'autonomous local authorities'. He emphasised that the ways in which Africans in townships outside the bantustans would be linked up with the bantustan structures was 'a matter of great priority' (RDM 17.4.82, S.Exp 1.8.82).\n\nIn June 1982 the Black Local Authorities Amendment Act was passed, providing for increased powers to be given to the Community Councils, (set up by the regime in 1977 to administer the African townships outside the bantustans). This act is one of three proposed pieces of legislation presented as bringing in 'a new dispensation' for Africans in urban areas outside the bantustans. The other two, the Orderly Movement and Settlement of Persons Bill and the Black Community Development Bill were referred to a select committee and are due to be discussed in 1983. The former of these bills, aimed at sharply tightening the pass law system and 'influx control' was described in Focus 43, p.11.\n\nDepending primarily on rents and tariffs for services as sources of revenue, the Councils have been in constant conflict with the people in the townships and have come to be seen as agents of the regime and powerless to advance the interests of the people in the townships. A government committee of enquiry, the Browne Committee, concluded in 1981 that the councils would depend heavily on rents and tariffs for a long time to come. It is not yet clear whether the proposed Black Community Development will provide adequate new sources of finance.\n\nDifficulties in formulating legislation which would both meet criticism of the Council system and keep within the terms of apartheid policies, has led to several delays in the legislative procedure. Elections to the councils have been postponed three times (from September 1981 to January 1982 then from September 1982 and then to November 1983).\n\nOpposition to the councils, evident in the low polls in earlier elections, especially in the cities and big towns, appeared to be taking the form of a boycott of the elections when their postponement was announced in July this year (S 21.7.82).",
+      "page_start": 3,
+      "page_end": 3,
+      "people": [
+        {
+          "name": "P W Botha",
+          "canonical": "Pieter Willem Botha"
+        }
+      ],
+      "places": [
+        {
+          "name": "South Africa",
+          "canonical": "South Africa"
+        },
+        {
+          "name": "Germiston",
+          "canonical": "Germiston"
+        },
+        {
+          "name": "Cape Peninsula",
+          "canonical": "Cape Peninsula"
+        }
+      ],
+      "organizations": [
+        {
+          "name": "National Party",
+          "canonical": "National Party"
+        },
+        {
+          "name": "State Security Council",
+          "canonical": "State Security Council (SSC)"
+        },
+        {
+          "name": "South African Defence Force",
+          "canonical": "South African Defence Force (SADF)"
+        },
+        {
+          "name": "South African Indian Council",
+          "canonical": "South African Indian Council (SAIC)"
+        },
+        {
+          "name": "Labour Party",
+          "canonical": "Labour Party"
+        }
+      ],
+      "url_slug": "constitutional-proposals"
+    },
+    {
+      "section_id": "death-and-torture",
+      "section_type": "article",
+      "title": "DEATH AND TORTURE IN DETENTION",
+      "summary": "Report on the systematic use of torture by security police and the resulting deaths in detention, with specific case studies.",
+      "body": "The recent deaths in detention of Neil Aggett and Moabi Dipale have drawn attention to the large number of people who have died in security police custody since 1963. The deaths have helped bring to light the widespread use of torture by the security police during interrogation and the part that torture plays in relation to political trials in South Africa. Despite regular police denials, the large body of allegations which has accumulated indicates a systematic use of torture by security police.\n\nA document compiled by the Detainees Parents Support Committee in September drew attention to the consistency of reports of torture made by detainees. Other evidence is given below.\n\nDEATHS IN POLICE CUSTODY\n\nWhen the South African government introduced the General Law Amendment Act, No. 37 of 1963, in the wake of an upsurge in sabotage activity in the country, it granted for the first time to the security police a free hand to deal with political detainees as they saw fit. The amendment to the Act permitted the detention of persons for interrogation purposes for periods of up to 90 days. In practice this period was indefinite because the person could be re-arrested immediately on the completion of a period of 90 days and then held for a further 90 days.\n\nWith the introduction of the 90-day Law the rule of law and habeas corpus disappeared from the South African scene. The Law provided the security police with a weapon for breaking down the resistance of political prisoners out of sight of the press and public, and outside the jurisdiction of the courts. The police were made omnipotent and accountable to no-one.\n\nImmediately, cases of torture began to be reported, detainees began to show signs of mental derangement and in September 1963, four months after the introduction of the 90-day Law, the first two deaths in detention occurred.\n\nSince that time, as the list on p.7 shows, 56 people have died while being held by the security police. The 90-day Law is no longer in force, but since 1965 new Acts have been introduced which have retained indefinite detention without trial. At the present time, the Internal Security Act, No. 74 of 1982, provides for the detention of persons for interrogation for periods up to six months but this can be extended to make detention indefinite. It also allows for the indefinite 'preventive detention' of political opponents, and for the detention of persons likely to give evidence for the state in political trials.\n\nThe list of persons who have died in detention compiled by IDAF contains several more names than lists compiled by various sources in South Africa. A list published in the Johannesburg Star on 11 March 1982 contained 50 names. Ernest Dipale was not listed because he died after the list was published; Manana Mqgweto and Sifundile Matalasi were probably not listed because they died in the Transkei bantustan, and the newspaper list did not include names of people who died while held under bantustan security laws. The list also omitted the names of certain people who died while being held by security police, but not under security laws (F. Mogatusi, J. Mashabane, M.R. James, M. Nobhadule).\n\nApart from those who have died in the custody of the security police, many more 'non-political' people have died in police custody each year. In 1978 alone, the last year for which such figures were made available, 161 people died in police custody. In 1977, the figure was 128 deaths (SAIRR Surveys 1978, 1979). See list on p.7.\n\nTORTURE AND TRIALS\n\nDetention without trial is not only used as a repressive measure on its own. It is also often the first step in the legal process leading to security trials and convictions. Most defendants and state witnesses spend long periods in detention before court hearings begin. This period is crucial to the system, because the main evidence at security trials is provided by statements and 'confessions' obtained from detainees during their isolation. The laws governing criminal procedure have been modified in recent years to make it easier to gain convictions on the basis of such statements. Lawyers have battled, usually unsuccessfully, to have statements made under duress ruled inadmissable in court. In two recent treason trials convictions were obtained in spite of a great deal of evidence that statements had been made after torture or psychological pressure (see below).\n\nPSYCHOLOGICAL TORTURE\n\nAt the beginning of 1982 considerable publicity was given to a number of detainees who were admitted to hospital in need of psychiatric treatment after long periods spent in solitary confinement (FOCUS 40 pp. 2,3).\n\nIn the same period two trials had to be halted whilst in each case one of the accused was examined by a psychiatrist.\n\nTSOTSOBE, SHABANGU & MOISE\n\nCharged with High Treason (FOCUS 35 p.4, 36 p.8, 37 p.4)\n\nSentenced to death 19 August 1981.\n\nAnthony TSOTSOBE was detained for 141 days before being brought to court. He was stripped, handcuffed and beaten with a hosepipe leaving scars on his back. When a wet sack was placed over his head he said: 'I could no longer breathe. I thought I was dying'.\n\nJohannes SHABANGU came to trial after 252 days in detention. During this period a security policeman broke his jaw. On one occasion he was suspended by leg-irons from a tree, then whipped and interrogated.\n\nDavid MOISE was detained for 172 days before his trial. He was 'tied upside down from the cross-bar of a soccer goal and punched like a punching-bag'. After interrogation he was brought down and had his heels burned.\n\nMOGOERANE, MOSOLOLI & MOTAUNG\n\nCharged with High Treason (FOCUS 41 p.6, 42 p.2)\n\nSentenced to death 6 August 1982\n\nThelle Simon MOGOERANE was detained for four months before his trial. He was severely assaulted at the time of his arrest. His hands were tied behind his back, a rope was put round his neck and he was hung from a tree so he had to stand on tiptoe to survive. While in detention, one policeman placed a pistol in his mouth while another banged sharply on a table to imitate the blast. In evidence he said, 'I actually wish a bullet had gone off'.\n\nJerry Semano MOSOLOLI was also detained for four months before appearing in court. At his arrest he was made to lie on the ground with his hands tied behind his back and a plastic bag partially suffocating him. Then a dog was set on him. Later he was given electric shock treatment.\n\nMarcus Thabo MOTAUNG was shot three times by police in the course of his arrest. Although his wounds required surgery, he received nor treatment whatsoever for two days. A district surgeon neither disinfected nor dressed his wounds, but instead urged that he help the police with their inquiries. He was eventually admitted to hospital after bleeding internally for the two days.\n\nSITHOLE, NGCOBO & MTHENJANE\n\nCharged with Terrorism (FOCUS 40 p.4, 41 p.6, 42 p.2)\n\nSentenced to 5 years each on 8 July 1982\n\nIn March 1982 this Durban trial was halted when it became apparent that Titi Mthenjane was unable to follow the proceedings. A psychiatrist told the court that Mthenjane was suffering from a disorder in the thinking process which he described as 'thought-blocking'. He showed signs of depression and of having auditory hallucinations. At the time of his trial Mthenjane had already endured five years of harassment by the security police. In August 1977 he was sentenced to three years for refusing to testify in the Terrorism trial of Paul Langa (Focus 12 p.10).\n\nThis was reduced to 18 months on appeal. Between 1979 and July 1981 he served four periods of detention without any charges being brought. He was redetained on 20 July and brought to court in January 1982. In spite of evidence of psychiatric illness, the case against him continued and in July 1982 he was sentenced to two periods of five years to run concurrently.\n\nDUNA AND OTHERS\n\nCharged with Terrorism (FOCUS 40 p.4, 41 p.6, 42 p.3)\n\nThe case is continuing\n\nIn February 1982 this Zwelitsha trial was twice adjourned so that the oldest defendant, Jeffrey Bayi Keye, aged 52 years, could be examined by psychiatrists. The judge accepted medical opinion which found that Keye had a history of schizophrenic psychosis. Doctors judged that Keye showed no evidence of current psychosis, but was depressed and anxious. They recommended that he should not be kept in solitary confinement.\n\nThe court heard evidence about Keye's treatment since he was detained in June 1981. He had been assaulted during a two month period of intensive interrogation which only ended when he was admitted to hospital in August 1981. By then he could not see out of one eye and was suffering from a schizophrenic-like illness with auditory hallucinations.\n\nThe magistrate hearing his case accepted the medical findings, but rejected Keye's allegations of assault. Keye returned to court and the trial was still proceeding in August 1982 (For further details of torture see DETENTIONS in this issue).",
+      "page_start": 4,
+      "page_end": 4,
+      "people": [
+        {
+          "name": "Neil Aggett",
+          "canonical": "Neil Aggett"
+        },
+        {
+          "name": "Moabi Dipale",
+          "canonical": "Moabi Dipale"
+        },
+        {
+          "name": "Ernest Dipale",
+          "canonical": "Ernest Dipale"
+        },
+        {
+          "name": "Manana Mqgweto",
+          "canonical": "Manana Mqgweto"
+        },
+        {
+          "name": "Sifundile Matalasi",
+          "canonical": "Sifundile Matalasi"
+        },
+        {
+          "name": "F. Mogatusi",
+          "canonical": "Fenuel Mogatusi"
+        },
+        {
+          "name": "J. Mashabane",
+          "canonical": "Jacob Mashabane"
+        },
+        {
+          "name": "M.R. James",
+          "canonical": "Mbulelo Rocky James"
+        },
+        {
+          "name": "M. Nobhadule",
+          "canonical": "Mzukisi Nobhadula"
+        },
+        {
+          "name": "Anthony TSOTSOBE",
+          "canonical": "Anthony Tsotsobe"
+        },
+        {
+          "name": "Johannes SHABANGU",
+          "canonical": "Johannes Shabangu"
+        },
+        {
+          "name": "David MOISE",
+          "canonical": "David Moise"
+        },
+        {
+          "name": "Thelle Simon MOGOERANE",
+          "canonical": "Thelle Simon Mogoerane"
+        },
+        {
+          "name": "Jerry Semano MOSOLOLI",
+          "canonical": "Jerry Semano Mosololi"
+        },
+        {
+          "name": "Marcus Thabo MOTAUNG",
+          "canonical": "Marcus Thabo Motaung"
+        },
+        {
+          "name": "Titi Mthenjane",
+          "canonical": "Titi Mthenjane"
+        },
+        {
+          "name": "Paul Langa",
+          "canonical": "Paul Langa"
+        },
+        {
+          "name": "Jeffrey Bayi Keye",
+          "canonical": "Jeffrey Bayi Keye"
+        }
+      ],
+      "places": [
+        {
+          "name": "South Africa",
+          "canonical": "South Africa"
+        },
+        {
+          "name": "Transkei",
+          "canonical": "Transkei"
+        },
+        {
+          "name": "Durban",
+          "canonical": "Durban"
+        },
+        {
+          "name": "Zwelitsha",
+          "canonical": "Zwelitsha"
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Detainees Parents Support Committee",
+          "canonical": "Detainees Parents Support Committee"
+        },
+        {
+          "name": "International Defence and Aid Fund",
+          "canonical": "International Defence and Aid Fund (IDAF)"
+        }
+      ],
+      "url_slug": "death-and-torture"
+    },
+    {
+      "section_id": "detentions",
+      "section_type": "article",
+      "title": "DETENTIONS",
+      "summary": "Report on recent detentions, the death of Ernest Dipale, the Aggett inquest, and preventive detention measures.",
+      "body": "Earlier issues of FOCUS have drawn attention to new restrictions aimed at limiting the reporting of detentions. The current list suggests that these measures are taking effect in that few new detentions were reported in August and September. The list, however, does include a number of people who were detained earlier in 1982 but whose names have only recently become known. It is clear that much security police action goes unreported. Recent trials have featured people who were not known to be in detention. In particular, authorities in the bantustans continued to be reluctant to reveal any details about detentions. The Aggett inquest resumed in September with evidence of torture given by a number of former detainees. This, combined with the death in detention in August of Ernest Dipale, ensured that the conditions suffered by people in detention continued to be publicised.\n\nDEATH OF ERNEST DIPALE\n\nFOCUS 42 p.4, reported the death in detention of Ernest Moabi DIPALE (DEPALE) on 8 August. Dipale was allegedly found hanged in his cell by a piece of blanket. A post mortem at which a pathologist and physician represented the Dipale family, was held on 10 August. Preliminary findings only were reported and by the end of September no date for an inquest had been announced. Dipale was detained on 5 August.\n\nPolice alleged that Dipale made a 'confession' to a magistrate on Saturday 7 August and was due to appear in court early the following week, alongside his cousin, Lilian KEAGILE, who had already been charged in July with belonging to a banned organisation (see POLITICAL TRIALS). Dipale's family maintained that he was still in detention at the time of his death, and was not an 'awaiting-trial' prisoner. They pointed out that he was still being held at John Vorster Square along with other detainees and that he had been allowed no access to relatives or lawyers.\n\nThe day before his detention, two men shot at Dipale and a friend, Oupa Koapeng, when they stopped at a road junction in Soweto. The incident was reported to the Meadowlands police station, but Dipale's family expressed dissatisfaction that no proper investigation was carried out. Koapeng was detained with Dipale and released on 9 August (RDM 11.8.82, 12.8.82, 14.8.82: S 11.8.82).\n\nFUNERAL\n\nDipale's funeral was severely restricted in terms of Section 46 (i) of the 1982 Internal Security Act which was invoked for the first time (FOCUS 42, p.12). The authorities imposed a number of restrictions to prevent the funeral being a focus of political protest. All speeches were banned, as were freedom songs, posters, banners, flags and pamphlets. Mourners were forbidden to walk in procession from the house to the graveside either carrying the coffin or transporting it by horse-drawn cart. A route was prescribed which had to be followed by the hearse and by people in mechanical transport only. Dipale's family cancelled the traditional night vigil before the funeral because of police harassment (S 16.8.82, 19.8.82; RDM 14.8.82).\n\nAGGETT INQUEST\n\nThe inquest into the death in detention of Neil Aggett resumed in Johannesburg on 20 September. No ruling was announced about the admissability of the last statement allegedly made by Aggett (FOCUS 42 p.4). However, a number of former detainees began to give evidence. This evidence divided into two categories. Firstly there were accounts of Aggett's condition in detention and how he had deteriorated physically and mentally by the week of his death. Secondly, some of those detained gave graphic descriptions of their own ill-treatment, assault or torture.\n\nKeith COLEMAN testified that when he saw Aggett shortly before his death the trade unionist failed to respond to greetings. Another witness Thabo LERUMO, who was described as an 'awaiting-trial' prisoner, described Aggett's condition on the day of his death: 'Tears were running down from his eyes, his hands were handcuffed in front of him and he walked slowly with a stoop. I saw blood on his forehead'. This evidence was corroborated by Ismail MOMONIAT.\n\nThe most shocking evidence of torture came from Prema NAIDOO and Sisa NJIKELANA. Naidoo was sentenced to one year's imprisonment in April 1982 for harbouring an escaped political prisoner. He told of seven days of torture following his detention in November 1981 during which he was deprived of sleep, kicked and punched, and forced to do physical exercises. He was kept naked, publicly humiliated and sexually abused. He was beaten on the soles of his feet and kept for long periods with his wrist handcuffed to his ankle. At times a canvas bag was placed over his head to suffocate him.\n\nSisa NJIKELANA, vice-president of the South African Allied Workers Union, also gave details of torture. He was kept in a squatting position by handcuffs which were clamped on to his leg-irons. With a canvas bag over his head, he was then given electric shocks for a period of 30 minutes. Both Prema Naidoo and Liz FLOYD, testified that security police taunted them with the names of detainees who had died after falling out of the windows at John Vorster Square (RDM 21/22/24/25.9.82; S 22.9.82).\n\nPREVENTIVE DETENTION\n\nAt the beginning of September attention was focused on the provision made in security legislation for preventive detention. Two new orders of twelve months each were served on detainees under Section 28 (i) of the 1982 Internal Security Act.\n\nOne of the men detained is David NTOMBELA (TOBELA) a Mozambique citizen who was abducted from Matola during the South African Defence Force (SADF) raid in January 1981. His lawyers said that although he could appeal for release to a Board of Review, this body was ineffectual. Ntombela asked to be returned to Mozambique, but even if the Board recommended this, the Minister was under no obligation to take its advice. Furthermore, no legal representation was allowed so that if he was called to give oral evidence to the Board, he would have to do so alone. Ntombela's lawyer said he had not been questioned since April 1981 and had received no visitors throughout his detention (FOCUS 34 p.8, 40 p.2; RDM 11.9.82, 13.9.82).\n\nModika Mothibi TSATSA was also served with a one year preventive detention order at the beginning of September. He has been held in custody continuously since December 1979, when he was detained whilst in Standard Six. The following year charges were prepared against him, but then dropped. However, he remained in detention as a potential witness in the trial of Khumalo and Dludlu. In March 1981 he refused to give evidence and was sentenced to three years jail, a sentence which was reduced to one year on appeal. On the day he was due for release he was redetained under the preventive detention provision (FOCUS 34 p.6 under TSATSA, 38 p.5 under TATSA; RDM 11.9.82, 13.9.82).\n\nTHE CISKEI BANTUSTAN\n\nIn late August security police in the CISKEI detained six people who had attended the unveiling of a tombstone for PAC leader Robert Sobukwe who died in 1978. The group were detained near King Williams Town on their way back to Soweto from Graaf Reinet where the ceremony took place. Two of those detained, Steve MOHAME and Victor MOALASE were released from Robben Island in early 1982. The other four, of whom only two were named, are trade unionists (CT 31.8.82; BBC 1.9.82).\n\nWILFRED MARWANE\n\nLegal representatives of Wilfred MARWANE, a former political prisoner, reported that he was detained on 10 September. In November 1978 Marwane was convicted under the Terrorism Act by the Bophutatswana Supreme Court which sentenced him in January 1979 to a 15 year prison term. In May 1982, he successfully appealed to the Bloemfontein Appeal Court which functions as the highest court of appeal for all South African courts, including those in the bantustan areas. The full bench of eleven judges ruled by a majority that the Terrorism Act was in conflict with the Bill of Rights enshrined in the 'constitution' of Bophutatswana and was therefore not applicable in the bantustan. They replaced his conviction and sentence under the Terrorism Act with a three and a half year sentence under the Arms and Ammunition Act (FOCUS 20 p.10, 21 p.9; DD 20.5.82; RDM 21.5.82; 11.9.82).\n\nRELEASES\n\n* Eric MNTONGA, East London branch secretary of the South African Allied Workers Union (SAAWU) was released from detention in August 1982. Mntonga was detained in December 1981 with fellow SAAWU officials, Thozamile GQWETA and Sisa NJIKELANA. During his detention he was twice admitted to hospital - in February and August 1982 (FOCUS 35 p.3, 37 p.5; RDM 7.8.82, 20.8.82).\n\n* It was reported in August that two Durban university students were released from detention. Movendri REDDY and Michael PACE had been detained since 24 November 1981 (FOCUS 39 p.7; SASPU National Aug '82).\n\n* Jabu NGWENYA was released in September 1982 after 10 months in detention. This was his fourth period in detention - he was previously held in 1978, 1979 and 1980. Ngwenya is an organiser for the General and Allied Workers Union who previously worked for the banned Christian Institute. After a period of detention under the Terrorism Act he was held under Section 12(b) of the Internal Security Act (1950) as a potential state witness in the treason trial of Rev. Cedric Mayson. He was subpoenaed to give evidence at this trial, expected to begin in January 1983. Ngwenya submitted an affidavit to the Aggett inquest and gave evidence in September 1982 (FOCUS 38 p.3; S 23.6.82, 23.9.82; RDM 23.9.82; Star 11.9.82).",
+      "page_start": 5,
+      "page_end": 6,
+      "people": [
+        {
+          "name": "Ernest Moabi DIPALE",
+          "canonical": "Ernest Dipale"
+        },
+        {
+          "name": "Lilian KEAGILE",
+          "canonical": "Lilian Keagile"
+        },
+        {
+          "name": "Oupa Koapeng",
+          "canonical": "Oupa Koapeng"
+        },
+        {
+          "name": "Neil Aggett",
+          "canonical": "Neil Aggett"
+        },
+        {
+          "name": "Keith COLEMAN",
+          "canonical": "Keith Coleman"
+        },
+        {
+          "name": "Thabo LERUMO",
+          "canonical": "Thabo Lerumo"
+        },
+        {
+          "name": "Ismail MOMONIAT",
+          "canonical": "Ismail Momoniat"
+        },
+        {
+          "name": "Prema NAIDOO",
+          "canonical": "Prema Naidoo"
+        },
+        {
+          "name": "Sisa NJIKELANA",
+          "canonical": "Sisa Njikelana"
+        },
+        {
+          "name": "Liz FLOYD",
+          "canonical": "Liz Floyd"
+        },
+        {
+          "name": "David NTOMBELA",
+          "canonical": "David Ntombela"
+        },
+        {
+          "name": "Modika Mothibi TSATSA",
+          "canonical": "Modika Mothibi Tsatsa"
+        },
+        {
+          "name": "Robert Sobukwe",
+          "canonical": "Robert Sobukwe"
+        },
+        {
+          "name": "Steve MOHAME",
+          "canonical": "Steve Mohame"
+        },
+        {
+          "name": "Victor MOALASE",
+          "canonical": "Victor Moalase"
+        },
+        {
+          "name": "Wilfred MARWANE",
+          "canonical": "Wilfred Marwane"
+        },
+        {
+          "name": "Eric MNTONGA",
+          "canonical": "Eric Mntonga"
+        },
+        {
+          "name": "Thozamile GQWETA",
+          "canonical": "Thozamile Gqweta"
+        },
+        {
+          "name": "Movendri REDDY",
+          "canonical": "Movendri Reddy"
+        },
+        {
+          "name": "Michael PACE",
+          "canonical": "Michael Pace"
+        },
+        {
+          "name": "Jabu NGWENYA",
+          "canonical": "Jabu Ngwenya"
+        },
+        {
+          "name": "Cedric Mayson",
+          "canonical": "Cedric Mayson"
+        }
+      ],
+      "places": [
+        {
+          "name": "Soweto",
+          "canonical": "Soweto"
+        },
+        {
+          "name": "Johannesburg",
+          "canonical": "Johannesburg"
+        },
+        {
+          "name": "Matola",
+          "canonical": "Matola"
+        },
+        {
+          "name": "Mozambique",
+          "canonical": "Mozambique"
+        },
+        {
+          "name": "Ciskei",
+          "canonical": "Ciskei"
+        },
+        {
+          "name": "King Williams Town",
+          "canonical": "King William's Town"
+        },
+        {
+          "name": "Graaf Reinet",
+          "canonical": "Graaff-Reinet"
+        },
+        {
+          "name": "Robben Island",
+          "canonical": "Robben Island"
+        },
+        {
+          "name": "East London",
+          "canonical": "East London"
+        },
+        {
+          "name": "Durban",
+          "canonical": "Durban"
+        }
+      ],
+      "organizations": [
+        {
+          "name": "South African Allied Workers Union",
+          "canonical": "South African Allied Workers Union (SAAWU)"
+        },
+        {
+          "name": "SAAWU",
+          "canonical": "South African Allied Workers Union (SAAWU)"
+        },
+        {
+          "name": "John Vorster Square",
+          "canonical": "John Vorster Square"
+        },
+        {
+          "name": "South African Defence Force",
+          "canonical": "South African Defence Force (SADF)"
+        },
+        {
+          "name": "Pan-Africanist Congress",
+          "canonical": "Pan-Africanist Congress (PAC)"
+        },
+        {
+          "name": "Bophutatswana Supreme Court",
+          "canonical": "Bophutatswana Supreme Court"
+        },
+        {
+          "name": "Bloemfontein Appeal Court",
+          "canonical": "Bloemfontein Appeal Court"
+        },
+        {
+          "name": "General and Allied Workers Union",
+          "canonical": "General and Allied Workers Union"
+        },
+        {
+          "name": "Christian Institute",
+          "canonical": "Christian Institute"
+        }
+      ],
+      "url_slug": "detentions"
+    },
+    {
+      "section_id": "detainee-list",
+      "section_type": "article",
+      "title": "DETAINEES Additional to previous FOCUS lists",
+      "summary": "A list of additional detainees and a table of deaths in detention since 1963.",
+      "body": "DETAINEES Additional to previous FOCUS lists\n\n[Table of detainees omitted]\n\nABBREVIATIONS\n\nOrganisations\nAZANYU Azanian National Youth Unity\nKWARU Kwazakhele Rugby Union\n\nLaws\nGLA General Law Amendment Act\nISA Internal Security Act (1982)\nTA Terrorism Act\nTPSA Transkei Public Security Act\n\nDEATHS IN DETENTION SINCE 1963 (See article on p.5)\n\n[Table of deaths in detention omitted]",
+      "page_start": 7,
+      "page_end": 7,
+      "people": [
+        {
+          "name": "G. MDLETSHE",
+          "canonical": "G. Mdletshe"
+        },
+        {
+          "name": "Steven KHUMALO",
+          "canonical": "Steven Khumalo"
+        },
+        {
+          "name": "Samson KHUMALO",
+          "canonical": "Samson Khumalo"
+        },
+        {
+          "name": "V. NOMGQAKWANA",
+          "canonical": "V. Nomgqakwana"
+        },
+        {
+          "name": "B. MOKHANGANE",
+          "canonical": "B. Mokhangane"
+        },
+        {
+          "name": "M. QOSA",
+          "canonical": "M. Qosa"
+        },
+        {
+          "name": "P. MARABA",
+          "canonical": "P. Maraba"
+        },
+        {
+          "name": "MBOSUNSYA",
+          "canonical": null
+        },
+        {
+          "name": "MAKUTJEYENE",
+          "canonical": null
+        },
+        {
+          "name": "Oupa KOAPENG",
+          "canonical": "Oupa Koapeng"
+        },
+        {
+          "name": "E. Dipale",
+          "canonical": "Ernest Dipale"
+        },
+        {
+          "name": "Charles MAHLALE",
+          "canonical": "Charles Mahlale"
+        },
+        {
+          "name": "Shadrack MLANJENI",
+          "canonical": "Shadrack Mlanjeni"
+        },
+        {
+          "name": "Linda DLODLO",
+          "canonical": "Linda Dlodlo"
+        },
+        {
+          "name": "Harrison NOGQOKELE",
+          "canonical": "Harrison Nogqokele"
+        },
+        {
+          "name": "Steve MOHAME",
+          "canonical": "Steve Mohame"
+        },
+        {
+          "name": "Victor MOALASE",
+          "canonical": "Victor Moalase"
+        },
+        {
+          "name": "Tembekile NYHOBO",
+          "canonical": "Tembekile Nyhobo"
+        },
+        {
+          "name": "Notembu SHOSHA",
+          "canonical": "Notembu Shosha"
+        },
+        {
+          "name": "Cosmos PHOKWA",
+          "canonical": "Cosmos Phokwa"
+        },
+        {
+          "name": "Wilfred MARWANE",
+          "canonical": "Wilfred Marwane"
+        },
+        {
+          "name": "S.A. XOBOLOLO",
+          "canonical": "S.A. Xobololo"
+        },
+        {
+          "name": "Mlungisi MTSHONTANA",
+          "canonical": "Mlungisi Mtshontana"
+        }
+      ],
+      "places": [
+        {
+          "name": "Empangeni",
+          "canonical": "Empangeni"
+        },
+        {
+          "name": "Soweto",
+          "canonical": "Soweto"
+        },
+        {
+          "name": "Port Elizabeth",
+          "canonical": "Port Elizabeth"
+        },
+        {
+          "name": "Mamelodi",
+          "canonical": "Mamelodi"
+        },
+        {
+          "name": "Pietermaritzburg",
+          "canonical": "Pietermaritzburg"
+        },
+        {
+          "name": "Johannesburg",
+          "canonical": "Johannesburg"
+        },
+        {
+          "name": "Guguletu",
+          "canonical": "Guguletu"
+        },
+        {
+          "name": "E. London",
+          "canonical": "East London"
+        },
+        {
+          "name": "Ciskei",
+          "canonical": "Ciskei"
+        },
+        {
+          "name": "Botswana",
+          "canonical": "Botswana"
+        },
+        {
+          "name": "Transkei",
+          "canonical": "Transkei"
+        }
+      ],
+      "organizations": [
+        {
+          "name": "AZANYU",
+          "canonical": "Azanian National Youth Unity (AZANYU)"
+        },
+        {
+          "name": "KWARU",
+          "canonical": "Kwazakhele Rugby Union (KWARU)"
+        },
+        {
+          "name": "Black Allied Workers Union",
+          "canonical": "Black Allied Workers Union"
+        },
+        {
+          "name": "Transkei Democratic Party",
+          "canonical": "Transkei Democratic Party"
+        }
+      ],
+      "url_slug": "detainee-list"
+    },
+    {
+      "section_id": "namibia-massacre",
+      "section_type": "article",
+      "title": "MASSACRE AT OSHIKUKU",
+      "summary": "Report on the massacre of civilians at Oshipanda, Namibia, and the role of the Koevoet unit in atrocities.",
+      "body": "Reports about a massacre in a small village in the north of Namibia have thrown light on the key role of the para-military police unit Koevoet in carrying out atrocities while disguised as SWAPO guerillas. Eyewitness accounts of the massacre, which took place on 10 March 1982 at the village of Oshipanda near Oshikuku in Ovambo, sharply contradict the finding of the inquest held in the Ondangwa Inquest Court in June, which ruled that 'terrorists' were liable for the death of eight people murdered in the incident. Evidence suggests that one of the perpetrators of the killings was also connected with the disappearance of Johannes Kakuva in August 1980 (FOCUS 39 p.2, 42 p.9).\n\nThe case has wider implications, showing up the cosmetic nature of the inquests regularly held by courts in Namibia into unnatural deaths, and exposing the strategy of the SADF blaming SWAPO for atrocities against civilians which are in fact committed by the security forces.\n\nThere are a number of discrepancies between the various accounts of the massacre, including differences in the names as they are given of those who were killed in the shooting. It would appear that up to 12 people died, including a number of children.\n\nThe killings were first reported by South African radio, and picked up by the South African and Namibian press, as having been committed by 'SWAPO terrorists', armed with Russian-made AK-47 rifles. The course of the information was 'a spokesman for the Ovambo administration', who claimed that the guerillas had put a number of civilians against a wall and shot them dead. Two other civilians were reported to have been wounded, and another to have escaped unhurt. The spokesman claimed the guerillas had taken money and portable radios from the civilians, The uninjured man ran to a nearby security force base camp and a patrol was sent out, but the guerillas had already disappeared, the spokesman said (BBC 15.3.82; CT/WA 12.3.82).\n\nIn late June, an inquest opened on the case at the Ondangwa Inquest Court, which heard an account from one of the survivors. According to the witness, Jolidye Nauyoma, he and two others were awakened at 2 am by two camouflaged men entering their homestead. Outside were two others, also camouflaged and carrying automatic rifles with crooked magazines - a reference to AK-47 guns. Nauyoma said he and his room-mates were stabbed and taken outside, when nine other inhabitants of the homestead were ordered to line up against a wooden fence. The armed men opened fire, and Nauyoma slumped to the ground pretending to be dead. An hour later, after the men had ran-sacked the huts and left, Nauyoma and two other survivors sought shelter. The following morning, Nauyoma said, he reported the attack. The magistrate presiding at the inquest ruled that 'terrorists were liable for the death of the eight people' (WA 2.7.82).\n\nA different story was told to a reporter from the Windhoek Observer by 'certain sources' in Ovambo, whose identities were not revealed but who were described as those who had taken photos of the massacre before the bodies were buried.\n\nAccording to this account, twelve men, women and children at the village were woken at 2 a.m. by five black soldiers brandishing automatic rifles with fixed bayonets. The soldiers ordered them to line up outside and demanded money and clothes. One of the twelve, Ms. Penehafo Angula, a shop assistant, collected R3,800 and some other goods from the homestead, and handed them over. She was then made to line up again with the others and the soldiers opened fire after counting them to three. The soldiers then destroyed property, including a vehicle belonging to the owner of the homestead (WO 28.8.82).\n\nThis account stated that Penehafo Angula survived despite being shot in both legs. Michael Uupindi, a neighbour, heard the automatic fire. He went to investigate in the morning, covered the corpses and then went to Oshakati to report what had happened (WO ibid).\n\nThe Windhoek Observer's sources handed over a written paper, which stated that the survivors had 'unmistakably identified' the soldiers involved. The moon had been full and they had recognised Nakale, whom they described as an infamous and brutal commander at a military camp at Okalongo in north-western Namibia (WO ibid).\n\nThe names of those who died in the massacre were recorded by the Ondangwa Inquest Court as: Gisella Nupindi (Uusindi) (aged 61), Johannes Silas (42), Bernadette Tobias (27), Katoole Kawelakana (a girl aged 9), Shivute Kengayi (a male student, 18), Gisella Nepolo (a girl aged 13), Tselina Matheus (13) and Benedictus Nepolo (a male student, 20) â€” a total of eight people. The survivors were given as Jolidye Nauyoma (a male student aged 20) and Penehafo Angula (see above). A boy aged 8, Erastus Nepolo, was said to have been heavily wounded (and seems to have died later â€” see below) (WA 2.7.82; WO 28.8.82).\n\nInformation made available by the SWAPO office in London stated that the owner of the homestead, Hubertus Mateus Neporo, had been away for the night, and gave the names of those who died as: Bernadette Tobias Kashawa (wife of Hubertus Neporo), Gisela Uupindi, Benedictus Tobias Neporo, Gisela Neporo, Johannes Silas, Aniatar Kengayi Augustinus, Alma Hubertus Neporo, Frans Erasmus, Erastus Neporo and Benedictus the driver â€” a total of ten. The survivors were named as Penehafo Angula and Iyambo lipinge, cousin of Hubertus Neporo (undated memorandum from SWAPO office, London).\n\nSWAPO's account stated that Michael Uupindi had reported the killings to the Oshakati Police Station, half an hour's drive away. Hubertus Neporo also reported to the police, 'who appeared to have foreknowledge of the incident, and made excuses as to why they would not investigate'. Some villagers and missionaries from the local mission did however go to the scene on the morning of 10 March (SWAPO memorandum ibid).\n\nThere is speculation that Nakale, the military commander identified by the survivors previously operated in the Kaoko region in the guise of a guerilla leader and was connected with the Kakuva case. According to the Windhoek Observer, Nakale was described as a SWAPO guerilla commander by a police witness, Lieutenant King, in an affidavit submitted in court during the Kakuva inquiry in November 1981. King claimed that a guerilla commander by the name of Kayala was active in Kaokolang holding political meetings in the settlement and carrying out guerilla activities in the western part of Ovambo and in Kaoko with group of combatants. According to the Windhoek Observer, it is highly likely that Koevoet commander identified by the survivors of the massacre as Nakale is the same man who posed as a guerilla leader under the name of Kayala. Kakuva was, according to Lt. King, persuaded by the police to infiltrate the guerilla group led by Kayala with the aim of reporting their hideout to the police. Kakuva subsequently 'disappeared'; while the police claimed that he had probably joined the guerillas, a fellow detainee reported hearing his screams under torture and witnessing his death (WO 9.1.82; FOCUS 39 p.2).\n\nThe use of police or army informers to credit SWAPO combatants among the civilian population seems to be a common practice among the SADF. Its aim is to sow confusion among civilians about SWAPO's objectives and methods. For instance, a witness in the Kakuva case, describing a meeting with the 'guerillas' said Kayala told him they 'had come to South West Africa to kill the whites, to free the country' and that the whites were aliens who had no rights in the country (WO 28.11.81). SWAPO's policy is in fact to create a non-racial society in Namibia, where people of all races can live in peace.\n\nA similar case of members of the security forces posing as SWAPO guerillas and threatening civilians was reported in June 1982. A man wearing a uniform not usually worn by the South African security forces, and carrying an AK-47 rifle commonly ascribed to SWAPO guerillas, repeatedly visited a shop in a village near Rundu in the north, asking the shopkeeper for the whereabouts of a local resident, Mr Mbanzi, and his wife. The shopkeeper became suspicious and, after having a close look at the man, recognised him as someone living nearby. He visited the man's living quarters and found a group of men there, who admitted that they were members of the security forces whose task it was to make night visits to people who were 'enemies of the DTA'. Their leader apparently admitted that the group's work was to terrorise people while masquerading as SWAPO combatants, in an effort to frighten them and to make the threats of 'SWAPO terrorism' spread about by the army become a reality. In this way they would discredit SWAPO and prove to the people that it was SWAPO who killed and terrorised people' (WO 19.6.82).",
+      "page_start": 8,
+      "page_end": 8,
+      "people": [
+        {
+          "name": "Johannes Kakuva",
+          "canonical": "Johannes Kakuva"
+        },
+        {
+          "name": "Jolidye Nauyoma",
+          "canonical": "Jolidye Nauyoma"
+        },
+        {
+          "name": "Penehafo Angula",
+          "canonical": "Penehafo Angula"
+        },
+        {
+          "name": "Michael Uupindi",
+          "canonical": "Michael Uupindi"
+        },
+        {
+          "name": "Nakale",
+          "canonical": "Nakale"
+        },
+        {
+          "name": "Gisella Nupindi",
+          "canonical": "Gisella Nupindi"
+        },
+        {
+          "name": "Johannes Silas",
+          "canonical": "Johannes Silas"
+        },
+        {
+          "name": "Bernadette Tobias",
+          "canonical": "Bernadette Tobias"
+        },
+        {
+          "name": "Katoole Kawelakana",
+          "canonical": "Katoole Kawelakana"
+        },
+        {
+          "name": "Shivute Kengayi",
+          "canonical": "Shivute Kengayi"
+        },
+        {
+          "name": "Gisella Nepolo",
+          "canonical": "Gisella Nepolo"
+        },
+        {
+          "name": "Tselina Matheus",
+          "canonical": "Tselina Matheus"
+        },
+        {
+          "name": "Benedictus Nepolo",
+          "canonical": "Benedictus Nepolo"
+        },
+        {
+          "name": "Erastus Nepolo",
+          "canonical": "Erastus Nepolo"
+        },
+        {
+          "name": "Hubertus Mateus Neporo",
+          "canonical": "Hubertus Mateus Neporo"
+        },
+        {
+          "name": "Bernadette Tobias Kashawa",
+          "canonical": "Bernadette Tobias Kashawa"
+        },
+        {
+          "name": "Gisela Uupindi",
+          "canonical": "Gisela Uupindi"
+        },
+        {
+          "name": "Benedictus Tobias Neporo",
+          "canonical": "Benedictus Tobias Neporo"
+        },
+        {
+          "name": "Aniatar Kengayi Augustinus",
+          "canonical": "Aniatar Kengayi Augustinus"
+        },
+        {
+          "name": "Alma Hubertus Neporo",
+          "canonical": "Alma Hubertus Neporo"
+        },
+        {
+          "name": "Frans Erasmus",
+          "canonical": "Frans Erasmus"
+        },
+        {
+          "name": "Iyambo lipinge",
+          "canonical": "Iyambo lipinge"
+        },
+        {
+          "name": "King",
+          "canonical": "King"
+        },
+        {
+          "name": "Kayala",
+          "canonical": "Kayala"
+        },
+        {
+          "name": "Mbanzi",
+          "canonical": "Mbanzi"
+        }
+      ],
+      "places": [
+        {
+          "name": "Namibia",
+          "canonical": "Namibia"
+        },
+        {
+          "name": "Oshipanda",
+          "canonical": "Oshipanda"
+        },
+        {
+          "name": "Oshikuku",
+          "canonical": "Oshikuku"
+        },
+        {
+          "name": "Ovambo",
+          "canonical": "Ovambo"
+        },
+        {
+          "name": "Ondangwa",
+          "canonical": "Ondangwa"
+        },
+        {
+          "name": "Okalongo",
+          "canonical": "Okalongo"
+        },
+        {
+          "name": "Kaoko",
+          "canonical": "Kaoko"
+        },
+        {
+          "name": "Oshakati",
+          "canonical": "Oshakati"
+        },
+        {
+          "name": "Rundu",
+          "canonical": "Rundu"
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Koevoet",
+          "canonical": "Koevoet"
+        },
+        {
+          "name": "SWAPO",
+          "canonical": "South West Africa People's Organisation (SWAPO)"
+        },
+        {
+          "name": "SADF",
+          "canonical": "South African Defence Force (SADF)"
+        },
+        {
+          "name": "DTA",
+          "canonical": "Democratic Turnhalle Alliance (DTA)"
+        }
+      ],
+      "url_slug": "namibia-massacre"
+    },
+    {
+      "section_id": "church-bombings",
+      "section_type": "article",
+      "title": "CHURCH BUILDINGS BOMBED",
+      "summary": "Report on the bombing of church buildings in Namibia by the SADF.",
+      "body": "Extensive damage was done to church property in two separate incidents involving military aircraft. In both cases, the SADF claimed that the bombings were accidental.\n\nAt Elim mission station near Oshakati in northern Namibia, the administration building was gutted, and another building damaged, when military aircraft dropped bombs and flares on the area during an attack on 24 April. People who had been sleeping in the buildings escaped unhurt. One of the bombs landed only a few metres away from the hospital building. Nearby villagers who witnessed the destruction described the incident to a reporter from the Windhoek Observer on condition that their names were not revealed, for fear of reprisals from the army. One man told the reporter 'they are security people and are supposed to protect us. This however makes us think again and we react differently now'.\n\nPolice were informed of the incident. Two SADF officers arriving later claimed that the bombing had been accidental, and promised compensation from the SADF. Damage was estimated at R27,922. By September, the mission had still not received any payment (WO 4.9.82).\n\nAnother 'accident' occurred on 23 August at Oniipa, when an SADF anti-aircraft shell damaged part of the printing press owned by the Evangelical Lutheran Ovambo Kavango Church. The bullet tore the roof, timbers and a window screen and then hit the ground with great force.\n\nFollowing an investigation, an SADF Commander admitted that the shell had been fired by the army. He requested a written report and an assessment of the cost of the damage. Bishop Dumeni, the head of ELOC, commented on the incident: 'Similar cases have occurred and several times damage has been done to properties of the church and individuals. An open question remains; why the bullet specifically came to hit this newly rebuilt building of the printing press, which has been twice destroyed by an unknown enemy of the church and community' (Report by Bishop Dumeni, Oniipa, 27.8.82).",
+      "page_start": 9,
+      "page_end": 9,
+      "people": [
+        {
+          "name": "Dumeni",
+          "canonical": "Kleopas Dumeni"
+        }
+      ],
+      "places": [
+        {
+          "name": "Namibia",
+          "canonical": "Namibia"
+        },
+        {
+          "name": "Elim",
+          "canonical": "Elim"
+        },
+        {
+          "name": "Oshakati",
+          "canonical": "Oshakati"
+        },
+        {
+          "name": "Oniipa",
+          "canonical": "Oniipa"
+        }
+      ],
+      "organizations": [
+        {
+          "name": "SADF",
+          "canonical": "South African Defence Force (SADF)"
+        },
+        {
+          "name": "Evangelical Lutheran Ovambo Kavango Church",
+          "canonical": "Evangelical Lutheran Ovambo Kavango Church (ELOC)"
+        }
+      ],
+      "url_slug": "church-bombings"
+    },
+    {
+      "section_id": "army-hostel",
+      "section_type": "article",
+      "title": "ARMY TO TAKE OVER OVAMBO HOSTEL",
+      "summary": "Report on the Windhoek City Council's decision to close Katutura hostels and the takeover of the Ovambo hostel by the SWATF.",
+      "body": "Over 7,000 black workers living in Katutura will be made homeless in the coming years, when the white-run Windhoek City Council goes ahead with its scheme to put their hostel accommodation to other uses. Two hostel complexes in Katutura will be affected by the decision, taken by the City Council in July 1982. One complex, housing single black employees from all 'ethnic groups', is to be converted into four-room quarters for families. The hostel buildings provide 3,200 beds, but more than 5,000 people have been unofficially staying there. The Ovambo workers' hostel, housing over 4,000 contract workers from the Ovambo region, is to be taken over by the South West Africa Territory Force (SWATF). Discussions with the Defence Force are being initiated by the Director of Katutura and the Town Clerk of Windhoek (WA 27.8.82; WO 4.9.82).\n\nThe official reasons given for the takeover are the conditions prevailing at the workers' living quarters, described in reports submitted by the officers responsible for their management. They state that most communal facilities such as water taps, showers, electric fittings, toilets, etc. are in a state of disrepair as a result of vandalism, and that conditions constitute a health hazard (ibid). The hostels are greatly overcrowded. During raids on the single quarters between June and August 1982, 379 'illegal squatters' were charged and convicted; another 68 were arrested at the Ovambo compound. According to the Head of Windhoek Prison, there was no more space available for squatters arrested and awaiting trial (WA 27.8.82).\n\nIn the view of the Windhoek City Council, 'the hostel has become an anachronism', and no such place would be built again. The municipality would try to build houses for the thousands of single men left homeless, the Director of Katutura said, but there was a problem with finance. It was hoped that meanwhile they would be able to find accommodation with friends, he added (S 26.8.82).\n\nThe decision by the Windhoek City Council appears to be designed to deal with a number of issues it has been confronted with in recent years. The appalling conditions at workers' compounds, described on a number of previous occasions by reporters, are a direct result of the contract labour system which forces workers to migrate, for periods of up to two years, to urban industrial centres to find work. Here they live in huge institutionalised complexes where they have no privacy and are not allowed to have their families with them (FOCUS 39 p.4). They are frequently exposed to police raids, which on a number of occasions have resulted in violence.\n\nNevertheless, the closure of two large compounds, without any provision of alternative housing, will further threaten the precarious livelihood of the workers affected. One newspaper commented that the move was an attempt to restructure influx control by forcing those made homeless to return to their 'homelands' (WA 23.9.82).\n\nAt the same time, by moving members of the armed forces into the Ovambo hostel, the authorities presumably hope to tighten control over other Katutura residents. The presence of armed police in Katutura, and their frequent attacks on residents, has already created strong resentment. The permanent residence of large numbers of SWATF soldiers would no doubt add to the tense atmosphere prevailing in Katutura.",
+      "page_start": 9,
+      "page_end": 9,
+      "people": [],
+      "places": [
+        {
+          "name": "Katutura",
+          "canonical": "Katutura"
+        },
+        {
+          "name": "Windhoek",
+          "canonical": "Windhoek"
+        },
+        {
+          "name": "Ovambo",
+          "canonical": "Ovambo"
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Windhoek City Council",
+          "canonical": "Windhoek City Council"
+        },
+        {
+          "name": "South West Africa Territory Force",
+          "canonical": "South West Africa Territory Force (SWATF)"
+        }
+      ],
+      "url_slug": "army-hostel"
+    },
+    {
+      "section_id": "culture-of-apartheid",
+      "section_type": "article",
+      "title": "COUNTERING THE CULTURE OF APARTHEID",
+      "summary": "Report on segregated education in Namibia and efforts by Namibians to develop alternative education systems.",
+      "body": "State schools still segregated in Namibia\n\nâ€˜This is our schoolâ€™, a pupil at the African Methodist Episcopal (AME) school in Gibeon, Namaland, told members of a British church delegation to Namibia. The visitors were shown school buildings erected by the childrenâ€™s parents themselves, and alongside, a co-operative shop, a weaving shed, a motor repair workshop and other self-help projects. â€˜Gibeon exemplifies the problems of those who are trying to develop themselves while South Africa still controls the countryâ€™, the delegation commented, â€˜The school buildings are better than some team members have seen in independent Africaâ€™ (â€˜Namibia â€“ A Nation Wrongedâ€™, Report of a Visit to Namibia by a Delegation sent by the British Council of Churches at the Invitation of the Council of Churches in Namibia, 16-28 November 1981).\n\nAnother visitor to the Gibeon self-help school described the arid, rock-strewn land as 'so barren that the word \"lunar\" springs to mind'. He commented that its principal, Pastor Hendrik Witbooi, 'teaches a version of history in which his ancestor is not presented as the frontier bandit he is in the South African syllabus still used in other Namibian schools'. Pastor Witbooi's great-grandfather led the last Nama uprising against the German colonists, and wrote to the then chief of the Herero, urging that the two peoples stand together against the invaders. 'In his light, I have to follow the same procedures', his great-grandson explained ('Inside Namibia â€“ A Journey through South Africa's disputed Territory', by Joseph Lelyveld, New York Times Magazine 1.8.82).\n\nSuch pioneering efforts by Namibians to develop new forms of education not based on apartheid principles run the risk of incurring the wrath of the South African government and the Democratic Turnhalle Alliance. The area around Gibeon is being consolidated as a Nama 'homeland' under the terms of the 1964 Odendaal Plan. White farms have been bought up, white farmers are moving elsewhere, and Nama families have been moved into the area from the Warmbad region to the south. Support for SWAPO is strong, and in 1976 the people refused to participate in the Turnhalle Constitutional Conference. Pastor Hendrik Witbooi, who was elected as 'Captain' or chief by his people, has a long history of political opposition to apartheid and publicly joined SWAPO in 1976. He was detained in 1978 under Proclamation AG 26 when he was serving as a national executive member of SWAPO and as its secretary for Education and Culture, and again in 1979 (FOCUS 17 p.11, 21 p.6).\n\nIn 1976, Pastor Witbooi was sacked by the South African government from his post as principal of the local church secondary school when its teachers, together with colleagues from other schools in Namaland, went on strike for equal pay and better facilities. He was also threatened with withdrawal of his Captaincy and monthly salary if he failed to co-operate with official Turnhalle policies. He refused, and according to the British Council of Churches delegation, 'with the support of their parents 500 out of the 600 pupils left with him'. The parents then decided to build their own 'private' school. It opened in March 1979 with 150 children, under the Directorship of Pastor Witbooi and using English as a teaching medium. The children pay fees, and help has come from overseas and the Council of Churches in Namibia, particularly to rewrite the syllabuses for history and geography (BCC Report op. cit.).\n\nOFFICIAL POLICY\n\nOfficial South African and DTA publicity materials claim that under the interim constitution (AG 8, also known as South Africa's 'internal settlement' for Namibia), 'education in Namibia has taken tremendous strides forward. No longer are there different standards in education. Each child is given the opportunities to prove him or herself' ('Face of Namibia', published by the SWA/Namibia Information Service, Windhoek).\n\nSuch statements gloss over the fact that even under the 'internal settlement' (which has allegedly meant that apartheid has been 'abolished' in Namibia) it is still official policy to segregate government schools on a racial basis. Under the interim constitution, responsibility for education, like that for health, housing, welfare and a number of other matters, is delegated to the 'second tier' Representative Authorities that have been set up to manage the affairs of Namibia's various ethnic or 'population groups' (a total of 11, although in practice no Representative Authority has been established for the Bushmen). (see 'The Constitutional Fraud; IDAF Briefing Paper No 2 July 1981'). This means, in theory, that there are a total of 11 parallel education authorities in the territory, plus a central Department of National Education. The last was set up in 1978 by the 'internal government' to take responsibility for overall education policy and finance, and for higher and further education. The school system under the internal government is described as one of 'differentiated education' â€” a South African term derived from the apartheid premise that 'differentiation' is distinct from, and need not imply 'discrimination'.\n\nThe inefficient, cumbersome and confusing educational arrangements which have resulted barely succeed in concealing the full extent of the racial discrimination that continues to flourish. The overwhelming majority of schools in Namibia remain racially segregated, with wide discrepancies in resource allocation and the standard of facilities between black and white children and students. Facilities for many black school students in the north, moreover, are deteriorating as schools close down because of the war, civilian teachers are replaced by South African Defence Force (SADF) personnel, and travel and communications become more difficult and dangerous.\n\nEDUCATIONAL CONTENT\n\nAlthough Namibian schools now officially share a common national curriculum, teaching in practice continues to emphasise tribal 'identity' and culture, and to inculcate concepts of inherent superiority and inferiority. Black children do not begin to learn English or Afrikaans until the age of 10, putting them at an immediate disadvantage when it comes to entering secondary school. The emphasis on tribal identity and segregation, combined with the disparities in resource allocation and facilities, put black children at an overwhelming disadvantage calculated to remain with them throughout their adult lives.\n\nA Canadian anthropologist conducting research in the black township of Katutura, for example, told the Namibia Education Forum that 'the primary schools in Katutura have no good books, no libraries. The children see themselves as ugly, poor, stupid, and as a result, are distrustful'. She said that the children mostly read Afrikaans picture books. Literature, and philosophy and journalism in Katutura were all noticeable by their absence (WA 1.3.82).\n\nAnother recent report, on the activities of the Ekongoro Youth Movement in Kavango illustrates the regime's continuing emphasis on 'tribal culture'. All the school pupils in the Kavango 'homeland' automatically belong to the Ekongoro Youth Movement, which organised and financed by the Kavango Government Education Department and is intended to supplement academic education by providing activities to foster an awareness of traditional culture' (WA 20.7.82).\n\nAccording to Elrie Pretorius, the Kavango Government's Youth and Cultural Organisation (whose own tribal identity was not specified) 'the youth are encouraged to regard themselves as part of one Kavango nation, but are also encouraged to maintain their tribal links. We also try to encourage a feeling of being part of the Namibian nation'. The Movement has it main youth camp just outside the provincial centre of Rundu (also a major South African military base), with five subsidiary camps for each of the five component Kavango tribes. The curriculum includes song and dance, sports, handicrafts, veld knowledge and nature conservation, plus 'parade ground drill', firefighting, 'communism', civic affairs and Namibia's system of government (WA ibid).\n\nMilitarism is clearly making inroads into school curricula as the war intensifies. A teacher who attended a training course for 100 Ovambo teachers, supposedly organised by the Department of National Education, discovered that it was actually arranged and controlled by the army. The teachers were accommodated in army tents in a forest area near Oshivello and required to do physical training and take part in political simulation games in which individual teachers took the parts of the UN, the DTA, SWAPO, etc (WO 9.1.82).\n\nThe extension of the South African army's 'hearts and minds' programme into the schools has in fact been a source of great resentment for a number of years. In addition to protests by teachers, students and parents, military personnel seconded to schools have been the targets for guerilla attacks.",
+      "page_start": 10,
+      "page_end": 10,
+      "people": [
+        {
+          "name": "Hendrik Witbooi",
+          "canonical": "Hendrik Witbooi"
+        },
+        {
+          "name": "Elrie Pretorius",
+          "canonical": "Elrie Pretorius"
+        }
+      ],
+      "places": [
+        {
+          "name": "Namibia",
+          "canonical": "Namibia"
+        },
+        {
+          "name": "Gibeon",
+          "canonical": "Gibeon"
+        },
+        {
+          "name": "Namaland",
+          "canonical": "Namaland"
+        },
+        {
+          "name": "Warmbad",
+          "canonical": "Warmbad"
+        },
+        {
+          "name": "Katutura",
+          "canonical": "Katutura"
+        },
+        {
+          "name": "Kavango",
+          "canonical": "Kavango"
+        },
+        {
+          "name": "Rundu",
+          "canonical": "Rundu"
+        },
+        {
+          "name": "Oshivello",
+          "canonical": "Oshivello"
+        }
+      ],
+      "organizations": [
+        {
+          "name": "African Methodist Episcopal",
+          "canonical": "African Methodist Episcopal (AME)"
+        },
+        {
+          "name": "British Council of Churches",
+          "canonical": "British Council of Churches"
+        },
+        {
+          "name": "Council of Churches in Namibia",
+          "canonical": "Council of Churches in Namibia"
+        },
+        {
+          "name": "Democratic Turnhalle Alliance",
+          "canonical": "Democratic Turnhalle Alliance (DTA)"
+        },
+        {
+          "name": "SWAPO",
+          "canonical": "South West Africa People's Organisation (SWAPO)"
+        },
+        {
+          "name": "South African Defence Force",
+          "canonical": "South African Defence Force (SADF)"
+        },
+        {
+          "name": "Ekongoro Youth Movement",
+          "canonical": "Ekongoro Youth Movement"
+        }
+      ],
+      "url_slug": "culture-of-apartheid"
+    },
+    {
+      "section_id": "angola-occupation",
+      "section_type": "article",
+      "title": "ANGOLA—THE FORGOTTEN OCCUPATION",
+      "summary": "Report on the South African military occupation of southern Angola and the ongoing incursions.",
+      "body": "Sixteen months and more after its 'Operation Protea' invasion of August 1981, the South African regular army continues to occupy extensive areas of southern Angola, making it impossible for the Angolan government to establish any kind of administration in the region and rendering any form of social and economic reconstruction or development programme out of the question. In considerable contrast to the controversy that has been aroused over the issue of Cuban forces in Angola and the principle of 'linkage' however, South Africa's unauthorised and hostile presence in the country appears to have attracted little attention or discussion in the Contact Group's settlement negotiations.\n\nSpeaking in Tripoli, Libya, on 8 August, the President of the People's Republic of Angola, JosÃ© Eduardo dos Santos, confirmed that two brigades of the South African regular army â€” totalling 5,500 men â€” had been continuously stationed on Angolan territory since 23 August 1981, the start of Operation Protea. He said that South African battalions had been established in Kunene Province in the areas of Kalueke, Ngiva, Xangongo, Oncocua, Evale, Mupa and Kuamato. The South African arsenal gathered on Angolan territory comprised, according to information gathered by the Angolan army:\n\n* seventy-two 81mm mortars\n* fifty-four 60mm guns\n* twenty-four 78 and 98mm anti-tank guns\n* twelve 'Ental' anti-tank systems\n* two hundred and seventy 'Ratel' armoured troop carriers\n* seventy-two 'AML-90' armoured cars\n* eighteen 'AML-60' armoured cars\n(Angolan News Agency (ANGOP) bulletin, 12.8.82).\n\nConfirming repeated warnings â€” from both the Angolan authorities and the South Africans themselves â€” of troop concentrations on the northern Namibian border and the danger of imminent attack (see Focus 40 p.10, 41 p.4, 42 p.11), the South African army launched a large-scale new incursion into Angola, commencing on 21 July. The towns of Cahama and Tchibemba were attacked from the air on that day, by a force of 11 bombers. A total of 22 Angolan civilians and soldiers were killed, and 42 wounded, during July, while four South African planes were shot down during the same period. Evale and londe, 120 km inside Angola, were attacked on 16 July according to the South Africans. South African troops already inside Angola began to advance from Xangongo and Ngiva on 19 July (Jornal de Angola 7.8.82: ANGOP statement 13.8.82; Washington Post 19.8.82).\n\nThe main invasion was launched on 2 August, involving a force of four South African regular brigades, one 'independent regiment', 34 battalions, 40 combat vehicles and 30 helicopters from the force concentrated on the Namibian-Angolan border. The Angolan Minister for Foreign Affairs, Paulo Jorge, stated that South Africa had a further 300 armoured cars and 50 planes in readiness to reinforce the invasion force (Jornal de Angola 7.8.82).\n\nThis new offensive was mounted by South Africa only a few days before a provisional ceasefire date of 15 August, supposedly agreed on in the course of the Namibian settlement negotiations. South Africa, as on many previous occasions, accused SWAPO of sabotaging the chances of peace by escalating hostilities, and on 11 August claimed that they had killed a total of 314 guerillas â€” later revised to 345. It had earlier been revealed that 12 soldiers of the Parachute Battalion of the SADF, and three crew members of a helicopter, had been killed when their aircraft was brought down in the 'operational area'. On 12 August, Johannesburg radio, quoting a U.S. State Department spokesman, cited the refusal of the Angolan government to accept the principle of the Cuban-Namibian 'linkage' in justification for the South African advance (Tel 12.8.82; FT/BBC 14.8.82).\n\nBy 13 August, South African ground troops had succeeded in penetrating more than 200km into Angola, reaching positions north of Cuvelai. The South African Air Force meanwhile continued to overfly the regions of Cuvelai, Mulondo, Tchamutete, Kassinga, Jamba and Dongo, and Chiang, and into Kuando Kubango Province (ANGOP 13/30.8.82).\n\nOn 16 August, a SWAPO announcement that seven South African helicopters and six Mirage fighters had been shot down in the past four days was reported. Major General Charles Lloyd, Commander of South African forces in Namibia confirmed at this time that South Africa was deploying Mirage F1 jet fighters over Angola allegedly to counter Angolan Mig 23s (GA 16.8.82 Washington Post 17.8.82).\n\nOn 25 August, a South African advance force of regular ground troops was apprehended north of the mining town of Kassinga, more than 200km inside Angola and the scene of the May 1978 massacre of Namibian refugees. The Angolan Ministry of Defence, judging by South African troop movements, predicted fresh incursions against positions defended by the Angolan army in the areas of Cuvelai, Cahama and Mulondo in Kunene Province, and a general drive to move northwards into Huila Province. The Angolans reported that UNITA members had been incorporated into the ranks of the South African forces occupying Ngiva and Xangongo, and charged the South Africans with poisoning water supplies and raping women as they advanced (WA 27.8.82; ANGOP 28.8.82).\n\nTowards the end of September, fresh South African bombing raids against FAPLA (Angolan army) positions were reported from the Cahama-Mulondo-Cuvelai area. South Africa reconnaissance flights over Kunene and Huila Provinces had also increased (BBC 28.8.82: reporting Angolan Defence Ministry statement of 26.9.82).",
+      "page_start": 12,
+      "page_end": 12,
+      "people": [
+        {
+          "name": "JosÃ© Eduardo dos Santos",
+          "canonical": "JosÃ© Eduardo dos Santos"
+        },
+        {
+          "name": "Paulo Jorge",
+          "canonical": "Paulo Jorge"
+        },
+        {
+          "name": "Charles Lloyd",
+          "canonical": "Charles Lloyd"
+        }
+      ],
+      "places": [
+        {
+          "name": "Angola",
+          "canonical": "Angola"
+        },
+        {
+          "name": "Tripoli",
+          "canonical": "Tripoli"
+        },
+        {
+          "name": "Libya",
+          "canonical": "Libya"
+        },
+        {
+          "name": "Kunene Province",
+          "canonical": "Kunene Province"
+        },
+        {
+          "name": "Kalueke",
+          "canonical": "Kalueke"
+        },
+        {
+          "name": "Ngiva",
+          "canonical": "Ngiva"
+        },
+        {
+          "name": "Xangongo",
+          "canonical": "Xangongo"
+        },
+        {
+          "name": "Oncocua",
+          "canonical": "Oncocua"
+        },
+        {
+          "name": "Evale",
+          "canonical": "Evale"
+        },
+        {
+          "name": "Mupa",
+          "canonical": "Mupa"
+        },
+        {
+          "name": "Kuamato",
+          "canonical": "Kuamato"
+        },
+        {
+          "name": "Cahama",
+          "canonical": "Cahama"
+        },
+        {
+          "name": "Tchibemba",
+          "canonical": "Tchibemba"
+        },
+        {
+          "name": "Cuvelai",
+          "canonical": "Cuvelai"
+        },
+        {
+          "name": "Mulondo",
+          "canonical": "Mulondo"
+        },
+        {
+          "name": "Tchamutete",
+          "canonical": "Tchamutete"
+        },
+        {
+          "name": "Kassinga",
+          "canonical": "Kassinga"
+        },
+        {
+          "name": "Jamba",
+          "canonical": "Jamba"
+        },
+        {
+          "name": "Dongo",
+          "canonical": "Dongo"
+        },
+        {
+          "name": "Chiang",
+          "canonical": "Chiang"
+        },
+        {
+          "name": "Kuando Kubango Province",
+          "canonical": "Kuando Kubango Province"
+        },
+        {
+          "name": "Huila Province",
+          "canonical": "Huila Province"
+        }
+      ],
+      "organizations": [
+        {
+          "name": "South African Defence Force",
+          "canonical": "South African Defence Force (SADF)"
+        },
+        {
+          "name": "Angolan News Agency",
+          "canonical": "Angolan News Agency (ANGOP)"
+        },
+        {
+          "name": "SWAPO",
+          "canonical": "South West Africa People's Organisation (SWAPO)"
+        },
+        {
+          "name": "UNITA",
+          "canonical": "UNITA"
+        },
+        {
+          "name": "FAPLA",
+          "canonical": "FAPLA"
+        }
+      ],
+      "url_slug": "angola-occupation"
+    },
+    {
+      "section_id": "end-matter",
+      "section_type": "end_matter",
+      "title": "IDAF Information",
+      "summary": "Information about IDAF publications and subscription details.",
+      "body": "IDAF BRIEFING PAPERS\n\nIDAF Briefing Papers examine particular topics in greater depth than is possible in FOCUS. They are published three times a year and are automatically sent free of charge to FOCUS subscribers. Copies are also available free on request.\n\nBriefing Paper No. 6 (November 1982) is now available â€” Namibia: The ElusÐ¸Ð²Ðµ Settlement, Update on negotiations since 1981.\n\nPrevious titles (1981â€“82) cover the South African schools boycott (No. 1), constitutional proposals and changes in South Africa (No. 3) and Namibia (No. 2), apartheid and racial segregation in Namibia (No. 4) and forced removals and relocation in South Africa (No. 5).\n\nFurther details from IDAF publications, 104 Newgate Street, London EC1A 7AP.\n\nThe International Defence and Aid Fund for Southern Africa\n104 Newgate Street, London EC1A 7AP\n\nThe International Defence and Aid Fund for Southern Africa has the following objects\n\n(i) to aid, defend and rehabilitate the victims of unjust legislation and oppressive and arbitrary procedures;\n(ii) to support their families and dependants\n(iii) to keep the conscience of the world alive to the issues at stake.\n\nPresident: Canon L. John Collins\n\nVice-Presidents: Mr Kader Asmal (Ireland), Mr Wouter van Raamsdonk (Netherlands), Dean Gunnar Helander (Sweden) and Mr Gilbert Rist (Switzerland)\n\nAffiliated committees of IDAF exist in the following countries: Australia, Britain, Canada, Ireland, Netherlands, New Zealand, Norway, Sweden, Switzerland and United States of America.\n\nUnder Clause (iii) of its objects, IDAF has a broad publications programme of books, visual material and pamphlets, which are distributed world-wide. A catalogue of available publications may be obtained from IDAF Publications Dept., 104 Newgate Street, London EC1A 7AP.\n\nFOCUS is published six times a year by IDAF under Clause (iii) of its objects. It aims to keep international opinion informed about repression in Southern Africa, in support of the call for the release of all political prisoners in South Africa and Namibia.\n\nFor attention US subscribers only\nInternational Defense and Aid Fund for\nSouthern Africa, US Committee\nP.O. Box 17, Cambridge, MA 02138.\n\nMaterials may be freely quoted or reproduced provided full acknowledgement is given to IDAF. A subscription form is overleaf.\n\nSources and abbreviations: BBC â€” British Broadcasting Corporation Survey of World Broadcasts; CH â€” Cape Herald; Cit â€” The Citizen, Johannesburg; CT â€” Cape Times; DD â€” Daily Dispatch, East London; Debates â€” House of Assembly Debates, Cape Town; DN â€” Daily News, Durban; GG â€” Government Gazette, Pretoria; GN â€” Guardian, London; FM â€” Financial Mail, Johannesburg; FT â€” Financial Times, London; LWI â€” Lutherans World Federation Information bulletin, Geneva; MS â€” Morning Star, London; NW â€” Natal; Witness, Pietermaritzburg; Obs â€” Observer; London; S â€” Sowetan S. Exp â€” Sunday Express, Johannesburg; ST â€” Sunday Times; Johannesburg; Star â€” Star, Johannesburg; Tel â€” Daily Telegraph, London; T â€” Times; London; WA â€” Windhoek Advertiser, Namibia; WO â€” Windhoek Observer, Namibia.\n\nTypeset by The Alden Press, (London & Northampton) Ltd and printed by Alden & Billingham Ltd, Northampton\n\nISSN no: 0308-3555",
+      "page_start": 12,
+      "page_end": 12,
+      "people": [
+        {
+          "name": "L. John Collins",
+          "canonical": "John Collins"
+        },
+        {
+          "name": "Kader Asmal",
+          "canonical": "Kader Asmal"
+        },
+        {
+          "name": "Wouter van Raamsdonk",
+          "canonical": "Wouter van Raamsdonk"
+        },
+        {
+          "name": "Gunnar Helander",
+          "canonical": "Gunnar Helander"
+        },
+        {
+          "name": "Gilbert Rist",
+          "canonical": "Gilbert Rist"
+        }
+      ],
+      "places": [
+        {
+          "name": "London",
+          "canonical": "London"
+        },
+        {
+          "name": "Ireland",
+          "canonical": "Ireland"
+        },
+        {
+          "name": "Netherlands",
+          "canonical": "Netherlands"
+        },
+        {
+          "name": "Sweden",
+          "canonical": "Sweden"
+        },
+        {
+          "name": "Switzerland",
+          "canonical": "Switzerland"
+        },
+        {
+          "name": "Australia",
+          "canonical": "Australia"
+        },
+        {
+          "name": "Britain",
+          "canonical": "Britain"
+        },
+        {
+          "name": "Canada",
+          "canonical": "Canada"
+        },
+        {
+          "name": "New Zealand",
+          "canonical": "New Zealand"
+        },
+        {
+          "name": "Norway",
+          "canonical": "Norway"
+        },
+        {
+          "name": "United States of America",
+          "canonical": "United States of America"
+        },
+        {
+          "name": "Cambridge",
+          "canonical": "Cambridge"
+        },
+        {
+          "name": "South Africa",
+          "canonical": "South Africa"
+        },
+        {
+          "name": "Namibia",
+          "canonical": "Namibia"
+        }
+      ],
+      "organizations": [
+        {
+          "name": "International Defence and Aid Fund",
+          "canonical": "International Defence and Aid Fund (IDAF)"
+        }
+      ],
+      "url_slug": "end-matter"
+    }
+  ]
+}

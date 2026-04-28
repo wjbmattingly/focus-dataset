@@ -66,7 +66,15 @@ class IssueExtraction(BaseModel):
     issue_id: str
     issue_title: str | None = Field(
         None,
-        description="The masthead/cover title of the issue if visible, e.g. 'NO 10 SPRING 1977'.",
+        description=(
+            "The publication date of the issue in the strict schema 'MONTH YEAR' "
+            "(uppercase English month + 4-digit year), e.g. 'NOVEMBER 1975', "
+            "'JULY 1976'. Drop the issue number ('No 5', 'NO1—') from the title; "
+            "those belong to issue_id. If the cover shows a season instead of a "
+            "month (e.g. 'Spring 1977'), use 'SPRING 1977' / 'SUMMER 1977' / "
+            "'AUTUMN 1977' / 'WINTER 1977'. Leave null only if the cover/masthead "
+            "shows no date at all."
+        ),
     )
     issue_summary: str = Field(
         ...,
