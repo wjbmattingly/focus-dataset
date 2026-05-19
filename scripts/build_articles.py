@@ -61,9 +61,9 @@ def _section_features() -> dict:
         "body": Value("string"),
         "page_start": Value("int32"),
         "page_end": Value("int32"),
-        "people": Sequence(_entity_struct()),
-        "places": Sequence(_entity_struct()),
-        "organizations": Sequence(_entity_struct()),
+        "people": [_entity_struct()],
+        "places": [_entity_struct()],
+        "organizations": [_entity_struct()],
     }
 
 
@@ -80,7 +80,7 @@ def _build_features() -> Features:
             "page_images": Sequence(Image()),
             "issue_title": Value("string"),
             "issue_summary": Value("string"),
-            "sections": Sequence(_section_features()),
+            "sections": [_section_features()],
             "sections_json": Value("string"),
         }
     )

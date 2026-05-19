@@ -16,7 +16,7 @@ from .data import DocumentRecord, load_layout
 from .schema import IssueExtraction
 
 
-MODEL_NAME = "gemini-3.1-flash-lite-preview"
+MODEL_NAME = "gemini-3.1-pro-preview"
 
 
 SYSTEM_INSTRUCTION = """You are an archival NLP assistant working on the FOCUS bulletin published by the International Defence & Aid Fund for Southern Africa (1975-1990s).
