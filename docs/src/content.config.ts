@@ -17,6 +17,7 @@ const section = z.object({
   people: z.array(entity).default([]),
   places: z.array(entity).default([]),
   organizations: z.array(entity).default([]),
+  sources: z.array(entity).default([]),
   url_slug: z.string(),
 });
 

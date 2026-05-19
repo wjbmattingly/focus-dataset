@@ -1,6 +1,6 @@
 import type { CollectionEntry } from "astro:content";
 
-export type EntityKind = "people" | "places" | "organizations";
+export type EntityKind = "people" | "places" | "organizations" | "sources";
 
 export interface RawEntity {
   name: string;
@@ -38,7 +38,7 @@ export interface EntityRecord {
   mentions: EntityMention[];
 }
 
-const ENTITY_KINDS: EntityKind[] = ["people", "places", "organizations"];
+const ENTITY_KINDS: EntityKind[] = ["people", "places", "organizations", "sources"];
 
 /** Stable url slug for an entity name (canonical or surface). */
 export function entitySlug(name: string): string {
@@ -64,6 +64,7 @@ export function buildEntityIndex(
     people: new Map(),
     places: new Map(),
     organizations: new Map(),
+    sources: new Map(),
   };
 
   for (const issue of issues) {
@@ -136,16 +137,38 @@ interface HighlightTarget {
 }
 
 /**
+ * Mutable counter + lookup table shared across every paragraph in a section.
+ * Each time `highlightBody` matches a source surface form it bumps the counter,
+ * emits the marker with `id="cite-N"`, and records the FIRST anchor seen for
+ * that surface in `anchors` (so the sidebar can deep-link to it).
+ */
+export interface SourceAnchorState {
+  /** Monotonic counter; the next id will be `cite-${counter}`. */
+  counter: number;
+  /** Map from source surface form to the first anchor id assigned to it. */
+  anchors: Map<string, string>;
+}
+
+export function makeSourceAnchorState(): SourceAnchorState {
+  return { counter: 0, anchors: new Map() };
+}
+
+/**
  * Wrap mentions of every entity in `entities` inside `<a class="entity-mark
  * entity-mark--<kind>" href="/<kind>/<slug>">…</a>` spans. Longer surfaces are
  * matched first so "Nelson Mandela" wins over "Mandela". Each character is
  * tagged at most once. The returned string is HTML and should be rendered
  * with `set:html`.
+ *
+ * If a bucket has `kind === "sources"`, those matches are rendered with an
+ * `id="cite-N"` and `href="#cite-N"` anchor (so a sidebar source list can
+ * scroll to the in-body citation) and tracked in `sourceState.anchors`.
  */
 export function highlightBody(
   body: string,
   buckets: { kind: EntityKind; entities: RawEntity[] }[],
-  baseUrl: (path: string) => string
+  baseUrl: (path: string) => string,
+  sourceState?: SourceAnchorState
 ): string {
   const targets: HighlightTarget[] = [];
   for (const bucket of buckets) {
@@ -155,8 +178,11 @@ export function highlightBody(
       const surface = ent.name;
       if (!surface) continue;
       targets.push({ surface, kind: bucket.kind, slug, display });
-      // Also highlight the canonical when it's distinct.
-      if (display !== surface) {
+      // For non-source entities, also highlight the canonical form when it's
+      // distinct. We skip this for sources: the canonical name (e.g. "The
+      // Guardian, London") generally does not appear in the article prose,
+      // and matching it could create misleading citation anchors.
+      if (display !== surface && bucket.kind !== "sources") {
         targets.push({ surface: display, kind: bucket.kind, slug, display });
       }
     }
@@ -183,6 +209,7 @@ export function highlightBody(
     kind: EntityKind;
     slug: string;
     display: string;
+    surface: string;
   };
   const markers: Marker[] = [];
 
@@ -212,6 +239,7 @@ export function highlightBody(
         kind: t.kind,
         slug: t.slug,
         display: t.display,
+        surface: t.surface,
       });
     }
   }
@@ -224,8 +252,24 @@ export function highlightBody(
     if (mk.start < cursor) continue;
     out += escapeHtml(body.slice(cursor, mk.start));
     const surface = body.slice(mk.start, mk.end);
-    const href = baseUrl(`/${mk.kind}/${mk.slug}`);
-    out += `<a class="entity-mark entity-mark--${mk.kind}" href="${href}" title="${escapeHtml(mk.display)}">${escapeHtml(surface)}</a>`;
+    if (mk.kind === "sources") {
+      // Sources get anchor IDs so the sidebar can scroll to them. Without a
+      // state object we fall back to a plain marker (e.g. inside the heading
+      // highlighter where we don't care about anchors).
+      if (sourceState) {
+        sourceState.counter += 1;
+        const id = `cite-${sourceState.counter}`;
+        if (!sourceState.anchors.has(mk.surface)) {
+          sourceState.anchors.set(mk.surface, id);
+        }
+        out += `<a class="entity-mark entity-mark--sources" id="${id}" href="#${id}" title="${escapeHtml(mk.display)}">${escapeHtml(surface)}</a>`;
+      } else {
+        out += `<span class="entity-mark entity-mark--sources" title="${escapeHtml(mk.display)}">${escapeHtml(surface)}</span>`;
+      }
+    } else {
+      const href = baseUrl(`/${mk.kind}/${mk.slug}`);
+      out += `<a class="entity-mark entity-mark--${mk.kind}" href="${href}" title="${escapeHtml(mk.display)}">${escapeHtml(surface)}</a>`;
+    }
     cursor = mk.end;
   }
   out += escapeHtml(body.slice(cursor));
@@ -238,4 +282,94 @@ export function paragraphs(text: string): string[] {
     .split(/\n\s*\n/)
     .map((p) => p.trim())
     .filter(Boolean);
+}
+
+/* ------------------------------------------------------------------ */
+/* Lightweight markdown rendering for section bodies                  */
+/* ------------------------------------------------------------------ */
+/**
+ * The bodies that Gemini emits use a tiny subset of markdown that the dots.ocr
+ * layout already encodes (section headings as `#`/`##`/`###`, bold leading
+ * terms as `**term**`, and bullet lists as `* item`). We render that subset
+ * inline so the article doesn't end up displaying literal `#` characters.
+ * Anything else falls back to plain paragraph rendering.
+ */
+
+export type BodyBlock =
+  | { kind: "heading"; level: 2 | 3 | 4; html: string }
+  | { kind: "paragraph"; html: string }
+  | { kind: "list"; items: string[] };
+
+export interface ParsedBody {
+  blocks: BodyBlock[];
+  /** First in-body anchor id assigned to each source surface form. */
+  sourceAnchors: Map<string, string>;
+}
+
+/** Wrap entity mentions, then convert any surviving `**text**` to <strong>. */
+function renderInline(
+  text: string,
+  buckets: { kind: EntityKind; entities: RawEntity[] }[],
+  baseUrl: (path: string) => string,
+  sourceState?: SourceAnchorState
+): string {
+  const highlighted = highlightBody(text, buckets, baseUrl, sourceState);
+  // Bold markers survive `escapeHtml` (it doesn't touch `*`) so we can promote
+  // them after the fact. The negative class `[^*]` avoids gobbling across an
+  // adjacent `**` boundary.
+  return highlighted.replace(/\*\*([^*]+?)\*\*/g, "<strong>$1</strong>");
+}
+
+/**
+ * Parse a section body into a sequence of headings / paragraphs / lists, with
+ * entity-link HTML already embedded in each block. Consumers just need to
+ * render each block in the matching element.
+ *
+ * If `buckets` includes a `sources` bucket, every matched source citation is
+ * wrapped with an `id="cite-N"` anchor in the body and recorded in the
+ * returned `sourceAnchors` map (surface form -> first anchor id) so the
+ * sidebar can render deep links.
+ */
+export function parseBodyToBlocks(
+  body: string,
+  buckets: { kind: EntityKind; entities: RawEntity[] }[],
+  baseUrl: (path: string) => string
+): ParsedBody {
+  const out: BodyBlock[] = [];
+  const paras = paragraphs(body);
+  const sourceState = makeSourceAnchorState();
+
+  for (const p of paras) {
+    // Heading? Single-line paragraph that starts with 1-4 `#` followed by space.
+    const headingMatch = !p.includes("\n") && p.match(/^(#{1,4})\s+(.+)$/);
+    if (headingMatch) {
+      const level = Math.min(4, headingMatch[1].length + 1) as 2 | 3 | 4;
+      out.push({
+        kind: "heading",
+        level,
+        // Headings don't carry citations; pass no source state so any stray
+        // source-shaped substring won't claim an anchor id.
+        html: renderInline(headingMatch[2].trim(), buckets, baseUrl),
+      });
+      continue;
+    }
+
+    // List item? Whole paragraph is one `* item` (possibly multi-line).
+    const listMatch = p.match(/^[*-]\s+([\s\S]+)$/);
+    if (listMatch) {
+      const itemHtml = renderInline(listMatch[1].trim(), buckets, baseUrl, sourceState);
+      const last = out[out.length - 1];
+      if (last && last.kind === "list") {
+        last.items.push(itemHtml);
+      } else {
+        out.push({ kind: "list", items: [itemHtml] });
+      }
+      continue;
+    }
+
+    // Plain paragraph.
+    out.push({ kind: "paragraph", html: renderInline(p, buckets, baseUrl, sourceState) });
+  }
+
+  return { blocks: out, sourceAnchors: sourceState.anchors };
 }

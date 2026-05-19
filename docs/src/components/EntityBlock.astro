@@ -3,8 +3,8 @@ import { entitySlug } from "../lib/entities";
 import { url } from "../lib/url";
 
 interface Props {
-  /** "people" | "places" | "organizations" */
-  kind: "people" | "places" | "organizations";
+  /** "people" | "places" | "organizations" | "sources" */
+  kind: "people" | "places" | "organizations" | "sources";
   heading: string;
   entities: { name: string; canonical?: string | null }[];
 }

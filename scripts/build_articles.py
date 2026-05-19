@@ -64,6 +64,7 @@ def _section_features() -> dict:
         "people": [_entity_struct()],
         "places": [_entity_struct()],
         "organizations": [_entity_struct()],
+        "sources": [_entity_struct()],
     }
 
 

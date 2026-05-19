@@ -1,0 +1,19 @@
+---
+import { getCollection } from "astro:content";
+import EntityDetail from "../../components/EntityDetail.astro";
+import { buildEntityIndex } from "../../lib/entities";
+
+export async function getStaticPaths() {
+  const issues = await getCollection("issues");
+  const idx = buildEntityIndex(issues);
+  const paths: { params: { slug: string }; props: any }[] = [];
+  for (const record of idx.sources.values()) {
+    paths.push({ params: { slug: record.slug }, props: { kind: "sources", record } });
+  }
+  return paths;
+}
+
+const { kind, record } = Astro.props;
+---
+
+<EntityDetail kind={kind} record={record} />

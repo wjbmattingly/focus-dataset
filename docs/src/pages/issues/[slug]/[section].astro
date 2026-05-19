@@ -2,8 +2,9 @@
 import { getCollection } from "astro:content";
 import SiteLayout from "../../../components/SiteLayout.astro";
 import EntityBlock from "../../../components/EntityBlock.astro";
+import SourceBlock from "../../../components/SourceBlock.astro";
 import { url } from "../../../lib/url";
-import { highlightBody, paragraphs as splitParagraphs } from "../../../lib/entities";
+import { parseBodyToBlocks } from "../../../lib/entities";
 
 export async function getStaticPaths() {
   const issues = await getCollection("issues");
@@ -29,17 +30,15 @@ const pages = data.pages.filter(
   (p: any) => p.page_number >= section.page_start && p.page_number <= section.page_end
 );
 
-const paragraphsRaw = splitParagraphs(section.body);
-const paragraphsHtml = paragraphsRaw.map((p) =>
-  highlightBody(
-    p,
-    [
-      { kind: "people", entities: section.people ?? [] },
-      { kind: "places", entities: section.places ?? [] },
-      { kind: "organizations", entities: section.organizations ?? [] },
-    ],
-    url
-  )
+const { blocks: bodyBlocks, sourceAnchors } = parseBodyToBlocks(
+  section.body,
+  [
+    { kind: "people", entities: section.people ?? [] },
+    { kind: "places", entities: section.places ?? [] },
+    { kind: "organizations", entities: section.organizations ?? [] },
+    { kind: "sources", entities: section.sources ?? [] },
+  ],
+  url
 );
 
 const description = section.summary || `${section.title} from ${data.issue_name}`;
@@ -80,7 +79,21 @@ const description = section.summary || `${section.title} from ${data.issue_name}
 
     <div class="article-page">
       <article id="article-body" class="article-body">
-        {paragraphsHtml.map((html) => <p set:html={html} />)}
+        {bodyBlocks.map((block) => {
+          if (block.kind === "heading") {
+            if (block.level === 2) return <h2 class="article-body__h2" set:html={block.html} />;
+            if (block.level === 3) return <h3 class="article-body__h3" set:html={block.html} />;
+            return <h4 class="article-body__h4" set:html={block.html} />;
+          }
+          if (block.kind === "list") {
+            return (
+              <ul class="article-body__list">
+                {block.items.map((html) => <li set:html={html} />)}
+              </ul>
+            );
+          }
+          return <p set:html={block.html} />;
+        })}
 
         {
           pages.length > 0 && (
@@ -124,6 +137,7 @@ const description = section.summary || `${section.title} from ${data.issue_name}
         <EntityBlock kind="people" heading="People" entities={section.people} />
         <EntityBlock kind="places" heading="Places" entities={section.places} />
         <EntityBlock kind="organizations" heading="Organizations" entities={section.organizations} />
+        <SourceBlock entities={section.sources ?? []} anchors={sourceAnchors} />
       </aside>
     </div>
   </div>
@@ -140,6 +154,45 @@ const description = section.summary || `${section.title} from ${data.issue_name}
   }
   .issue-meta { margin-top: var(--space-3); font-size: 0.85rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-text-faint); }
   .article-toolbar { margin-top: var(--space-4); }
+
+  .article-body__h2 {
+    font-family: var(--font-serif);
+    font-size: 1.45rem;
+    font-weight: 600;
+    line-height: 1.25;
+    margin: 2rem 0 0.75rem;
+    padding-bottom: 0.35rem;
+    border-bottom: 1px solid var(--color-border-subtle);
+    color: var(--color-ink);
+  }
+  .article-body__h3 {
+    font-family: var(--font-serif);
+    font-size: 1.18rem;
+    font-weight: 600;
+    line-height: 1.3;
+    margin: 1.6rem 0 0.5rem;
+    color: var(--color-text);
+  }
+  .article-body__h4 {
+    font-family: var(--font-sans);
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    margin: 1.3rem 0 0.35rem;
+    color: var(--color-text-muted);
+  }
+  .article-body__list {
+    margin: 0.5rem 0 1.1rem 0;
+    padding-left: 1.2rem;
+  }
+  .article-body__list > li {
+    margin: 0.4rem 0;
+    line-height: 1.55;
+  }
+  .article-body__list > li strong:first-child {
+    color: var(--color-ink);
+  }
 </style>
 
 <script is:inline>

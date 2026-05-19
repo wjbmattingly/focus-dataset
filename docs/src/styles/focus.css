@@ -399,6 +399,75 @@
 .entity-tag--people  { background: color-mix(in srgb, var(--color-tag-person) 12%, transparent); border-color: color-mix(in srgb, var(--color-tag-person) 22%, transparent); }
 .entity-tag--places  { background: color-mix(in srgb, var(--color-tag-place)  12%, transparent); border-color: color-mix(in srgb, var(--color-tag-place)  22%, transparent); }
 .entity-tag--organizations { background: color-mix(in srgb, var(--color-tag-org) 12%, transparent); border-color: color-mix(in srgb, var(--color-tag-org) 22%, transparent); }
+.entity-tag--sources { background: color-mix(in srgb, var(--color-tag-source) 12%, transparent); border-color: color-mix(in srgb, var(--color-tag-source) 22%, transparent); }
+
+/* Source list in the sidebar. Long canonical names (e.g. "British Broadcasting
+   Corporation Survey/Summary of World Broadcasts, London") must wrap freely
+   inside the aside without ever escaping its width, and every citation is
+   listed so the reader can jump to the in-body anchor. */
+.source-block__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+.source-block__group {
+  padding: 0.55rem 0.7rem;
+  border: 1px solid color-mix(in srgb, var(--color-tag-source) 18%, transparent);
+  border-radius: 8px;
+  background: color-mix(in srgb, var(--color-tag-source) 6%, transparent);
+  min-width: 0;
+}
+.source-block__title {
+  display: block;
+  font-family: var(--font-sans);
+  font-size: 0.86rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--color-text);
+  text-decoration: none;
+  /* Force long titles to wrap rather than overflow the card. */
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+.source-block__title:hover {
+  color: var(--color-tag-source);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.source-block__citations {
+  list-style: none;
+  margin: 0.4rem 0 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 0.3rem;
+}
+.source-block__cite {
+  display: inline-block;
+  font-family: var(--font-sans);
+  font-variant-numeric: tabular-nums;
+  font-size: 0.76rem;
+  color: var(--color-text-muted);
+  background: color-mix(in srgb, var(--color-tag-source) 10%, transparent);
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  text-decoration: none;
+  border: 1px solid transparent;
+  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+  overflow-wrap: anywhere;
+}
+.source-block__cite:hover {
+  background: color-mix(in srgb, var(--color-tag-source) 22%, transparent);
+  color: var(--color-ink);
+  border-color: color-mix(in srgb, var(--color-tag-source) 35%, transparent);
+}
+.source-block__cite--orphan {
+  opacity: 0.55;
+  cursor: default;
+}
 
 .entity-canonical {
   color: var(--color-text-faint);
@@ -450,6 +519,34 @@
 .entity-mark--organizations:hover {
   background: color-mix(in srgb, var(--color-tag-org) 22%, transparent);
   border-bottom-color: var(--color-tag-org);
+}
+
+/* Source citations in the body get a quieter footnote-style underline so
+   they don't compete with the named-entity highlights, plus a target glow
+   when scrolled into view from the sidebar. */
+.entity-mark--sources {
+  font-variant-numeric: tabular-nums;
+  background: transparent;
+  border-bottom: 1px dotted color-mix(in srgb, var(--color-tag-source) 45%, transparent);
+  color: color-mix(in srgb, var(--color-tag-source) 75%, var(--color-text));
+}
+.entity-mark--sources:hover {
+  background: color-mix(in srgb, var(--color-tag-source) 14%, transparent);
+  border-bottom-style: solid;
+  border-bottom-color: var(--color-tag-source);
+}
+.entity-mark--sources:target {
+  background: color-mix(in srgb, var(--color-tag-source) 30%, transparent);
+  border-bottom-color: var(--color-tag-source);
+  animation: source-target-pulse 1.6s ease-out 1;
+}
+@keyframes source-target-pulse {
+  0%   { background: color-mix(in srgb, var(--color-tag-source) 50%, transparent); }
+  100% { background: color-mix(in srgb, var(--color-tag-source) 14%, transparent); }
+}
+/* Give scroll targets some breathing room from the sticky header. */
+.article-body :target {
+  scroll-margin-top: calc(var(--header-offset) + 1rem);
 }
 
 /* Toggle button to mute highlights for distraction-free reading. */

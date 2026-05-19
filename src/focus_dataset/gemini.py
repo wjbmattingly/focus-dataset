@@ -14,12 +14,13 @@ from google.genai import types as genai_types
 
 from .data import DocumentRecord, load_layout
 from .schema import IssueExtraction
+from .sources import legend_table
 
 
 MODEL_NAME = "gemini-3.1-pro-preview"
 
 
-SYSTEM_INSTRUCTION = """You are an archival NLP assistant working on the FOCUS bulletin published by the International Defence & Aid Fund for Southern Africa (1975-1990s).
+SYSTEM_INSTRUCTION = f"""You are an archival NLP assistant working on the FOCUS bulletin published by the International Defence & Aid Fund for Southern Africa (1975-1990s).
 
 You will receive the dots.ocr layout JSON for every page of a single issue, in
 reading order. Each block has:
@@ -70,18 +71,60 @@ Your job is to reconstruct the editorial structure of the issue:
        organization MUST share the same `canonical` string. Within one section,
        deduplicate by (surface form, canonical) — i.e. don't list the exact
        same surface form twice, but DO list distinct surface forms separately.
-   Do NOT include cited sources like "(RDM 27.8.75)" or "(Star 4.10.75)"
-   unless the publication is itself a subject of the article.
-5. Give every section a stable lowercase slug-ish `section_id` unique within the
+   Do NOT include cited publications like "(RDM 27.8.75)" or "(Star 4.10.75)"
+   in `people`/`places`/`organizations` — they are captured separately in
+   `sources` (see rule 5). Newspapers should only appear in `organizations`
+   when the publication itself is the subject of the article (e.g. a story
+   about the banning of *The World*).
+5. Preserve every parenthetical source citation inside the `body` text exactly
+   as it appears, including dates and `see ...` cross-references, e.g.
+   `(GN 13.11.86; BBC 16.6.86)`, `(WM 19.9.86, 17.11.86; see also OTHER TRIALS)`,
+   `(S 11.9.86; S Star 21.9.86; Tel 17.11.86; see FOCUS 67 p.3)`. Do not strip
+   them, do not "tidy them up", do not reflow them into footnotes. They are
+   load-bearing provenance.
+6. For each section, additionally populate the `sources` list with one Entity
+   per `;`-separated citation token inside those parentheses. Conventions:
+     - SPLIT on `;` ONLY. Do NOT further split a single citation by commas;
+       a citation that bundles several dates of the same publication is one
+       Entity. Example: in `(BBC 16.6.86, 20.9.86; WM 15.8.86, 5.9.86)` emit
+       exactly two Entities — `name="BBC 16.6.86, 20.9.86"` and
+       `name="WM 15.8.86, 5.9.86"`. NEVER emit an Entity whose `name` is just
+       a bare date like `"20.9.86"`; the publication abbreviation must always
+       lead the surface form.
+     - `name`: the SURFACE FORM as it appears, including any dates and the
+       abbreviation. Examples: "GN 13.11.86", "BBC 16.6.86, 20.9.86",
+       "S Star 21.9.86", "Star 4.10.75".
+     - `canonical`: the canonical publication name from the FOCUS back-cover
+       legend (see table below). Examples: "The Guardian, London", "Rand
+       Daily Mail, Johannesburg".
+     - For internal cross-references like `see FOCUS 67 p.3` or `see FOCUS 66
+       p.3`, emit one Entity per cross-reference with `name` set to the full
+       surface form (e.g. "see FOCUS 67 p.3", "see FOCUS 66 p.11") and
+       `canonical` set to "FOCUS bulletin (IDAF)". Always include the
+       leading "see " / "See " and the issue number; do NOT emit an Entity
+       whose `name` is just "67 p.8".
+     - Do NOT emit entries for intra-issue navigation refs like
+       `see also OTHER TRIALS` or `see DETENTIONS in this issue`. Those are
+       in-issue pointers, not external sources.
+     - If a citation uses an abbreviation that is NOT in the legend, still
+       emit it: keep `name` as the surface form, and set `canonical` to your
+       best expansion or null if you genuinely cannot resolve it.
+     - Within a section, deduplicate by (name, canonical) just like for the
+       other entity lists.
+
+   FOCUS back-cover source legend (use these canonical names verbatim):
+{legend_table()}
+
+7. Give every section a stable lowercase slug-ish `section_id` unique within the
    issue.
-6. The top-level `issue_title` MUST follow the strict schema "MONTH YEAR" —
+8. The top-level `issue_title` MUST follow the strict schema "MONTH YEAR" —
    uppercase English month name plus 4-digit year, e.g. "NOVEMBER 1975",
    "JANUARY 1976", "JULY 1976". Do NOT include the issue number ("No 5",
    "NO1—", "No. 10") in `issue_title`; the issue number lives in `issue_id`.
    If the cover shows a season instead of a month, use "SPRING 1977",
    "SUMMER 1977", "AUTUMN 1977" or "WINTER 1977". Set `issue_title` to null
    only when the cover/masthead shows no date at all.
-7. Always respond with JSON matching the provided schema. Do not include any
+9. Always respond with JSON matching the provided schema. Do not include any
    prose outside the JSON.
 """
 
@@ -152,6 +195,14 @@ def extract_issue(
         response_mime_type="application/json",
         response_schema=IssueExtraction,
         temperature=0.1,
+        # Issues with many sections + per-section `sources` lists can push the
+        # JSON response past the SDK's default output budget. Gemini 3.1 Pro
+        # supports up to 65k output tokens; ask for the whole budget so the
+        # JSON is never truncated mid-string. The thinking budget is capped
+        # so most of the 65k tokens go to the structured response rather than
+        # being consumed by internal chain-of-thought.
+        max_output_tokens=65536,
+        thinking_config=genai_types.ThinkingConfig(thinking_budget=4096),
     )
 
     last_err: Exception | None = None

@@ -16,7 +16,9 @@ const issues = await getCollection("issues");
 const idx = buildEntityIndex(issues);
 
 type Stats = { kind: EntityKind; total: number; unique: number };
-const stats: Stats[] = (["people", "places", "organizations"] as EntityKind[]).map((k) => ({
+const stats: Stats[] = (
+  ["people", "places", "organizations", "sources"] as EntityKind[]
+).map((k) => ({
   kind: k,
   unique: idx[k].size,
   total: Array.from(idx[k].values()).reduce((a, e) => a + e.mentions.length, 0),
@@ -32,6 +34,7 @@ const tabs: Record<EntityKind, { label: string; href: string }> = {
   people: { label: "People", href: "/people" },
   places: { label: "Places", href: "/places" },
   organizations: { label: "Organizations", href: "/organizations" },
+  sources: { label: "Sources", href: "/sources" },
 };
 ---
 

@@ -1,0 +1,102 @@
+---
+import { entitySlug } from "../lib/entities";
+import { url } from "../lib/url";
+
+interface Props {
+  /** Source entities for this section, as emitted by Gemini. */
+  entities: { name: string; canonical?: string | null }[];
+  /** Surface form -> in-body anchor id (first occurrence). Populated by
+   *  `parseBodyToBlocks`. */
+  anchors: Map<string, string>;
+}
+
+const { entities, anchors } = Astro.props;
+
+interface Citation {
+  /** The surface form as it appears in the body (e.g. "BBC 16.6.86"). */
+  surface: string;
+  /** Anchor id for the first in-body occurrence, or null if no match. */
+  anchorId: string | null;
+}
+
+interface SourceGroup {
+  /** Canonical publication name, or the surface form itself if no canonical. */
+  display: string;
+  /** Stable slug for the source's directory page. */
+  slug: string;
+  /** Whether `display` came from a canonical (else it's just an alias). */
+  hasCanonical: boolean;
+  citations: Citation[];
+}
+
+function groupKey(e: { name: string; canonical?: string | null }): string {
+  return (e.canonical && e.canonical.trim()) || e.name.trim();
+}
+
+const groups = new Map<string, SourceGroup>();
+for (const e of entities) {
+  const display = groupKey(e);
+  const slug = entitySlug(display);
+  let g = groups.get(slug);
+  if (!g) {
+    g = {
+      display,
+      slug,
+      hasCanonical: Boolean(e.canonical && e.canonical.trim()),
+      citations: [],
+    };
+    groups.set(slug, g);
+  }
+  // De-dupe surface forms within a group (the model is supposed to dedupe,
+  // but be defensive).
+  if (!g.citations.some((c) => c.surface === e.name)) {
+    g.citations.push({
+      surface: e.name,
+      anchorId: anchors.get(e.name) ?? null,
+    });
+  }
+}
+
+// Sort groups by total citation count (most-cited first), tie-break by name.
+const ordered = Array.from(groups.values()).sort((a, b) => {
+  const cmp = b.citations.length - a.citations.length;
+  if (cmp !== 0) return cmp;
+  return a.display.localeCompare(b.display);
+});
+---
+
+{
+  ordered.length > 0 && (
+    <div class="entity-block source-block">
+      <p class="entity-block__heading">Sources</p>
+      <ul class="source-block__list">
+        {ordered.map((g) => (
+          <li class="source-block__group">
+            <a class="source-block__title" href={url(`/sources/${g.slug}`)}>
+              {g.display}
+            </a>
+            <ul class="source-block__citations">
+              {g.citations.map((c) => (
+                <li>
+                  {c.anchorId ? (
+                    <a
+                      class="source-block__cite"
+                      href={`#${c.anchorId}`}
+                      data-pagefind-filter="sources"
+                    >
+                      {c.surface}
+                    </a>
+                  ) : (
+                    <span class="source-block__cite source-block__cite--orphan">
+                      {c.surface}
+                    </span>
+                  )}
+                </li>
+              ))}
+            </ul>
+          </li>
+        ))}
+      </ul>
+    </div>
+  )
+}

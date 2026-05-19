@@ -58,6 +58,18 @@ class Section(BaseModel):
     people: list[Entity] = Field(default_factory=list)
     places: list[Entity] = Field(default_factory=list)
     organizations: list[Entity] = Field(default_factory=list)
+    sources: list[Entity] = Field(
+        default_factory=list,
+        description=(
+            "Parenthetical source citations found in this section. One Entity "
+            "per `;`-separated citation token within the parentheses. `name` "
+            "is the surface form including any dates (e.g. 'GN 13.11.86' or "
+            "'BBC 16.6.86, 20.9.86' or 'see FOCUS 67 p.3'); `canonical` is "
+            "the publication name from the FOCUS back-cover legend (e.g. "
+            "'The Guardian, London'). Defaults to empty so older extractions "
+            "remain valid."
+        ),
+    )
 
 
 class IssueExtraction(BaseModel):
